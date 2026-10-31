@@ -125,7 +125,7 @@ namespace YimMenu
 				ImGui::SetNextItemWidth(300.f);
 				if (ImGui::BeginCombo("", folder.empty() ? "Root" : folder.c_str()))
 				{
-					if (ImGui::Selectable("Root", folder == ""))
+					if (ImGui::Selectable( LBL("Root"), folder == ""))
 					{
 						folder.clear();
 						FiberPool::Push([this] {
@@ -171,7 +171,7 @@ namespace YimMenu
 
 		void RenderSaveButton(bool saveToNewFolder)
 		{
-			if (ImGui::Button("Save Outfit"))
+			if (ImGui::Button( LBL("Save Outfit")))
 				FiberPool::Push([saveToNewFolder, this] {
 					std::string fileName = TrimString(outfitName);
 					strcpy(outfitName, "");
@@ -198,15 +198,15 @@ namespace YimMenu
 		{
 			ImGui::BeginGroup();
 			{
-				if (ImGui::Button("Refresh list"))
+				if (ImGui::Button( LBL("Refresh list")))
 					FiberPool::Push([this] {
 						Outfit::OutfitEditor::RefreshList(folder, folders, files);
 					});
 				ImGui::Spacing();
 				static bool applyHair = false;
-				ImGui::Checkbox("Apply hair", &applyHair);
+				ImGui::Checkbox( LBL("Apply hair"), &applyHair);
 				ImGui::Spacing();
-				if (ImGui::Button("Apply Selected Outfit"))
+				if (ImGui::Button( LBL("Apply Selected Outfit")))
 					FiberPool::Push([this] {
 						Outfit::OutfitEditor::ApplyOutfitFromJson(folder, file, applyHair);
 						applyHair = false; // reset everytime
@@ -216,14 +216,14 @@ namespace YimMenu
 				ImGui::Spacing();
 
 				// save outfit
-				ImGui::Text("Outfit Name");
+				ImGui::Text( LBL("Outfit Name"));
 				ImGui::SameLine();
 				ImGui::SetNextItemWidth(250);
 				ImGui::InputText("##filename", outfitName, IM_ARRAYSIZE(outfitName));
 
 				if (folder.empty())
 				{
-					ImGui::Text("Folder Name");
+					ImGui::Text( LBL("Folder Name"));
 					ImGui::SameLine();
 					ImGui::SetNextItemWidth(250);
 					ImGui::InputText("##foldername", newFolder, IM_ARRAYSIZE(newFolder));
@@ -242,12 +242,12 @@ namespace YimMenu
 		auto category = std::make_shared<Category>("Outfit Editor");
 
 		category->AddItem(std::make_shared<ImGuiItem>([] {
-			if (ImGui::Button("Refresh Stats"))
+			if (ImGui::Button( LBL("Refresh Stats")))
 				FiberPool::Push([] {
 					editor.RefreshStats();
 				});
 			ImGui::SameLine();
-			if (ImGui::Button("Randomize Outfit"))
+			if (ImGui::Button( LBL("Randomize Outfit")))
 				FiberPool::Push([] {
 					Self::GetPed().RandomizeOutfit2();
 				});

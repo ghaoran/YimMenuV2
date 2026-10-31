@@ -8,6 +8,8 @@ namespace YimMenu
 	    m_Name(name),
 	    m_Label(label),
 	    m_Description(description),
+	    m_LocalizedLabel(Localization::TrStr(label)),
+	    m_LocalizedDescription(Localization::TrStr(description)),
 	    m_NumArgs(num_args),
 	    m_Hash(Joaat(name))
 	{

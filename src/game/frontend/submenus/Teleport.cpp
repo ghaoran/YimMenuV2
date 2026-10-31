@@ -29,14 +29,14 @@ namespace YimMenu::Submenus
 
 			ImGui::Spacing();
 
-			if (ImGui::Button("Yes"))
+			if (ImGui::Button( LBL("Yes")))
 			{
 				SavedLocations::DeleteSavedLocation(category, locationToDelete.name);
 				locationToDelete.name = "";
 				ImGui::CloseCurrentPopup();
 			}
 			ImGui::SameLine();
-			if (ImGui::Button("No"))
+			if (ImGui::Button( LBL("No")))
 			{
 				locationToDelete.name = "";
 				ImGui::CloseCurrentPopup();
@@ -52,7 +52,7 @@ namespace YimMenu::Submenus
 		InputTextWithHint("Location Name", "New location", &newLocationName).Draw();
 		ImGui::PopItemWidth();
 
-		if (ImGui::Button("Save Current Location")) // Button widget still crashes
+		if (ImGui::Button( LBL("Save Current Location"))) // Button widget still crashes
 		{
 			FiberPool::Push([=] {
 				if (newLocationName.empty())
@@ -86,7 +86,7 @@ namespace YimMenu::Submenus
 
 		ImGui::Separator();
 
-		ImGui::Text("Double click to teleport\nShift click to delete");
+		ImGui::Text( LBL("Double click to teleport\nShift click to delete"));
 
 		ImGui::Spacing();
 
@@ -94,7 +94,7 @@ namespace YimMenu::Submenus
 		InputTextWithHint("##filter", "Search", &filter).Draw();
 
 		ImGui::BeginGroup();
-		ImGui::Text("Categories");
+		ImGui::Text( LBL("Categories"));
 		if (ImGui::BeginListBox("##categories", {200, -1}))
 		{
 			for (auto& l : SavedLocations::GetAllSavedLocations() | std::ranges::views::keys)
@@ -114,7 +114,7 @@ namespace YimMenu::Submenus
 		ImGui::EndGroup();
 		ImGui::SameLine();
 		ImGui::BeginGroup();
-		ImGui::Text("Locations");
+		ImGui::Text( LBL("Locations"));
 		if (ImGui::BeginListBox("##saved_locs", {200, -1})) // Need automatic dimensions instead of hard coded
 		{
 			if (SavedLocations::GetAllSavedLocations().find(category) != SavedLocations::GetAllSavedLocations().end())

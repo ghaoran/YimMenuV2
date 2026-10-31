@@ -25,6 +25,7 @@
 
 using namespace al;
 #include "core/logger/LogHelper.hpp"
+#include "core/util/Localization.hpp"
 
 #undef Yield
 

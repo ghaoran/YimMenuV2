@@ -88,7 +88,7 @@ namespace YimMenu::Submenus
 			}
 			ImGui::EndGroup();
 
-			if (ImGui::Button("Open Lua Scripts Folder"))
+			if (ImGui::Button( LBL("Open Lua Scripts Folder")))
 			{
 				auto folder = std::filesystem::canonical(FileMgr::GetProjectFolder("./scripts").Path());
 				auto result = ShellExecuteW(nullptr, L"open", folder.c_str(), nullptr, nullptr, SW_SHOWNORMAL);
@@ -120,14 +120,14 @@ namespace YimMenu::Submenus
 				ImGui::EndDisabled();
 				ImGui::SameLine();
 				ImGui::BeginDisabled(!running);
-				if (ImGui::Button("Reload"))
+				if (ImGui::Button( LBL("Reload")))
 				{
 					FiberPool::Push([script = selectedScript] {
 						script->Reload();
 					});
 				}
 				ImGui::SameLine();
-				if (ImGui::Button("Disable"))
+				if (ImGui::Button( LBL("Disable")))
 				{
 					LuaManager::DisableScript(std::string(selectedScript->GetPath()));
 				}

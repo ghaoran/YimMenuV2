@@ -42,7 +42,7 @@ namespace YimMenu::Submenus
 		clearWanted->AddItem(std::make_shared<ConditionalItem>("neverwanted"_J, std::make_shared<CommandItem>("clearwanted"_J), true));
 		clearWanted->AddItem(std::make_shared<BoolCommandItem>("neverwanted"_J));
 		auto setWanted = std::make_shared<Group>("", 1);
-		setWanted->AddItem(std::make_shared<IntCommandItem>("wantedslider"_J, "Level"));
+		setWanted->AddItem(std::make_shared<IntCommandItem>("wantedslider"_J, LBL("Level")));
 		setWanted->AddItem(std::make_shared<ConditionalItem>("freezewanted"_J, std::make_shared<CommandItem>("setwanted"_J), true));
 		setWanted->AddItem(std::make_shared<BoolCommandItem>("freezewanted"_J));
 		wantedGroup->AddItem(std::make_shared<ConditionalItem>("freezewanted"_J, clearWanted, true));
@@ -61,7 +61,7 @@ namespace YimMenu::Submenus
 
 		specialAbilityGroup->AddItem(std::make_shared<BoolCommandItem>("infspecialability"_J));
 		auto specialInMp = std::make_shared<Group>("", 1);
-		specialInMp->AddItem(std::make_shared<BoolCommandItem>("mpspecialability"_J, "Enable in MP"));
+		specialInMp->AddItem(std::make_shared<BoolCommandItem>("mpspecialability"_J, LBL("Enable in MP")));
 		specialInMp->AddItem(std::make_shared<ConditionalItem>("mpspecialability"_J, std::make_shared<ListCommandItem>("selspecialability"_J, "##specialselect")));
 		specialAbilityGroup->AddItem(std::move(specialInMp));
 

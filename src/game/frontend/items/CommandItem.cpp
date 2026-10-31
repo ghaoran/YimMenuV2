@@ -17,7 +17,7 @@ namespace YimMenu
 	{
 		if (!m_Command)
 		{
-			ImGui::Text("Unknown!");
+			ImGui::Text( LBL("Unknown!"));
 			return;
 		}
 
@@ -45,7 +45,7 @@ namespace YimMenu
 		ImGui::SetNextWindowSize(ImVec2(500, 120));
 		if (ImGui::BeginPopupModal(windowLabel.data(), nullptr, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoScrollbar))
 		{
-			ImGui::BulletText("Enter a keystroke");
+			ImGui::BulletText( LBL("Enter a keystroke"));
 
 			ImGui::Separator();
 
@@ -55,7 +55,7 @@ namespace YimMenu
 				DrawHotkey(&it->second, m_Command->GetLabel());
 
 			ImGui::Spacing();
-			if (ImGui::Button("Close") || ((!ImGui::IsWindowHovered() && !ImGui::IsAnyItemHovered()) && ImGui::IsMouseClicked(ImGuiMouseButton_Left)))
+			if (ImGui::Button( LBL("Close")) || ((!ImGui::IsWindowHovered() && !ImGui::IsAnyItemHovered()) && ImGui::IsMouseClicked(ImGuiMouseButton_Left)))
 			{
 				HotkeySystem::SetBeingModifed(false);
 				ImGui::CloseCurrentPopup();

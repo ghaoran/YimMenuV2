@@ -158,7 +158,7 @@ namespace YimMenu::Submenus
 		vehicleEditor->AddItem(std::make_unique<ImGuiItem>([] {
 			if (!Self::GetVehicle())
 			{
-				ImGui::Text("Please enter a vehicle.");
+				ImGui::Text( LBL("Please enter a vehicle."));
 				currentVeh = 0;
 				return;
 			}
@@ -176,7 +176,7 @@ namespace YimMenu::Submenus
 			{
 				ImGui::Text("%s", vehName.c_str());
 				ImGui::SameLine();
-				if (ImGui::Button("Refresh Current Vehicle"))
+				if (ImGui::Button( LBL("Refresh Current Vehicle")))
 					FiberPool::Push([] {
 						currentVeh = -1;
 					});
@@ -186,47 +186,47 @@ namespace YimMenu::Submenus
 					ImGui::SetNextItemWidth(150);
 					ImGui::InputTextWithHint("##plate", "Plate Number", plate, sizeof(plate), ImGuiInputTextFlags_None);
 					ImGui::SameLine();
-					if (ImGui::Button("Change Plate"))
+					if (ImGui::Button( LBL("Change Plate")))
 						FiberPool::Push([] {
 							Self::GetVehicle().SetPlateText(plate);
 						});
 					ImGui::SameLine();
-					if (ImGui::Button("Max Vehicle"))
+					if (ImGui::Button( LBL("Max Vehicle")))
 						FiberPool::Push([] {
 							Self::GetVehicle().Upgrade();
 							currentVeh = -1;
 						});
 				}
-				ImGui::SeparatorText("Mod Options");
+				ImGui::SeparatorText( LBL("Mod Options"));
 				{
-					if (ImGui::Checkbox("Burstible tires", (bool*)&owned_mods[(int)CustomVehicleModType::MOD_TIRE_CAN_BURST]))
+					if (ImGui::Checkbox( LBL("Burstible tires"), (bool*)&owned_mods[(int)CustomVehicleModType::MOD_TIRE_CAN_BURST]))
 						FiberPool::Push([] {
 							VEHICLE::SET_VEHICLE_TYRES_CAN_BURST(currentVeh, owned_mods[(int)CustomVehicleModType::MOD_TIRE_CAN_BURST]);
 						});
 					ImGui::SameLine();
-					if (ImGui::Checkbox("Low Grip Tires", (bool*)&owned_mods[(int)CustomVehicleModType::MOD_DRIFT_TIRE]))
+					if (ImGui::Checkbox( LBL("Low Grip Tires"), (bool*)&owned_mods[(int)CustomVehicleModType::MOD_DRIFT_TIRE]))
 
 						FiberPool::Push([] {
 							VEHICLE::SET_DRIFT_TYRES(currentVeh, owned_mods[(int)CustomVehicleModType::MOD_DRIFT_TIRE]);
 						});
 					ImGui::SameLine();
-					if (ImGui::Checkbox("Turbo", (bool*)&owned_mods[(int)VehicleModType::MOD_TURBO]))
+					if (ImGui::Checkbox( LBL("Turbo"), (bool*)&owned_mods[(int)VehicleModType::MOD_TURBO]))
 
 						FiberPool::Push([] {
 							VEHICLE::TOGGLE_VEHICLE_MOD(currentVeh, (int)VehicleModType::MOD_TURBO, owned_mods[(int)VehicleModType::MOD_TURBO]);
 						});
 					ImGui::SameLine();
-					if (ImGui::Checkbox("Tire Smoke", (bool*)&owned_mods[(int)VehicleModType::MOD_TYRE_SMOKE]))
+					if (ImGui::Checkbox( LBL("Tire Smoke"), (bool*)&owned_mods[(int)VehicleModType::MOD_TYRE_SMOKE]))
 
 						FiberPool::Push([] {
 							VEHICLE::TOGGLE_VEHICLE_MOD(currentVeh, (int)VehicleModType::MOD_TYRE_SMOKE, owned_mods[(int)VehicleModType::MOD_TYRE_SMOKE]);
 						});
 				}
-				ImGui::SeparatorText("Mod Slots");
+				ImGui::SeparatorText( LBL("Mod Slots"));
 				{
 					ImGui::BeginGroup();
 					{
-						ImGui::Text("Slot");
+						ImGui::Text( LBL("Slot"));
 						if (ImGui::BeginListBox("##slot", ImVec2(200, 200)))
 						{
 							for (const auto& [slot, name] : slot_display_names)
@@ -258,7 +258,7 @@ namespace YimMenu::Submenus
 						ImGui::SameLine();
 						ImGui::BeginGroup();
 						{
-							ImGui::Text("Mod");
+							ImGui::Text( LBL("Mod"));
 							if (ImGui::BeginListBox("##mod", ImVec2(240, 200)))
 							{
 								for (const auto& it : mod_display_names[selected_slot])
@@ -317,7 +317,7 @@ namespace YimMenu::Submenus
 							{
 								auto wheel_map = selected_slot == (int)VehicleModType::MOD_REARWHEEL ? rear_wheel_map : front_wheel_map;
 
-								ImGui::Text("Style");
+								ImGui::Text( LBL("Style"));
 								if (ImGui::BeginListBox("##style", ImVec2(200, 200)))
 								{
 									std::string mod_name = mod_display_names[selected_slot][*wheel_stock_mod];
@@ -332,7 +332,7 @@ namespace YimMenu::Submenus
 										// bennys fix
 										if (!isBennys)
 										{
-											if (i == 0 && ImGui::Selectable("Stock", mod == owned_mods[selected_slot] && *wheel_custom == 0))
+											if (i == 0 && ImGui::Selectable( LBL("Stock"), mod == owned_mods[selected_slot] && *wheel_custom == 0))
 												FiberPool::Push([&mod] {
 													VEHICLE::SET_VEHICLE_MOD(currentVeh, selected_slot, mod, 0);
 													currentVeh = -1;
@@ -353,7 +353,7 @@ namespace YimMenu::Submenus
 						}
 					}
 				}
-				ImGui::SeparatorText("Extras");
+				ImGui::SeparatorText( LBL("Extras"));
 				{
 					for (int extra = (int)CustomVehicleModType::MOD_EXTRA_1; extra >= (int)CustomVehicleModType::MOD_EXTRA_14; extra--)
 						if (owned_mods.find(extra) != owned_mods.end())
@@ -371,36 +371,36 @@ namespace YimMenu::Submenus
 						}
 					ImGui::NewLine();
 				}
-				ImGui::SeparatorText("Neon Light Options");
+				ImGui::SeparatorText( LBL("Neon Light Options"));
 				{
 					ImGui::PushID("##headlight_en");
-					if (ImGui::Checkbox("Headlight", (bool*)&owned_mods[(int)VehicleModType::MOD_XENON_LIGHTS]))
+					if (ImGui::Checkbox( LBL("Headlight"), (bool*)&owned_mods[(int)VehicleModType::MOD_XENON_LIGHTS]))
 						FiberPool::Push([] {
 							VEHICLE::TOGGLE_VEHICLE_MOD(currentVeh, (int)VehicleModType::MOD_XENON_LIGHTS, owned_mods[(int)VehicleModType::MOD_XENON_LIGHTS]);
 						});
 					ImGui::PopID();
 					ImGui::SameLine();
-					if (ImGui::Checkbox("Left", (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_LEFT_ON]))
+					if (ImGui::Checkbox( LBL("Left"), (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_LEFT_ON]))
 						FiberPool::Push([] {
 							VEHICLE::SET_VEHICLE_NEON_ENABLED(currentVeh, (int)NeonLightLocations::NEON_LEFT, owned_mods[(int)CustomVehicleModType::MOD_NEON_LEFT_ON]);
 						});
 					ImGui::SameLine();
-					if (ImGui::Checkbox("Right", (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_RIGHT_ON]))
+					if (ImGui::Checkbox( LBL("Right"), (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_RIGHT_ON]))
 						FiberPool::Push([] {
 							VEHICLE::SET_VEHICLE_NEON_ENABLED(currentVeh, (int)NeonLightLocations::NEON_RIGHT, owned_mods[(int)CustomVehicleModType::MOD_NEON_RIGHT_ON]);
 						});
 					ImGui::SameLine();
-					if (ImGui::Checkbox("Front", (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_FRONT_ON]))
+					if (ImGui::Checkbox( LBL("Front"), (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_FRONT_ON]))
 						FiberPool::Push([] {
 							VEHICLE::SET_VEHICLE_NEON_ENABLED(currentVeh, (int)NeonLightLocations::NEON_FRONT, owned_mods[(int)CustomVehicleModType::MOD_NEON_FRONT_ON]);
 						});
 					ImGui::SameLine();
-					if (ImGui::Checkbox("Back", (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_BACK_ON]))
+					if (ImGui::Checkbox( LBL("Back"), (bool*)&owned_mods[(int)CustomVehicleModType::MOD_NEON_BACK_ON]))
 						FiberPool::Push([] {
 							VEHICLE::SET_VEHICLE_NEON_ENABLED(currentVeh, (int)NeonLightLocations::NEON_BACK, owned_mods[(int)CustomVehicleModType::MOD_NEON_BACK_ON]);
 						});
 				}
-				ImGui::SeparatorText("Color Options");
+				ImGui::SeparatorText( LBL("Color Options"));
 				{
 					static int color_to_change = 0;
 					static int color_type = 9;
@@ -413,21 +413,21 @@ namespace YimMenu::Submenus
 
 					if (ImGui::BeginListBox("##color_options", ImVec2(120, 254)))
 					{
-						if (ImGui::Selectable("Primary", color_to_change == 0))
+						if (ImGui::Selectable( LBL("Primary"), color_to_change == 0))
 							color_to_change = 0;
-						if (ImGui::Selectable("Secondary", color_to_change == 1))
+						if (ImGui::Selectable( LBL("Secondary"), color_to_change == 1))
 							color_to_change = 1;
-						if (ImGui::Selectable("Pearlescent", color_to_change == 2))
+						if (ImGui::Selectable( LBL("Pearlescent"), color_to_change == 2))
 						{
 							color_to_change = 2;
 							color_type = 7;
 						}
-						if (ImGui::Selectable("Interior", color_to_change == 3))
+						if (ImGui::Selectable( LBL("Interior"), color_to_change == 3))
 						{
 							color_to_change = 3;
 							color_type = 10;
 						}
-						if (ImGui::Selectable("Dashboard", color_to_change == 4))
+						if (ImGui::Selectable( LBL("Dashboard"), color_to_change == 4))
 						{
 							color_to_change = 4;
 							color_type = 11;
@@ -435,7 +435,7 @@ namespace YimMenu::Submenus
 
 						if (!owned_mods[(int)VehicleModType::MOD_TYRE_SMOKE])
 							ImGui::BeginDisabled();
-						if (ImGui::Selectable("Tire Smoke", color_to_change == 5))
+						if (ImGui::Selectable( LBL("Tire Smoke"), color_to_change == 5))
 						{
 							color_to_change = 5;
 							color_type = 9;
@@ -443,7 +443,7 @@ namespace YimMenu::Submenus
 						if (!owned_mods[(int)VehicleModType::MOD_TYRE_SMOKE])
 							ImGui::EndDisabled();
 
-						if (ImGui::Selectable("Wheel Color", color_to_change == 6))
+						if (ImGui::Selectable( LBL("Wheel Color"), color_to_change == 6))
 						{
 							color_to_change = 6;
 							color_type = 8;
@@ -452,7 +452,7 @@ namespace YimMenu::Submenus
 						if (!owned_mods[(int)VehicleModType::MOD_XENON_LIGHTS])
 							ImGui::BeginDisabled();
 						ImGui::PushID("##headlight_col");
-						if (ImGui::Selectable("Headlight", color_to_change == 7))
+						if (ImGui::Selectable( LBL("Headlight"), color_to_change == 7))
 						{
 							color_to_change = 7;
 							color_type = 12;
@@ -461,7 +461,7 @@ namespace YimMenu::Submenus
 						if (!owned_mods[(int)VehicleModType::MOD_XENON_LIGHTS])
 							ImGui::EndDisabled();
 
-						if (ImGui::Selectable("Neon", color_to_change == 8))
+						if (ImGui::Selectable( LBL("Neon"), color_to_change == 8))
 						{
 							color_to_change = 8;
 							color_type = 9;
@@ -480,10 +480,10 @@ namespace YimMenu::Submenus
 						ImGui::SameLine();
 						if (ImGui::BeginListBox("##colors", ImVec2(140, 254)))
 						{
-							if (ImGui::Selectable("Custom", color_type == 9))
+							if (ImGui::Selectable( LBL("Custom"), color_type == 9))
 								color_type = 9;
 
-							if (ImGui::Selectable("Remove Custom", false))
+							if (ImGui::Selectable( LBL("Remove Custom"), false))
 								FiberPool::Push([] {
 									if (color_to_change == 0)
 										VEHICLE::CLEAR_VEHICLE_CUSTOM_PRIMARY_COLOUR(currentVeh);
@@ -492,19 +492,19 @@ namespace YimMenu::Submenus
 									VEHICLE::SET_VEHICLE_COLOURS(currentVeh, owned_mods[(int)CustomVehicleModType::MOD_PRIMARY_COL], owned_mods[(int)CustomVehicleModType::MOD_SECONDARY_COL]);
 								});
 
-							if (ImGui::Selectable("Chrome", color_type == 0))
+							if (ImGui::Selectable( LBL("Chrome"), color_type == 0))
 								color_type = 0;
-							if (ImGui::Selectable("Classic", color_type == 1))
+							if (ImGui::Selectable( LBL("Classic"), color_type == 1))
 								color_type = 1;
-							if (ImGui::Selectable("Matte", color_type == 2))
+							if (ImGui::Selectable( LBL("Matte"), color_type == 2))
 								color_type = 2;
-							if (ImGui::Selectable("Metals", color_type == 3))
+							if (ImGui::Selectable( LBL("Metals"), color_type == 3))
 								color_type = 3;
-							if (ImGui::Selectable("Util", color_type == 4))
+							if (ImGui::Selectable( LBL("Util"), color_type == 4))
 								color_type = 4;
-							if (ImGui::Selectable("Worn", color_type == 5))
+							if (ImGui::Selectable( LBL("Worn"), color_type == 5))
 								color_type = 5;
-							if (ImGui::Selectable("Chameleon", color_type == 6))
+							if (ImGui::Selectable( LBL("Chameleon"), color_type == 6))
 								color_type = 6;
 
 							ImGui::EndListBox();
@@ -648,7 +648,7 @@ namespace YimMenu::Submenus
 							{
 							case 0: //Chrome
 							{
-								if (ImGui::Selectable("Chrome", selected_color == (int)VehicleColorsChrome::COLOR_CHROME))
+								if (ImGui::Selectable( LBL("Chrome"), selected_color == (int)VehicleColorsChrome::COLOR_CHROME))
 								{
 									if (color_to_change == 0)
 										owned_mods[(int)CustomVehicleModType::MOD_PRIMARY_COL] = (int)VehicleColorsChrome::COLOR_CHROME;
@@ -787,7 +787,7 @@ namespace YimMenu::Submenus
 							{
 								constexpr auto alloy_color = 156;
 
-								if (ImGui::Selectable("Alloy", selected_color == alloy_color))
+								if (ImGui::Selectable( LBL("Alloy"), selected_color == alloy_color))
 								{
 									selected_color = alloy_color;
 									owned_mods[(int)CustomVehicleModType::MOD_WHEEL_COL] = alloy_color;

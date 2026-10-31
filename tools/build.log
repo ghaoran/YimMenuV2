@@ -1,0 +1,107 @@
+[  0%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.obj
+[  0%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_win32.cpp.obj
+[  1%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_dx12.cpp.obj
+[  1%] Building C object _deps/minhook-build/CMakeFiles/minhook.dir/src/buffer.c.obj
+[  2%] Generating minilua/minilua
+[  2%] Building CXX object _deps/asynclogger-build/CMakeFiles/AsyncLogger.dir/cmake_pch.hxx.gch
+[  2%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.obj
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+[  3%] Building C object _deps/minhook-build/CMakeFiles/minhook.dir/src/hook.c.obj
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[  3%] Building CXX object _deps/asynclogger-build/CMakeFiles/AsyncLogger.dir/src/LogCapture.cpp.obj
+-- Configuring done (4.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspace/YimMenuV2/build/_deps/luajit-build/src/minilua
+[  3%] Building C object _deps/minhook-build/CMakeFiles/minhook.dir/src/trampoline.c.obj
+[ 50%] Building C object CMakeFiles/minilua.dir/workspace/YimMenuV2/build/_deps/luajit-src/src/host/minilua.c.o
+[  3%] Building CXX object _deps/asynclogger-build/CMakeFiles/AsyncLogger.dir/src/LogIntermediate.cpp.obj
+[  3%] Building C object _deps/minhook-build/CMakeFiles/minhook.dir/src/hde/hde64.c.obj
+[  3%] Building CXX object _deps/asynclogger-build/CMakeFiles/AsyncLogger.dir/src/LogMessage.cpp.obj
+[100%] Linking C executable minilua
+[  4%] Building CXX object _deps/asynclogger-build/CMakeFiles/AsyncLogger.dir/src/LogStream.cpp.obj
+[100%] Built target minilua
+[  4%] Built target minilua
+[  4%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.obj
+[  4%] Building CXX object _deps/asynclogger-build/CMakeFiles/AsyncLogger.dir/src/Logger.cpp.obj
+[  4%] Generating luajit.h
+[  4%] Built target lj_luajit_h
+[  4%] Linking CXX static library libAsyncLogger.a
+[  5%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.obj
+[  5%] Built target AsyncLogger
+[  5%] Generating buildvm_arch.h
+[  5%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.obj
+[  5%] Linking C static library minhook.x64.a
+[  5%] Built target buildvm_arch_h
+[  5%] Building CXX object CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.obj
+[  5%] Built target minhook
+[  5%] Generating buildvm/buildvm
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is GNU 14.2.0
+[  5%] Generating buildvm/buildvm
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The CXX compiler identification is GNU 14.2.0
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error at /usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile):
+  Failed to configure test project build system.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
+  CMakeLists.txt:3 (project)
+
+
+-- Detecting C compiler ABI info
+-- Configuring incomplete, errors occurred!
+make[3]: *** [_deps/luajit-build/src/CMakeFiles/lj_gen_folddef.dir/build.make:77: _deps/luajit-build/src/buildvm/buildvm] Error 1
+make[2]: *** [CMakeFiles/Makefile2:554: _deps/luajit-build/src/CMakeFiles/lj_gen_folddef.dir/all] Error 2
+make[2]: *** Waiting for unfinished jobs....
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error at /usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile):
+  Failed to configure test project build system.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring incomplete, errors occurred!
+make[3]: *** [_deps/luajit-build/src/CMakeFiles/buildvm.dir/build.make:73: _deps/luajit-build/src/buildvm/buildvm] Error 1
+make[2]: *** [CMakeFiles/Makefile2:454: _deps/luajit-build/src/CMakeFiles/buildvm.dir/all] Error 2
+[  5%] Linking CXX static library libimgui.a
+[  5%] Built target imgui
+make[1]: *** [CMakeFiles/Makefile2:266: CMakeFiles/YimMenuV2.dir/rule] Error 2
+make: *** [Makefile:182: YimMenuV2] Error 2

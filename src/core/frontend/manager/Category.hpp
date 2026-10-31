@@ -6,8 +6,9 @@ namespace YimMenu
 	class Category
 	{
 	public:
-		constexpr Category(std::string_view name) :
-		    m_Name(name)
+		Category(std::string_view name) :
+		    m_Name(name),
+		    m_LocalizedName(std::string(Localization::Tr(name)) + "##category" + std::string(name))
 		{
 		}
 
@@ -40,5 +41,14 @@ namespace YimMenu
 
 	public:
 		std::string m_Name;
+		std::string m_LocalizedName;
+
+	public:
+		const std::string& GetLocalizedName() const
+		{
+			return m_LocalizedName;
+		}
+
+	private:
 	};
 }

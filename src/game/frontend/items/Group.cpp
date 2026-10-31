@@ -17,7 +17,7 @@ namespace YimMenu
 		if (!m_Name.empty())
 		{
 			ImGui::PushFont(Menu::Font::g_ChildTitleFont);
-			ImGui::Text("%s", m_Name.c_str());
+			ImGui::Text("%s", Localization::Tr(m_Name.c_str()));
 			ImGui::PopFont();
 			ImGui::Separator();
 			ImGui::Spacing();

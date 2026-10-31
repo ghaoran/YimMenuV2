@@ -28,7 +28,7 @@ namespace YimMenu
 
 				for (auto& submenu : submenus)
 				{
-					if (ImGui::Selectable(submenu->m_Name.data(), (submenu == activeSubmenu)))
+					if (ImGui::Selectable((submenu->m_LocalizedName + "##submenu_" + submenu->m_Name).c_str(), (submenu == activeSubmenu)))
 					{
 						YimMenu::UIManager::SetActiveSubmenu(submenu);
 						YimMenu::UIManager::SetShowContentWindow(true);
@@ -37,7 +37,7 @@ namespace YimMenu
 			}
 			ImGui::EndChild();
 
-			ImGui::Text("YimMenuV2");
+			ImGui::Text( LBL("YimMenuV2"));
 
 			pos.y -= 28;
 			ImGui::SetCursorPos(ImVec2(pos.x + 130, pos.y));

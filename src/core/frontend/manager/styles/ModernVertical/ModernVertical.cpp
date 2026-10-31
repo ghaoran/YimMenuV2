@@ -79,13 +79,13 @@ namespace YimMenu
 			ImGui::PopFont();
 
 			// Draw label below bubble
-			ImVec2 labelSize = ImGui::CalcTextSize(submenu->m_Name.c_str());
+			ImVec2 labelSize = ImGui::CalcTextSize(submenu->m_LocalizedName.c_str());
 			ImVec2 labelPos(center.x - labelSize.x / 2, bubblePos.y + bubbleSize + 15.0f);
 			ImVec2 bgMin = labelPos - ImVec2(6, 2);
 			ImVec2 bgMax = labelPos + labelSize + ImVec2(6, 2);
 			drawList->AddRectFilled(bgMin, bgMax, ImGui::GetColorU32(ImGuiCol_ChildBg));
 			drawList->AddRect(bgMin, bgMax, borderColor, 4.0f);
-			drawList->AddText(labelPos, iconColor, submenu->m_Name.c_str());
+			drawList->AddText(labelPos, iconColor, submenu->m_LocalizedName.c_str());
 
 			ImGui::PopID();
 		}

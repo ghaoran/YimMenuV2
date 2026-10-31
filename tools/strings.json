@@ -1,0 +1,7709 @@
+{
+" && !relative.has_root_path() && *relative.begin() != ": [
+"core/scripting/LuaRequire.cpp"
+],
+" (Camera)": [
+"game/frontend/ESP.cpp"
+],
+" (Jammer)": [
+"game/frontend/ESP.cpp"
+],
+" (Mission)": [
+"game/frontend/ESP.cpp"
+],
+" (Paused)": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+" + tag.Name + ": [
+"game/frontend/submenus/Players.cpp"
+],
+" : nameDisplay), ((descDisplay.empty() || descDisplay == ": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+" << ADD_COLOR_TO_STREAM(color) << ": [
+"core/logger/LogSink.cpp"
+],
+" << GetLevelStr(level) << ": [
+"core/logger/LogSink.cpp"
+],
+" << file << ": [
+"core/logger/LogSink.cpp"
+],
+" << location.line() << ": [
+"core/logger/LogSink.cpp"
+],
+" << timestamp << ": [
+"core/logger/LogSink.cpp"
+],
+" << tree->m_ChildNodeCount << ": [
+"game/gta/Nodes.cpp"
+],
+" Base Address: ": [
+"core/logger/StackTrace.cpp"
+],
+" Horizontal": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+" Size: ": [
+"core/logger/StackTrace.cpp"
+],
+" Vertical": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+" in registry. This is bad!": [
+"game/backend/NativeHooks.cpp"
+],
+" in script ": [
+"game/gta/ScriptPointer.cpp"
+],
+" requires a player argument": [
+"game/commands/PlayerCommand.cpp"
+],
+" script pointers from cache.": [
+"game/backend/ScriptPointers.cpp"
+],
+" tunables from cache.": [
+"game/backend/Tunables.cpp"
+],
+" tunables to cache.": [
+"game/backend/Tunables.cpp"
+],
+" || component == ": [
+"core/scripting/LuaRequire.cpp"
+],
+" || descDisplay == ": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"$onboardingcomplete": [
+"game/frontend/Onboarding.cpp"
+],
+"(Select)": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"); // filename say ": [
+"game/backend/Outfit.cpp",
+"game/backend/SavedVehicles.cpp"
+],
+", folder.empty() ? ": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"../CPedComponents.hpp": [
+"types/network/sync/nodes/ped/CPedAppearanceDataNode.hpp",
+"types/network/sync/nodes/player/CPlayerAppearanceDataNode.hpp"
+],
+"../HudColor.hpp": [
+"types/script/globals/GPBD_FM_3.hpp"
+],
+"../MPScriptData.hpp": [
+"types/script/globals/GPBD_FM.hpp",
+"types/script/globals/GPBD_FM_3.hpp",
+"types/script/globals/GlobalPlayerBD.hpp"
+],
+"../Timer.hpp": [
+"types/script/globals/GPBD_FM.hpp",
+"types/script/globals/GPBD_FM_2.hpp",
+"types/script/globals/GPBD_FM_3.hpp"
+],
+"../rage/RTTI.hpp": [
+"types/entity/fwEntity.hpp",
+"types/network/netObject.hpp"
+],
+"../rage/datBitBuffer.hpp": [
+"types/network/rlGamerHandle.cpp"
+],
+"../rage/fwExtensibleBase.hpp": [
+"types/entity/fwEntity.hpp"
+],
+"./pattern_cache.bin": [
+"core/backend/PatternCache.cpp"
+],
+"./saved_json_vehicles/": [
+"game/backend/SavedVehicles.cpp"
+],
+"./saved_locations.json": [
+"game/backend/SavedLocations.cpp"
+],
+"./saved_outfits/": [
+"game/backend/Outfit.cpp"
+],
+"./saved_players.json": [
+"game/backend/SavedPlayers.cpp"
+],
+"./saved_variables.json": [
+"game/backend/SavedVariables.cpp"
+],
+"./scr_pointers.bin": [
+"game/backend/ScriptPointers.cpp"
+],
+"/?.lua;": [
+"core/scripting/LuaRequire.cpp"
+],
+"/?/init.lua;": [
+"core/scripting/LuaRequire.cpp"
+],
+": ped is not a player!": [
+"game/gta/Ped.cpp"
+],
+"<C>{}</C> joined.": [
+"game/hooks/Info/AssignPhysicalIndex.cpp"
+],
+"A Cast Characters": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"A Winding Road Home": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"APC Shell": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"A_C_Boar": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Cat_01": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Chickenhawk": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Cormorant": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Cow": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Coyote": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Crow": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Deer": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Hen": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Husky": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_MtLion": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Pig": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Poodle": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Pug": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Rabbit_01": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Retriever": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Rottweiler": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Seagull": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_Westy": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"A_C_shepherd": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Access Code": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Access code": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Accessory": [
+"game/backend/Outfit.hpp"
+],
+"Accuracy: %d%%": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Action": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Active": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Active Events: %d/%d": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Actual Take": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Add": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Add Friend": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Add Item": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Add Offset": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"Add Read Player Id": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"Add to Saved": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Adjust ": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Adjust Rounding:": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Agency": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Agency (Hawick)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Agency (Little Seoul)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Agency (Rockford)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Agency (Vespucci)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Aggressive": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Aggressor": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Aim For Head": [
+"game/features/self/Aimbot.cpp"
+],
+"Aimbot": [
+"game/features/self/Aimbot.cpp",
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Air Defence": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Airhorn_Blast_Long": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"All": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"All PEDs attack each other.": [
+"game/features/world/RiotMode.cpp"
+],
+"All settings loaded": [
+"core/settings/Settings.cpp"
+],
+"Allocated call hook memory at {}. Base: {}.": [
+"core/hooking/CallHook.cpp"
+],
+"Allow Gender Change": [
+"game/features/recovery/AllowGenderChange.cpp"
+],
+"Allow Hats In Vehicles": [
+"game/features/vehicle/AllowHatsInVehicles.cpp"
+],
+"Allow MP Vehicles in SP": [
+"game/features/system/DespawnBypass.cpp"
+],
+"Allows MP vehicles to be used in SP": [
+"game/features/system/DespawnBypass.cpp"
+],
+"Allows aimbot to lock on to enemies and other players in vehicles": [
+"game/features/self/Aimbot.cpp"
+],
+"Allows altering your melee damage output": [
+"game/features/self/MeleeDamage.cpp"
+],
+"Allows altering your weapons damage output": [
+"game/features/self/WeaponDamage.cpp"
+],
+"Allows the player to change the character's appearance for free": [
+"game/features/recovery/FreeChangeAppearance.cpp"
+],
+"Allows the player to change the character's gender": [
+"game/features/recovery/AllowGenderChange.cpp"
+],
+"Allows you to access gun locker remotely.": [
+"game/features/self/OpenGunLocker.cpp"
+],
+"Allows you to access the selected Street Dealer remotely.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Allows you to access your wardrobe remotely.": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"Allows you to buy everything for free.": [
+"game/features/recovery/FreeShopping.cpp"
+],
+"Allows you to fly through the map": [
+"game/features/self/Noclip.cpp"
+],
+"Allows you to join players with rpf mods (or a half installed game).": [
+"game/features/network/SpoofDataHash.cpp"
+],
+"Allows you to keep your hats or head gear inside vehicles.": [
+"game/features/vehicle/AllowHatsInVehicles.cpp"
+],
+"Allows you to listen to any radio station on foot with Hotkey Q": [
+"game/features/self/MobileRadio.cpp"
+],
+"Allows you to pause the game in online (local only).": [
+"game/features/network/PauseGame.cpp"
+],
+"Allows you to play any mission solo. Note that some missions might break if there aren't enough players": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"Allows you to request your personal vehicles.": [
+"game/features/vehicle/CallMechanic.cpp"
+],
+"Allows you to stay underwater without losing oxygen.": [
+"game/features/self/UnlimitedOxygen.cpp"
+],
+"Alloy": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Alpha Mail Disguise": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Alpha mail disguise": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Always have a parachute": [
+"game/features/self/InfiniteParachutes.cpp"
+],
+"Ammu-Nation": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Amount": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Player/Troll.cpp"
+],
+"An existing transition is in progress": [
+"game/gta/Network.cpp"
+],
+"Animal": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Animal 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Animal 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Animal 3": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Annihilator (Prep)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Annihilator Stealth": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Annihilator stealth": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Annihilator stealth prep": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Anonymous": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Player/Troll.cpp"
+],
+"Anonymous Bounty": [
+"game/features/players/troll/SetBounty.cpp"
+],
+"Anticheat bypass mode: {}": [
+"game/backend/AnticheatBypass.cpp"
+],
+"AnticheatBypass.hpp": [
+"game/backend/AnticheatBypass.cpp"
+],
+"Apartment Heist": [
+"game/frontend/submenus/Recovery/Heist/ApartmentHeist.cpp"
+],
+"ApartmentHeist.hpp": [
+"game/frontend/submenus/Recovery/Heist/ApartmentHeist.cpp"
+],
+"Apply Font Scale": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Apply Selected Outfit": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Apply hair": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Apply in Minutes": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"ApplyMPSVData": [
+"game/backend/PersonalVehicles.cpp"
+],
+"Approach": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Arcade": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Arcade (Davis)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Arcade (Grapeseed)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Arcade (La Mesa)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Arcade (Paleto Bay)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Arcade (Rockford Hills)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Arcade (West Vinewood)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Arcadius Business Center": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Are you sure you want to delete %s?": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Are you sure you want to spawn %s": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Arg Count": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Arg Count: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Arg[%d]": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Armored Caracara": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Armored Caracara prep": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Artwork": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Asbo": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"AssignPhysicalIndex": [
+"core/hooking/Hooking.cpp"
+],
+"At##{}{}": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"Attempted to call a latent function outside a script callback": [
+"core/scripting/LatentFunction.cpp"
+],
+"Attempted to execute at ": [
+"core/logger/StackTrace.cpp"
+],
+"Attempted to read from ": [
+"core/logger/StackTrace.cpp"
+],
+"Attempted to write to ": [
+"core/logger/StackTrace.cpp"
+],
+"Australia": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Auto Shop (Burton)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Auto Shop (La Mesa)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Auto Shop (Mission Row)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Auto Shop (Rancho)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Auto Shop (Strawberry)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Auto Teleport to Waypoint": [
+"game/features/teleport/TpToWaypoint.cpp"
+],
+"Auto Update": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Auto-Enter PC Access Code": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Automatically enters the PC access code": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Automatically silences all incoming calls": [
+"game/features/network/SilencePhonecalls.cpp"
+],
+"Automatically teleports you to the waypoint": [
+"game/features/teleport/TpToWaypoint.cpp"
+],
+"Automatically updates tracked player status every 3 minutes. This is required for tracking notifications to work": [
+"game/backend/SavedPlayers.cpp"
+],
+"Available - deactivating in ": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Average Latency: %.2f": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Avi Schwartzman": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"BEClient_x64.dll": [
+"game/backend/AnticheatBypass.cpp"
+],
+"BZ Gas": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Back": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Bag": [
+"game/backend/Outfit.hpp"
+],
+"Bail Office": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Bail Office (Davis)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Bail Office (Del Perro)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Bail Office (Mission Row)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Bail Office (Paleto Bay)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Bail Office (West Vinewood)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Barrel": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"BaseHook.hpp": [
+"core/hooking/BaseHook.cpp",
+"core/hooking/DetourHook.hpp",
+"core/hooking/Hooking.cpp"
+],
+"BaseObj.hpp": [
+"core/filemgr/BaseObj.cpp",
+"core/filemgr/File.hpp",
+"core/filemgr/Folder.hpp"
+],
+"Basket\\0Service\\0": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Be invisible": [
+"game/features/self/Invis.cpp"
+],
+"Be locally visible while remaining invisible to other players": [
+"game/features/self/Invis.cpp"
+],
+"Bearer Bonds": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Beat Time Trial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"BeatRCTimeTrial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"BeatStandardTimeTrial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Bike": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"BikeTimeTrialData.hpp": [
+"types/script/locals/Locals.cpp"
+],
+"Bird Crap": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Blackscreen": [
+"game/features/players/toxic/Blackscreen.cpp"
+],
+"Blimp": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Blimp 2": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Blip Ped": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Blizzard": [
+"game/features/world/Weather.cpp"
+],
+"BlockMenuOptionPatch": [
+"game/features/system/LSCCustomsBypass.cpp"
+],
+"Blocked ACTIVATE_VEHICLE_SPECIAL_ABILITY_EVENT on our local vehicle from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked Bonus Report": [
+"game/hooks/Anticheat/HttpStartRequest.cpp"
+],
+"Blocked CHANGE_RADIO_STATION_EVENT on our local vehicle from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked DOOR_BREAK_EVENT from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked EXPLOSION_EVENT from {} since m_CameraShake > 0.0f": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked EXPLOSION_EVENT from {} since m_DamageScale > 0.0f": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked RAGDOLL_REQUEST_EVENT on our local ped from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked REPORT_MYSELF_EVENT from {} with type {} since we're in a cheater-only session": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_ENTITY_STATE_CHANGE_EVENT of type SetPedFacialIdleAnimOverride from {} on our local player": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_ENTITY_STATE_CHANGE_EVENT of type SetVehicleExclusiveDriver from {} on our local vehicle": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_ENTITY_STATE_CHANGE_EVENT of type SetVehicleLockState from {} on our local vehicle": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_ENTITY_STATE_CHANGE_EVENT of type SettingOfTaskVehicleTempAction on our local ped from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_ENTITY_STATE_CHANGE_EVENT of type SettingOfTaskVehicleTempAction on our local vehicle from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_ENTITY_STATE_CHANGE_EVENT of type SettingOfTaskVehicleTempAction with invalid params from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_WORLD_STATE_EVENT of type PopGroupOverride with invalid params from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked SCRIPT_WORLD_STATE_EVENT of type PopMultiplierArea from {}": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked WEAPON_DAMAGE_EVENT from {} with m_WeaponType == WEAPON_TRANQUILIZER": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Blocked player deletion crash from {}": [
+"game/hooks/Network/ReceiveNetMessage.cpp"
+],
+"Blocked vehicle deletion from {}": [
+"game/hooks/Network/ReceiveNetMessage.cpp"
+],
+"Blocks all incoming damage": [
+"game/features/self/Godmode.cpp"
+],
+"Blocks all incoming damage to your current vehicle": [
+"game/features/vehicle/Godmode.cpp"
+],
+"Blows the player up": [
+"game/features/players/toxic/Explode.cpp"
+],
+"Boat": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Bombushka Cannon": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"BoolCommand.hpp": [
+"core/commands/BoolCommand.cpp",
+"core/commands/Commands.cpp",
+"core/commands/LoopedCommand.hpp"
+],
+"Boost Behavior": [
+"game/features/vehicle/RocketBoost.cpp"
+],
+"Border": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Border Sizes:": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Bounty": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Player/Troll.cpp"
+],
+"Bounty Amount": [
+"game/features/players/troll/SetBounty.cpp"
+],
+"Bracelets": [
+"game/backend/Outfit.hpp"
+],
+"Breathless": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Bring": [
+"game/features/players/teleport/Bring.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Bring All": [
+"game/frontend/submenus/Network.cpp"
+],
+"Bring All Objects": [
+"game/features/world/Bring.cpp"
+],
+"Bring All Peds": [
+"game/features/world/Bring.cpp"
+],
+"Bring All Vehicles": [
+"game/features/world/Bring.cpp"
+],
+"Brings the player to you": [
+"game/features/players/teleport/Bring.cpp"
+],
+"Brother Brother": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Bullet": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Buried Mine": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Buried Stash": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Buried Stash 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Buried Stash 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Buried Stashes": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Burstible tires": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Business": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Business to claim earning from.": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Businesses": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"ButtonTextAlign": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"BuyVehiclePatch": [
+"game/features/vehicle/DLCVehicles.cpp"
+],
+"Bypass Casino Restrictions": [
+"game/features/network/BypassCasinoRestrictions.cpp"
+],
+"Bypasses all casino region restrictions": [
+"game/features/network/BypassCasinoRestrictions.cpp"
+],
+"BytePatches.hpp": [
+"core/memory/BytePatches.cpp"
+],
+"Bytecode": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"CAutomobileCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CBikeGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CBoatGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CDoorCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CDoorMovementDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CDoorScriptGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CDoorScriptInfoDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CEO Kick": [
+"game/features/players/toxic/CeoKick.cpp"
+],
+"CEO Kick All": [
+"game/frontend/submenus/Network.cpp"
+],
+"CEntity.hpp": [
+"types/entity/CDynamicEntity.hpp"
+],
+"CEntityOrientationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CEntityScriptInfoDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CGameScriptId.hpp": [
+"types/script/CGameScriptId.cpp",
+"types/script/CGameScriptObjInfo.hpp"
+],
+"CGlobalFlagsDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CHeliControlDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CHeliHealthDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CMM_MOD_S15b": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S16b": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S17b": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S18b": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S18c": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S19b": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S19c": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S19d": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S21b": [
+"game/gta/VehicleModel.cpp"
+],
+"CMM_MOD_S2b": [
+"game/gta/VehicleModel.cpp"
+],
+"CMOD_ARM_{}": [
+"game/gta/VehicleModel.cpp"
+],
+"CMOD_BRA_{}": [
+"game/gta/VehicleModel.cpp"
+],
+"CMOD_ENG_{}": [
+"game/gta/VehicleModel.cpp"
+],
+"CMOD_GBX_{}": [
+"game/gta/VehicleModel.cpp"
+],
+"CMOD_SUS_{}": [
+"game/gta/VehicleModel.cpp"
+],
+"CMigrationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CNetGamePlayer.hpp": [
+"types/network/netPlayerMgrBase.hpp"
+],
+"CONOUT$": [
+"core/logger/LogHelper.cpp"
+],
+"CObjectCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CObjectGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CObjectOrientationNode": [
+"game/gta/Nodes.cpp"
+],
+"CObjectSectorPosNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedAIDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedAppearanceDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedAttachDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedGameStateDataNode": [
+"game/features/network/HarassPlayers.cpp",
+"game/gta/Nodes.cpp"
+],
+"CPedHealthDataNode": [
+"game/features/network/SpamKillfeed.cpp",
+"game/gta/Nodes.cpp"
+],
+"CPedInventoryDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedMovementDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedMovementGroupDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedOrientationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedScriptCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedScriptGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedSectorPosMapNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedSectorPosNavMeshNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedTaskSequenceDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedTaskSpecificDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPedTaskTreeDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPhysicalAngVelocityDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPhysicalAttachDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPhysicalGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPhysicalHealthDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPhysicalMigrationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPhysicalVelocityDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPickupCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPickupScriptGameStateNode": [
+"game/gta/Nodes.cpp"
+],
+"CPickupSectorPosNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlaneControlDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlaneGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerAppearanceDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerCameraDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerExtendedGameStateNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerGamerDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerPedGroupDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CPlayerSectorPosNode": [
+"game/features/network/HarassPlayers.cpp",
+"game/gta/Nodes.cpp"
+],
+"CPlayerWantedAndLOSDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CREATE_OBJECT failed when creating an object with model {:X}": [
+"game/gta/Object.cpp"
+],
+"CREATE_PED failed when creating a ped with model {:X}": [
+"game/gta/Ped.cpp"
+],
+"CREATE_VEHICLE failed when creating a vehicle with model {:X}": [
+"game/gta/Vehicle.cpp"
+],
+"CSectorDataNode": [
+"game/features/network/HarassPlayers.cpp",
+"game/gta/Nodes.cpp"
+],
+"CSectorPositionDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CStatsMgr.hpp": [
+"types/stats/CStatsMgr.cpp"
+],
+"CSubmarineControlDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CSubmarineGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CTrainGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleAngVelocityDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleAppearanceDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleControlDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleCreationDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleDamageStatusDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleGadgetDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleGameStateDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleHealthDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleSteeringDataNode": [
+"game/gta/Nodes.cpp"
+],
+"CVehicleTaskDataNode": [
+"game/gta/Nodes.cpp"
+],
+"Cache nodes failed ": [
+"game/gta/Nodes.cpp"
+],
+"CacheFile.hpp": [
+"core/filemgr/CacheFile.cpp"
+],
+"Cage Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Call Mechanic": [
+"game/features/vehicle/CallMechanic.cpp"
+],
+"CallHook.hpp": [
+"core/hooking/CallHook.cpp"
+],
+"CanLaunchJobPatch": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"CanUseVehiclePatch": [
+"game/features/system/LSCCustomsBypass.cpp"
+],
+"Cannot find export: ": [
+"core/memory/Module.hpp"
+],
+"Cannot find program ": [
+"game/backend/NativeHooks.cpp"
+],
+"Cannot open gun locker while in an interior.": [
+"game/features/self/OpenGunLocker.cpp"
+],
+"Cannot resume execution, crashing": [
+"core/logger/ExceptionHandler.cpp"
+],
+"Cannot resume execution, crashing (failed to decode insn)": [
+"core/logger/ExceptionHandler.cpp"
+],
+"Cannot resume execution, crashing (failed to find valid return address)": [
+"core/logger/ExceptionHandler.cpp"
+],
+"Cannot spawn ped in vehicle, all seats are occupied, please free a seat first or disable 'Spawn In My Vehicle' option.": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Car": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Car Meet": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Car Wash": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Caracara (Prep)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Cash": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Casino": [
+"game/features/players/teleport/SendToInterior.cpp",
+"game/frontend/submenus/Recovery.cpp"
+],
+"Casino Penthouse": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Catalog not loaded yet": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Categories": [
+"game/frontend/items/Vector3CommandItem.cpp",
+"game/frontend/submenus/Teleport.cpp"
+],
+"Category": [
+"game/frontend/submenus/Recovery/Transactions.cpp",
+"game/frontend/submenus/Teleport.cpp"
+],
+"Category.hpp": [
+"core/frontend/manager/Category.cpp",
+"core/frontend/manager/Submenu.hpp",
+"core/frontend/manager/UIManager.hpp"
+],
+"Cayo Perico Heist": [
+"game/frontend/submenus/Recovery/Heist/CayoPericoHeist.cpp"
+],
+"CayoPericoHeist.hpp": [
+"game/frontend/submenus/Recovery/Heist/CayoPericoHeist.cpp"
+],
+"Challenges": [
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Chameleon": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Change Appearance For Free": [
+"game/features/recovery/FreeChangeAppearance.cpp"
+],
+"Change Plate": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Change the region you matchmake in to the specified value": [
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Changes the color of the distance ESP for players": [
+"game/frontend/ESP.cpp"
+],
+"Changes the color of the hash ESP for objects": [
+"game/frontend/ESP.cpp"
+],
+"Changes the color of the hash ESP for peds": [
+"game/frontend/ESP.cpp"
+],
+"Changes the color of the name ESP for players": [
+"game/frontend/ESP.cpp"
+],
+"Changes the color of the skeleton ESP for peds": [
+"game/frontend/ESP.cpp"
+],
+"Changes the color of the skeleton ESP for players": [
+"game/frontend/ESP.cpp"
+],
+"Charlie Reed": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Chat": [
+"game/features/system/Chat.cpp",
+"game/frontend/submenus/Settings.cpp"
+],
+"Chat on Fruit": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"ChatDisplay.hpp": [
+"game/frontend/ChatDisplay.cpp"
+],
+"Chester McCoy": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"ChildRounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"China": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Chinese (Simplified)": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Chinese (Traditional)": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Choose the UI style": [
+"core/frontend/manager/UIManager.cpp"
+],
+"Christian Feltz": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Chrome": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Chrome ": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Chrome {}": [
+"game/gta/VehicleModel.cpp"
+],
+"Claim Safe Earnings": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Claims your safe earnings from the selected business.": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Class": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Classic": [
+"core/frontend/manager/UIManager.cpp",
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Cleanup": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Clear": [
+"game/features/world/Weather.cpp",
+"game/frontend/items/DrawHotkey.cpp",
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"Clear Chat": [
+"game/features/system/Chat.cpp"
+],
+"Clear Damage": [
+"game/features/self/ClearDamage.cpp"
+],
+"Clear Wanted": [
+"game/features/self/Wanted.cpp"
+],
+"Clearing": [
+"game/features/world/Weather.cpp"
+],
+"Clears all the dirt and blood on you.": [
+"game/features/self/ClearDamage.cpp"
+],
+"Clears your wanted level": [
+"game/features/self/Wanted.cpp"
+],
+"Click on a location to select it. Add more at Teleport > Saved": [
+"game/frontend/items/Vector3CommandItem.cpp"
+],
+"Click to enable this script": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Close": [
+"game/frontend/Onboarding.cpp",
+"game/frontend/items/BoolCommandItem.cpp",
+"game/frontend/items/CommandItem.cpp"
+],
+"Closed Crew": [
+"game/backend/SavedPlayerData.cpp",
+"game/features/network/JoinSession.cpp"
+],
+"Closed Friend": [
+"game/features/network/JoinSession.cpp"
+],
+"Clouds": [
+"game/features/world/Weather.cpp"
+],
+"Cluster Bomb": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Cluster Bomb (Secondary)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Code Size: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Collect Buried Stash": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collect G's Cache": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collect Golden Clover": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collect Hidden Cache": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collect Product": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collect Shipwreck": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collect Treasure Chest": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collects G's Cache.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collects Shipwreck.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collects the Golden Clover.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collects the selected Buried Stash.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collects the selected Hidden Cache.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collects the selected Treasure Chest.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Collects the selected product.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Color Options": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Color of the paint gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"ColorCommand.": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"ColorCommand.hpp": [
+"core/commands/ColorCommand.cpp"
+],
+"Colors": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"ColumnsMinSpacing": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Combat MG Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Combat PDW Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Command.hpp": [
+"core/commands/BoolCommand.hpp",
+"core/commands/ColorCommand.hpp",
+"core/commands/Command.cpp"
+],
+"Commands.hpp": [
+"core/commands/BoolCommand.cpp",
+"core/commands/Command.cpp",
+"core/commands/Commands.cpp"
+],
+"Common Main": [
+"game/hooks/Anticheat/GameSkeletonUpdate.cpp"
+],
+"Complete All Challenges": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Complete Skydive": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Completed all activities, switch session to apply the changes.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Completes all the Daily Objectives and the Weekly Challenge.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Completes the selected Skydive.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Completes the selected Time Trial.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Conspirator": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"ConstrainedKick_Kick": [
+"game/features/self/NoIdleKick.cpp"
+],
+"ConstrainedKick_Warning1": [
+"game/features/self/NoIdleKick.cpp"
+],
+"ConstrainedKick_Warning2": [
+"game/features/self/NoIdleKick.cpp"
+],
+"ConstrainedKick_Warning3": [
+"game/features/self/NoIdleKick.cpp"
+],
+"Consumato": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Context Function": [
+"core/frontend/Notifications.cpp"
+],
+"Controls how much the camera shakes during explosions": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Cooldown & Availability": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Coords: %.2f, %.2f, %.2f": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Cops Dispatch": [
+"game/features/world/CopsDispatch.cpp"
+],
+"CopsDispatch": [
+"game/features/world/CopsDispatch.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Crack Shot": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"CreateDXGIFactory": [
+"core/renderer/D3D12Hook.cpp"
+],
+"CreateSwapChain finished without a usable D3D12 swapchain, falling back to phase 1.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Crew": [
+"game/backend/SavedPlayerData.cpp",
+"game/features/network/JoinSession.cpp"
+],
+"Crossmap.hpp": [
+"game/gta/invoker/Invoker.cpp",
+"game/gta/invoker/Invoker.hpp"
+],
+"Ctrl+Click to set player model": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Current": [
+"game/frontend/items/Vector3CommandItem.cpp"
+],
+"Current Scale: %.2f": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"CurveTessellationTol": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Custom": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Custom Teleport": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Custom Vehicle Color": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Custom Weapon": [
+"game/features/self/CustomWeapon.cpp",
+"game/features/self/CustomWeapon.hpp"
+],
+"Custom Weapons": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"CustomMatchmaking.hpp": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"CustomWeapon.hpp": [
+"game/features/self/CustomWeapon.cpp"
+],
+"Customize": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Cut Glass": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Cut Sewer": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Cuts display case glass instantly": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Cuts the glass": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Cuts the sewer": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"D3D12 Hook initialized.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"D3D12Hook.hpp": [
+"core/renderer/D3D12Hook.cpp",
+"core/renderer/Renderer.cpp"
+],
+"D3D12SwapChain": [
+"core/renderer/D3D12Hook.cpp"
+],
+"DLC Hash: ": [
+"game/features/network/SpoofDataHash.cpp"
+],
+"DLC_AW_General_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"DLC_Biker_SYG_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"DLC_GR_Bunker_Door_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"DLC_GR_CS2_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"DLC_MPSUM2_HSW_Up_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"DLC_TG_Running_Back_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Daily Activities": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"DailyActivities.hpp": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"DailyObjectivesState.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"Damage": [
+"game/frontend/submenus/Player/Toxic.cpp"
+],
+"Dashboard": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Data not fetched yet": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Data type not supported": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Day": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Deadeye": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"DeathBarriersPatch": [
+"game/features/network/DisableDeathBarriers.cpp"
+],
+"Deathmatch": [
+"game/backend/SavedPlayerData.cpp"
+],
+"Deaths By: %d": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Debug": [
+"game/frontend/submenus/Debug.cpp"
+],
+"Debug.hpp": [
+"game/frontend/submenus/Debug.cpp"
+],
+"Debug/Globals.hpp": [
+"game/frontend/submenus/Debug.cpp"
+],
+"Debug/Locals.hpp": [
+"game/frontend/submenus/Debug.cpp"
+],
+"Debug/Misc.hpp": [
+"game/frontend/submenus/Debug.cpp"
+],
+"Debug/Scripts.hpp": [
+"game/frontend/submenus/Debug.cpp"
+],
+"Decals": [
+"game/backend/Outfit.hpp"
+],
+"Default": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Defiler": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Del Perro Beach Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Del Perro Heights, Apt 20": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Del Perro Heights, Apt 4": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Del Perro Heights, Apt 7": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Delete": [
+"game/frontend/submenus/Debug/Globals.cpp",
+"game/frontend/submenus/Debug/Locals.cpp",
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Delete All Cameras": [
+"game/features/world/Delete.cpp"
+],
+"Delete All Objects": [
+"game/features/world/Delete.cpp"
+],
+"Delete All Peds": [
+"game/features/world/Delete.cpp"
+],
+"Delete All Vehicles": [
+"game/features/world/Delete.cpp"
+],
+"Delete Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Delete Player Vehicles": [
+"game/frontend/submenus/Network.cpp"
+],
+"Delete Vehicle": [
+"game/features/players/troll/DeleteVehicle.cpp"
+],
+"Deletes all cameras": [
+"game/features/world/Delete.cpp"
+],
+"Deletes all objects in the game world, including mission critical objects": [
+"game/features/world/Delete.cpp"
+],
+"Deletes all peds in the game world, including mission critical peds": [
+"game/features/world/Delete.cpp"
+],
+"Deletes all vehicles in the game world, including mission critical vehicles": [
+"game/features/world/Delete.cpp"
+],
+"Deletes the vehicle the player is in": [
+"game/features/players/troll/DeleteVehicle.cpp"
+],
+"Deliver Next Exotic Exports Vehicle": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Desired rocket boost behavior": [
+"game/features/vehicle/RocketBoost.cpp"
+],
+"Despawn Personal Vehicle": [
+"game/features/vehicle/DespawnPersonalVehicle.cpp"
+],
+"Despawn() Timed out despawning Personal Vehicle.": [
+"game/backend/PersonalVehicles.cpp"
+],
+"Detaches your camera and allows you to go anywhere!": [
+"game/features/self/Freecam.cpp"
+],
+"Detected corrupt settings, resetting settings...": [
+"core/settings/Settings.cpp"
+],
+"DetourHook.hpp": [
+"core/hooking/Hooking.cpp"
+],
+"Diamond": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Diamond Casino Heist": [
+"game/frontend/submenus/Recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"DiamondCasinoHeist.hpp": [
+"game/frontend/submenus/Recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Diamonds": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Difficulty": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Directional Flame": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Directional Flame Explode": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Directional Gas Canister": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Directional Steam": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Directional Water Hydrant": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Directly delivers the next Exotic Exports vehicle.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Disable": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Disable Action Mode": [
+"game/features/self/DisableActionMode.cpp"
+],
+"Disable Critical Hits": [
+"game/features/self/DisableCriticalHits.cpp"
+],
+"Disable Death Barriers": [
+"game/features/network/DisableDeathBarriers.cpp"
+],
+"Disable Laser Grid": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Disabled": [
+"game/backend/AnticheatBypass.cpp",
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"DisabledAlpha": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Disables death barriers found under the map. This also prevents dying randomly when spectating someone": [
+"game/features/network/DisableDeathBarriers.cpp"
+],
+"Disables laser security grid": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Disables the player's janky movement during combat.": [
+"game/features/self/DisableActionMode.cpp"
+],
+"DisplaySafeAreaPadding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Distance: %.2f": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Distance: %f": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"DoTeamSwap": [
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"DoTeleport": [
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"DoesPlayerOwnItemPatch": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"Don't Care": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Doomsday Heist": [
+"game/frontend/submenus/Recovery/Heist/DoomsdayHeist.cpp"
+],
+"DoomsdayHeist.hpp": [
+"game/frontend/submenus/Recovery/Heist/DoomsdayHeist.cpp"
+],
+"Double click to teleport\\nShift click to delete": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Downtown Vinewood Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Draw Dead Peds": [
+"game/frontend/ESP.cpp"
+],
+"Draw Dead Players": [
+"game/frontend/ESP.cpp"
+],
+"Draw Peds": [
+"game/frontend/ESP.cpp"
+],
+"Draw Players": [
+"game/frontend/ESP.cpp"
+],
+"Draw Special Objects": [
+"game/frontend/ESP.cpp"
+],
+"DrawHotkey.hpp": [
+"game/frontend/items/CommandItem.cpp",
+"game/frontend/items/DrawHotkey.cpp"
+],
+"DrawVariable.hpp": [
+"game/frontend/submenus/Debug/DrawVariable.cpp",
+"game/frontend/submenus/Debug/Globals.cpp",
+"game/frontend/submenus/Debug/Locals.cpp"
+],
+"Dream Tower, Apt 15": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Drifty Yosemite": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Driver": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Dump Data Hash": [
+"game/features/network/SpoofDataHash.cpp"
+],
+"Dumping modules:\\n": [
+"core/logger/StackTrace.cpp"
+],
+"Dumping registers:\\n": [
+"core/logger/StackTrace.cpp"
+],
+"Dumping stacktrace:": [
+"core/logger/StackTrace.cpp"
+],
+"Dumps the current data hash into the console": [
+"game/features/network/SpoofDataHash.cpp"
+],
+"EMP Charges": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"EMP Charges (Prep)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"EMP Launcher": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"EMP charges prep": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"EMP charges purchased": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"ESP.hpp": [
+"game/frontend/ESP.cpp",
+"game/frontend/GUI.cpp"
+],
+"Ears": [
+"game/backend/Outfit.hpp"
+],
+"Eclipse Towers, Apt 3": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eclipse Towers, Apt 31": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eclipse Towers, Apt 40": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eclipse Towers, Apt 5": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eclipse Towers, Apt 9": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eclipse Towers, Penthouse Suite 1": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eclipse Towers, Penthouse Suite 2": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eclipse Towers, Penthouse Suite 3": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Eddie Toh": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Edit color for ": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Editor": [
+"game/frontend/submenus/Debug/Globals.cpp",
+"game/frontend/submenus/Debug/Locals.cpp"
+],
+"Ellie": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Empty": [
+"game/frontend/items/Items.hpp"
+],
+"Enable All DLC Vehicles": [
+"game/features/vehicle/DLCVehicles.cpp"
+],
+"Enable Buried Stashes in LS": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Enable Creator Dev Mode": [
+"game/features/world/EnableCreatorDevMode.cpp"
+],
+"Enable Only if Weapon is Out": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Enable Special Abilities in MP": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"Enable Treasure Chests in LS": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Enable in MP": [
+"game/frontend/submenus/Self.cpp"
+],
+"EnableBuriedStashInLSPatch": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"EnableTreasureChestInLSPatch": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Enabled": [
+"game/backend/AnticheatBypass.cpp",
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Enables Buried Stashes in Los Santos, so you don't have to go to Cayo Perico.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Enables Treasure Chests in Los Santos, so you don't have to go to Cayo Perico.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Enables all the DLC vehicles on websites.": [
+"game/features/vehicle/DLCVehicles.cpp"
+],
+"Enables custom weapon only when weapon is out": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Enables rainbow color for paint gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Enables special abilities in multiplayer. This repurposes cut content and may be unstable": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"Enables the developer mode in Creator.": [
+"game/features/world/EnableCreatorDevMode.cpp"
+],
+"End": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"English": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Enhancements": [
+"game/frontend/submenus/Network.cpp"
+],
+"EnsureMissionPassedPatch": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"Ensures that the special ability bar never runs out": [
+"game/features/self/InfiniteSpecialAbility.cpp"
+],
+"Enter Last Vehicle": [
+"game/features/vehicle/EnterLast.cpp"
+],
+"Enter Message": [
+"game/features/system/Chat.cpp"
+],
+"Enter Stash House Safe Code": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Enter a keystroke": [
+"game/frontend/items/CommandItem.cpp"
+],
+"Enters the Stash House safe code.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Enters the last vehicle you were in": [
+"game/features/vehicle/EnterLast.cpp"
+],
+"Entity is not a ped.": [
+"game/features/self/CustomWeapon.cpp"
+],
+"Entity is too far.": [
+"game/features/self/CustomWeapon.cpp"
+],
+"Entity.hpp": [
+"game/gta/Entity.cpp",
+"game/gta/Object.hpp",
+"game/gta/Ped.hpp"
+],
+"Epic Account ID:": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Equipment": [
+"game/frontend/submenus/Recovery/Heist/KortzCenterHeist.cpp"
+],
+"Error loading config file {}: {}": [
+"core/scripting/LuaConfig.cpp"
+],
+"Error saving config file {}: {}": [
+"core/scripting/LuaConfig.cpp"
+],
+"Europe": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Event is already active.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Event is not active.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Event script is not active. Are you a participant?": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Everon": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Every bullet you shoot explodes.": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"ExceptionHandler initialized": [
+"core/logger/ExceptionHandler.cpp"
+],
+"ExceptionHandler.hpp": [
+"core/logger/ExceptionHandler.cpp"
+],
+"Exit Reason: %s": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Exotic Exports": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Explode": [
+"game/features/players/toxic/Explode.cpp"
+],
+"Explode All": [
+"game/frontend/submenus/Network.cpp"
+],
+"Explosion Camera Shake": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Explosion Damage Scale": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Explosion Type": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Explosion_Countdown": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Explosive Ammo": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Explosive Ammo (Shotgun)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"ExplosiveAmmo": [
+"game/features/self/ExplosiveAmmo.cpp",
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Extinguisher": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Extra Sunny": [
+"game/features/world/Weather.cpp"
+],
+"Extras": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"FMDeliverableID": [
+"types/script/globals/GSBD_BlockB.hpp"
+],
+"FMRandomEvents.hpp": [
+"types/script/locals/Locals.cpp"
+],
+"FPS: %d": [
+"game/frontend/Overlay.cpp"
+],
+"FSL BE Bypass: {}": [
+"game/backend/AnticheatBypass.cpp"
+],
+"FSL Local Saves: {}": [
+"game/backend/AnticheatBypass.cpp"
+],
+"FSL Version: {}": [
+"game/backend/AnticheatBypass.cpp"
+],
+"FSL detected but required exports were missing.": [
+"game/backend/AnticheatBypass.cpp"
+],
+"Fade": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Failed fetching saved locations: ": [
+"game/backend/SavedLocations.cpp"
+],
+"Failed to add {} (x{}) to basket": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Failed to allocate call hook memory!": [
+"core/hooking/CallHook.cpp"
+],
+"Failed to begin checkout": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Failed to cache nodes": [
+"game/gta/Nodes.cpp"
+],
+"Failed to cache tunables.": [
+"game/backend/Tunables.cpp"
+],
+"Failed to call the mechanic.": [
+"game/features/vehicle/CallMechanic.cpp"
+],
+"Failed to create DXGI factory.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Failed to create basket": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Failed to create device objects.": [
+"core/renderer/Renderer.cpp"
+],
+"Failed to create hook {}": [
+"core/hooking/DetourHook.hpp"
+],
+"Failed to create hook!": [
+"core/hooking/DetourHook.hpp"
+],
+"Failed to create service": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Failed to disable hook right now.": [
+"core/hooking/DetourHook.hpp"
+],
+"Failed to enable hook right now.": [
+"core/hooking/DetourHook.hpp"
+],
+"Failed to find pattern [": [
+"core/memory/PatternScanner.cpp"
+],
+"Failed to find pattern for ": [
+"game/gta/ScriptPointer.cpp"
+],
+"Failed to get RID from username": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Failed to get session info by RID": [
+"game/gta/Network.cpp"
+],
+"Failed to install the CreateSwapChainForHwnd patch.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Failed to install the phase 1 Present vtable patch.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Failed to join session": [
+"game/gta/Network.cpp"
+],
+"Failed to launch event. Are you freemode host?": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Failed to load component {}: {}": [
+"core/settings/Settings.cpp"
+],
+"Failed to load dxgi.dll.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Failed to load saved players: {}": [
+"game/backend/SavedPlayers.cpp"
+],
+"Failed to open the wardrobe.": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"Failed to queue hook to be disable.": [
+"core/hooking/DetourHook.hpp"
+],
+"Failed to queue hook to be enabled.": [
+"core/hooking/DetourHook.hpp"
+],
+"Failed to read variables.json: {}": [
+"game/backend/SavedVariables.cpp"
+],
+"Failed to resolve CreateDXGIFactory.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Failed to save component {}: {}": [
+"core/settings/Settings.cpp"
+],
+"Failed to save saved players: {}": [
+"game/backend/SavedPlayers.cpp"
+],
+"Failed to spawn Personal Vehicle.": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Failed to start get presence attributes task": [
+"game/backend/SavedPlayers.cpp"
+],
+"Failed to start tuneables_processing. Cannot cache tunables.": [
+"game/backend/Tunables.cpp"
+],
+"Failed to teleport to event. Coordinates are not valid.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"False": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"Fast Join": [
+"game/features/network/FastJoin.cpp"
+],
+"Features": [
+"game/features/self/Noclip.cpp"
+],
+"FiberPool.hpp": [
+"core/backend/FiberPool.cpp"
+],
+"Field Hangar": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"File Name": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"File does not exist.": [
+"game/backend/Outfit.cpp",
+"game/backend/SavedVehicles.cpp"
+],
+"File.hpp": [
+"core/filemgr/CacheFile.hpp",
+"core/filemgr/File.cpp",
+"core/filemgr/FileMgr.cpp"
+],
+"FileMgr.hpp": [
+"core/filemgr/File.cpp",
+"core/filemgr/FileMgr.cpp",
+"core/filemgr/Folder.cpp"
+],
+"FileMgr::GetProjectFile expects a relative path.": [
+"core/filemgr/FileMgr.cpp"
+],
+"FileMgr::GetProjectFolder expects a relative path.": [
+"core/filemgr/FileMgr.cpp"
+],
+"Filename empty!": [
+"game/frontend/submenus/Self/OutfitEditor.cpp",
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Fill Inventory": [
+"game/features/self/FillInventory.cpp"
+],
+"Fills all of your snacks and armours.": [
+"game/features/self/FillInventory.cpp"
+],
+"Find Friend": [
+"game/features/network/JoinSession.cpp"
+],
+"Firework": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Fix All Vehicles": [
+"game/features/vehicle/FixAllVehicles.cpp"
+],
+"Fixes all of your destroyed personal vehicles.": [
+"game/features/vehicle/FixAllVehicles.cpp"
+],
+"Fixes any damage to your current vehicle": [
+"game/features/vehicle/Fix.cpp"
+],
+"Flare": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Flash Grenade": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"FloatCommand.hpp": [
+"core/commands/FloatCommand.cpp"
+],
+"Foggy": [
+"game/features/world/Weather.cpp"
+],
+"Folder": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Folder Name": [
+"game/frontend/submenus/Self/OutfitEditor.cpp",
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Folder.hpp": [
+"core/filemgr/FileMgr.cpp",
+"core/filemgr/FileMgr.hpp",
+"core/filemgr/Folder.cpp"
+],
+"Font Configuration:": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Font Scale": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Fonts": [
+"game/frontend/Menu.cpp",
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Force Ready": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Force Script Host": [
+"game/features/network/ForceScriptHost.cpp"
+],
+"Force Thunder": [
+"game/features/network/ForceThunder.cpp"
+],
+"Force Weather": [
+"game/features/world/Weather.cpp"
+],
+"Force returning from function": [
+"core/logger/ExceptionHandler.cpp"
+],
+"Force-unlocks GTA+ content. Use with caution": [
+"game/features/recovery/UnlockGTAPlus.cpp"
+],
+"Force-updates all saved players": [
+"game/backend/SavedPlayers.cpp"
+],
+"Forces all players to be ready": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Forces player into permadeath that can only be fixed by a game restart": [
+"game/features/players/toxic/KillLoopExploit.cpp"
+],
+"Forces the player into an infinite loading screen that can only be fixed by restarting the game": [
+"game/features/players/toxic/Blackscreen.cpp"
+],
+"Forces the specified weather. Note that this effect is local and cannot be seen by other players": [
+"game/features/world/Weather.cpp"
+],
+"Forces the weather to thunder for all players in the session": [
+"game/features/network/ForceThunder.cpp"
+],
+"Forces you to become freemode script host. Note that this might break some missions.": [
+"game/features/network/ForceScriptHost.cpp"
+],
+"Format Money": [
+"game/features/self/FormatMoney.cpp"
+],
+"Formats HUD money with commas.": [
+"game/features/self/FormatMoney.cpp"
+],
+"Found pattern [": [
+"core/memory/PatternScanner.cpp"
+],
+"Found pattern for ": [
+"game/gta/ScriptPointer.cpp"
+],
+"FrameBorderSize": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"FrameRounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Freakhouse": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Free Shopping": [
+"game/features/recovery/FreeShopping.cpp"
+],
+"Freecam": [
+"game/features/self/Freecam.cpp"
+],
+"Freecam Speed": [
+"game/features/self/Freecam.cpp"
+],
+"Freemode State Kick": [
+"game/features/players/kick/FreemodeStateKick.cpp"
+],
+"Freemode global block is not loaded.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Freemode is not running.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Freemode stack is not valid.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"FreemodeDelivery.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"FreemodeGeneral.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"Freeze": [
+"game/frontend/submenus/World.cpp"
+],
+"Freeze Time": [
+"game/features/world/TimeControl.cpp"
+],
+"Freeze Wanted": [
+"game/features/self/Wanted.cpp"
+],
+"Freeze your wanted level to the desired level": [
+"game/features/self/Wanted.cpp"
+],
+"Freezes the online clock at the selected time": [
+"game/features/world/TimeControl.cpp"
+],
+"French": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Friends Only": [
+"game/backend/SavedPlayerData.cpp"
+],
+"From Clipboard": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Front": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Frontend": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"G's Cache": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"G's Cache has already been collected.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"GPBD_FM.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GPBD_FM_2.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GPBD_FM_3.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GPBD_Flow.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GPBD_Kicking.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GPBD_MissionName.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GSBD.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GSBD_BlockB.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GSBD_FM.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GSBD_FM_Events.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GSBD_Kicking.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GSBD_PropertyInstances.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GSBD_RandomEvents.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"GTA5_Enhanced.exe": [
+"game/backend/AnticheatBypass.cpp",
+"game/backend/ScriptPointers.cpp",
+"game/backend/Tunables.cpp"
+],
+"GTAO_Biker_Modes_Soundset": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"GTAO_Boss_Goons_FM_Soundset": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"GTAO_FM_Events_Soundset": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"GUI.hpp": [
+"game/frontend/GUI.cpp",
+"game/frontend/Onboarding.cpp"
+],
+"GUISettings.hpp": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Game": [
+"game/frontend/submenus/Settings.cpp"
+],
+"GameSkeletonUpdate": [
+"core/hooking/Hooking.cpp"
+],
+"GameTransactions.asmx/Bonus": [
+"game/hooks/Anticheat/HttpStartRequest.cpp"
+],
+"Gang Attack": [
+"game/backend/SavedPlayerData.cpp"
+],
+"Garage": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Garage Innocence Blvd": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Garment Factory": [
+"game/features/players/teleport/SendToInterior.cpp",
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Gas Bomb": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Gas Canister": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Gas Tank": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Gauntlet Classic": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"General": [
+"game/frontend/submenus/Player/Troll.cpp",
+"game/frontend/submenus/Recovery.cpp",
+"game/frontend/submenus/Recovery/Heist/KortzCenterHeist.cpp"
+],
+"German": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"GetAnticheatInitializedHash": [
+"core/hooking/Hooking.cpp"
+],
+"GetAnticheatInitializedHash2": [
+"core/hooking/Hooking.cpp"
+],
+"GetCollectibleCoords": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"GetDLCHash": [
+"core/hooking/Hooking.cpp"
+],
+"GetNumFMMCVariations": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"GetPoolType": [
+"core/hooking/Hooking.cpp"
+],
+"GetRawInputData": [
+"core/hooking/Hooking.cpp"
+],
+"GetStreetDealerCoords": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"GetThreadContext": [
+"core/hooking/Hooking.cpp"
+],
+"GetVehiclePricePatch": [
+"game/features/vehicle/DLCVehicles.cpp"
+],
+"GetWeaponAccuracy": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"GetWeaponDeaths": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"GetWeaponDescLabel": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"GetWeaponHeadshots": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"GetWeaponKDRatio": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"GetWeaponKills": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"GetWeaponNameLabel": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Give All Weapons": [
+"game/features/self/GiveAllWeapons.cpp",
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Give Max Ammo": [
+"game/features/self/GiveMaxAmmo.cpp"
+],
+"Give Weapon": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Give Weapons": [
+"game/features/players/troll/GivePlayerAllWeapon.cpp"
+],
+"GiveVehicleReward": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"Gives all weapons to the player": [
+"game/features/players/troll/GivePlayerAllWeapon.cpp"
+],
+"Gives you all weapons": [
+"game/features/self/GiveAllWeapons.cpp"
+],
+"Glass Cutter": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Glass Cutter (Prep)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Glass cutter prep": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Glass cutter purchased": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Glasses": [
+"game/backend/Outfit.hpp"
+],
+"Global": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Global Count: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Global Settings:": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"GlobalAlpha": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"GlobalPlayerBD.hpp": [
+"types/script/globals/GSBD.hpp",
+"types/script/globals/Globals.cpp"
+],
+"Globals": [
+"game/frontend/submenus/Debug/Globals.cpp",
+"game/frontend/submenus/Self.cpp",
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Globals.hpp": [
+"game/frontend/submenus/Debug/Globals.cpp"
+],
+"God Mode": [
+"game/features/self/Godmode.cpp"
+],
+"Godmode": [
+"game/frontend/submenus/Vehicle.cpp"
+],
+"Gold": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Gold Battler trophy unlocked.": [
+"types/script/globals/GPBD_FM.hpp"
+],
+"Gold Dancer trophy unlocked.": [
+"types/script/globals/GPBD_FM.hpp"
+],
+"Golden Clover": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Golden Clover has already been collected.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Golf": [
+"game/backend/SavedPlayerData.cpp"
+],
+"Gone To Seed": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"GrabRounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Grapeseed Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Gravity Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Gravity gun cannot be applied on player entity.": [
+"game/features/self/CustomWeapon.cpp"
+],
+"Great Chaparral Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Grenade": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Grenade Launcher": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Griefing": [
+"game/frontend/submenus/Player/Toxic.cpp"
+],
+"Guard Routes": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Guard Routes (Prep)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Guard Shipments": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Guard routes prep": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Guard routes purchased": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Guard shipments": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Gunman": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Gustavo Mota": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"HKick": [
+"game/features/players/kick/HostKick.cpp"
+],
+"HP: {}/{} ({:.2f}%)": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"HSWTimeTrialData.hpp": [
+"types/script/locals/Locals.cpp"
+],
+"Hacker": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Hacking Device": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Hacking device": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Hair": [
+"game/backend/Outfit.hpp"
+],
+"Halloween": [
+"game/features/world/Weather.cpp"
+],
+"Hands on Car Wash": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Harass Players": [
+"game/features/network/HarassPlayers.cpp"
+],
+"Hard": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Hare Oneself Think": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"HasControl() assertion failed for ": [
+"game/gta/Entity.cpp"
+],
+"Hats": [
+"game/backend/Outfit.hpp"
+],
+"Have an endless clip in your gun": [
+"game/features/self/InfiniteClip.cpp"
+],
+"Hawick Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Hazmat Suit": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Hazmat suit": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Headlight": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Headshots: %d": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Heal": [
+"game/features/self/Heal.cpp"
+],
+"Heist Cuts": [
+"game/frontend/submenus/Recovery/Heist/ApartmentHeist.cpp",
+"game/frontend/submenus/Recovery/Heist/CayoPericoHeist.cpp",
+"game/frontend/submenus/Recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Heist Modifier": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"Heist Setups": [
+"game/frontend/submenus/Recovery/Heist/ApartmentHeist.cpp",
+"game/frontend/submenus/Recovery/Heist/CayoPericoHeist.cpp",
+"game/frontend/submenus/Recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Heist approach": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Heist categories": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"Heist difficulty": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Heist/ApartmentHeist.hpp": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"Heist/CayoPericoHeist.hpp": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"Heist/DiamondCasinoHeist.hpp": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"Heist/DoomsdayHeist.hpp": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"Heist/KortzCenterHeist.hpp": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"HeistModifier.hpp": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"HeistTeamsPatch1": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"HeistTeamsPatch2": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"Heists": [
+"game/frontend/submenus/Recovery/HeistModifier.cpp"
+],
+"Heli Tours": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Hi Octane": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Hidden Cache": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 10": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 3": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 4": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 5": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 6": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 7": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 8": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Cache 9": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Hidden Caches": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Hidden by Modder": [
+"game/backend/SavedPlayerData.cpp"
+],
+"Hides you from other players on the radar": [
+"game/features/self/OffTheRadar.cpp"
+],
+"Hold the button with the command name and enter a keystroke to change its hotkey": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Hooking.hpp": [
+"core/hooking/Hooking.cpp"
+],
+"Horn Boost": [
+"game/features/vehicle/HornBoost.cpp"
+],
+"Host Kick": [
+"game/features/players/kick/HostKick.cpp"
+],
+"Host Kick All": [
+"game/frontend/submenus/Network.cpp"
+],
+"Host of Job Lobby: %s": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Host of Session: %s": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Host: %s": [
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"HotkeySystem.hpp": [
+"core/commands/HotkeySystem.cpp"
+],
+"Hotkeys": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Hour": [
+"game/features/world/TimeControl.cpp",
+"game/frontend/submenus/Recovery/StatEditor.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Hover over the command name to change its hotkey": [
+"game/frontend/items/BoolCommandItem.cpp"
+],
+"How fast the freecam will move positions": [
+"game/features/self/Freecam.cpp"
+],
+"HttpStartRequest": [
+"core/hooking/Hooking.cpp"
+],
+"Hunter Barrage": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Hunter Cannon": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"I Hear Voices": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"I, Fruit": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"IMPORTANT! PLEASE READ!": [
+"game/frontend/Onboarding.cpp"
+],
+"INVALID NODE ID!": [
+"game/gta/Nodes.hpp"
+],
+"IP Address:": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"IPLs": [
+"game/frontend/submenus/World.cpp"
+],
+"IStateSerializer.hpp": [
+"core/settings/IStateSerializer.cpp",
+"core/settings/Settings.cpp"
+],
+"If a command has an existing hotkey, clicking the button will remove it": [
+"game/frontend/submenus/Settings.cpp"
+],
+"If you are not running an actual BattlEye bypass, exit the game immediately and ensure that BE is properly disabled": [
+"game/backend/AnticheatBypass.cpp"
+],
+"ImGui Style Editor": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"ImGui_ImplDX12_Init failed.": [
+"core/renderer/Renderer.cpp"
+],
+"Imani Tech": [
+"game/gta/VehicleModel.cpp"
+],
+"In Excess of Success": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"In-Heist": [
+"game/frontend/submenus/Recovery/Heist/KortzCenterHeist.cpp"
+],
+"Inaccessible data at ": [
+"core/logger/StackTrace.cpp"
+],
+"Inactive - launching in ": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Incendiary Bomb": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Increases the fire rate of your weapons substantially": [
+"game/features/self/RapidFire.cpp"
+],
+"IndentSpacing": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Index": [
+"game/frontend/submenus/Debug/DrawVariable.cpp",
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Index not valid": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Infinite": [
+"game/features/vehicle/RocketBoost.cpp"
+],
+"Infinite Ammo": [
+"game/features/self/InfiniteAmmo.cpp"
+],
+"Infinite Boundary": [
+"game/features/world/InfiniteBoundary.cpp"
+],
+"Infinite Clip": [
+"game/features/self/InfiniteClip.cpp"
+],
+"Infinite Parachutes": [
+"game/features/self/InfiniteParachutes.cpp"
+],
+"Infinite Special Ability": [
+"game/features/self/InfiniteSpecialAbility.cpp"
+],
+"Info": [
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Info.hpp": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"InitNativeTables": [
+"core/hooking/Hooking.cpp"
+],
+"InitStreetDealerData": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Inset size needs to be smaller or equal to the knob's radius for circular knobs.": [
+"core/frontend/widgets/toggle/imgui_toggle_renderer.cpp"
+],
+"Instant Finish": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Instant Finish (Act: III)": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"Instant Finish (Pacific)": [
+"game/features/recovery/Heist/ApartmentHeist.cpp"
+],
+"Instant recharge": [
+"game/features/vehicle/RocketBoost.cpp"
+],
+"Instantly passes Doomsday Scenario Act: III": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"Instantly passes Pacific Standard Job": [
+"game/features/recovery/Heist/ApartmentHeist.cpp"
+],
+"Instantly passes the heist": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Insult": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"IntCommand.hpp": [
+"core/commands/IntCommand.cpp"
+],
+"Intel": [
+"game/frontend/submenus/Recovery/Heist/KortzCenterHeist.cpp"
+],
+"Interior": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Invalid": [
+"game/backend/SavedPlayerData.cpp",
+"game/frontend/submenus/Debug/DrawVariable.cpp",
+"game/frontend/submenus/Debug/Locals.cpp"
+],
+"Invalid model name provided.": [
+"game/features/world/Spawn.cpp"
+],
+"Invalid model passed to Object::Create: 0x{:X}": [
+"game/gta/Object.cpp"
+],
+"Invalid model passed to Ped::Create: 0x{:X}": [
+"game/gta/Ped.cpp"
+],
+"Invalid model passed to Vehicle::Create: 0x{:X}": [
+"game/gta/Vehicle.cpp"
+],
+"Invalid vehicle model name provided.": [
+"game/features/self/CustomWeapon.cpp"
+],
+"Invalid vehicle.": [
+"game/features/self/CustomWeapon.cpp"
+],
+"Inventory Slot": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Invincible": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Invisibility": [
+"game/features/self/Invis.cpp"
+],
+"Invite Only": [
+"game/backend/SavedPlayerData.cpp",
+"game/features/network/JoinSession.cpp"
+],
+"Invoker.hpp": [
+"game/gta/invoker/Invoker.cpp"
+],
+"Is Job Lobby: %s": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Is Spectating: %s": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"IsDevModeEnabledPatch": [
+"game/features/world/EnableCreatorDevMode.cpp"
+],
+"IsItemLockedByStatPatch1": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"IsItemLockedByStatPatch2": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"IsItemLockedByStatPatch3": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"IsNodeInScope": [
+"core/hooking/Hooking.cpp"
+],
+"IsTeamValidPatch": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"IsValid() assertion failed for ": [
+"game/gta/Entity.cpp"
+],
+"IsVehicleValidForPV": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"IsWardrobeOpenedPatch": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"Issi Classic": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Italian": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Item": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Item category {} does not match txn category {}": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Item not found!": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Item price exceeds maximum allowed ({})": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"ItemInnerSpacing": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"ItemSpacing": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Items.hpp": [
+"game/frontend/items/BoolCommandItem.cpp",
+"game/frontend/items/Button.cpp",
+"game/frontend/items/CollapsingHeaderItem.cpp"
+],
+"JA16_Super_Mod_Garage_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Japan": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Japanese": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Joaat.hpp": [
+"core/util/Wine.hpp"
+],
+"Job": [
+"game/backend/SavedPlayerData.cpp"
+],
+"Join": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Join Crew": [
+"game/features/network/JoinSession.cpp"
+],
+"Join GTA Online.": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Join Session": [
+"game/features/network/JoinSession.cpp"
+],
+"Join Session Type": [
+"game/features/network/JoinSession.cpp"
+],
+"Join YimMenu-only Sessions": [
+"game/features/network/CheaterPool.cpp"
+],
+"Join##rid": [
+"game/frontend/submenus/Network.cpp"
+],
+"Join##session": [
+"game/frontend/submenus/Network.cpp"
+],
+"Join##username": [
+"game/frontend/submenus/Network.cpp"
+],
+"Joiner": [
+"game/frontend/submenus/Network.cpp",
+"game/gta/Network.cpp"
+],
+"Joins the specified session type": [
+"game/features/network/JoinSession.cpp"
+],
+"Jugular": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Juiced": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Jump higher than normal": [
+"game/features/self/SuperJump.cpp"
+],
+"Jump to Offset": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Junk Energy Bike Time Trial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Junk Energy Skydives": [
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"K/D Ratio: %.2f": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Kanjo": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Karim Denz": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Karl Abolaji": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Keep Fixed": [
+"game/frontend/submenus/Vehicle.cpp"
+],
+"Keep Player Clean": [
+"game/features/self/KeepPlayerClean.cpp"
+],
+"Keep Vehicle Fixed": [
+"game/features/vehicle/KeepFixed.cpp"
+],
+"Keeps the player clean from any blood, dirt, water.": [
+"game/features/self/KeepPlayerClean.cpp"
+],
+"Keeps your vehicle clean and fixed": [
+"game/features/vehicle/KeepFixed.cpp"
+],
+"Kevlar/Armor": [
+"game/backend/Outfit.hpp"
+],
+"Kick": [
+"game/frontend/submenus/Player/Kick.cpp"
+],
+"Kicks": [
+"game/frontend/submenus/Player/Kick.cpp"
+],
+"Kicks the player by faking a vote kick": [
+"game/features/players/kick/ScriptHostKick.cpp"
+],
+"Kicks the player by forcing them to call a null script function": [
+"game/features/players/kick/NullFunctionKick.cpp"
+],
+"Kicks the player by forcing them to end the freemode session": [
+"game/features/players/kick/FreemodeStateKick.cpp"
+],
+"Kicks the player from their organization or motorcycle club": [
+"game/features/players/toxic/CeoKick.cpp"
+],
+"Kill": [
+"game/features/players/toxic/Kill.cpp",
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Kill All": [
+"game/frontend/submenus/Network.cpp"
+],
+"Kill All Enemies": [
+"game/features/world/Kill.cpp"
+],
+"Kill All Peds": [
+"game/features/world/Kill.cpp"
+],
+"Kill Event": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Kills With: %d": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Kills all enemies in the game world": [
+"game/features/world/Kill.cpp"
+],
+"Kills all peds in the game world": [
+"game/features/world/Kill.cpp"
+],
+"Kills the player": [
+"game/features/players/toxic/Kill.cpp"
+],
+"Kills you": [
+"game/features/self/Suicide.cpp"
+],
+"Kinetic Mortar": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Komoda": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Korean": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Kortz Center Heist": [
+"game/frontend/submenus/Recovery/Heist/KortzCenterHeist.cpp"
+],
+"KortzCenterHeist.hpp": [
+"game/frontend/submenus/Recovery/Heist/KortzCenterHeist.cpp"
+],
+"LS Tag": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"LS Tag 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"LS Tag 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"LS Tag 3": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"LS Tag 4": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"LS Tag 5": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"LS Tags": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"La Dernière Débauche": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"La Mesa Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Language": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"LatentFunction.hpp": [
+"core/scripting/LatentFunction.cpp"
+],
+"Launch Entity on Release": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Launch Event": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"LauncherClientData.hpp": [
+"types/script/locals/Locals.cpp"
+],
+"LauncherServerData.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"Launches entity when released": [
+"game/features/self/CustomWeapon.hpp"
+],
+"LawnchairGetVersion": [
+"game/backend/AnticheatBypass.cpp"
+],
+"Layout": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Layout & Alignment:": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Lectro": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Left": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Leg": [
+"game/backend/Outfit.hpp"
+],
+"Legit BattlEye": [
+"game/backend/AnticheatBypass.cpp"
+],
+"Lets you win the Rig Slot Machines every time": [
+"game/features/recovery/Casino.cpp"
+],
+"Level": [
+"game/frontend/submenus/Self.cpp"
+],
+"ListCommand.hpp": [
+"core/commands/ListCommand.cpp"
+],
+"Load From Clipboard: cannot find stat {}": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Load From Clipboard: line \\\"{}\\\" is malformed": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Load IPL": [
+"game/features/world/IPLManager.cpp"
+],
+"Load from Clipboard": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Loaded ": [
+"game/backend/ScriptPointers.cpp",
+"game/backend/Tunables.cpp"
+],
+"Loaded succesfully": [
+"main.cpp"
+],
+"Local Count: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Locally Visible": [
+"game/features/self/Invis.cpp"
+],
+"Locals": [
+"game/frontend/submenus/Debug/Locals.cpp"
+],
+"Locals.hpp": [
+"game/frontend/submenus/Debug/Locals.cpp",
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"Location Name": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Location with name {} already exists": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Location: %d": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Location: N/A": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Locations": [
+"game/frontend/items/Vector3CommandItem.cpp",
+"game/frontend/submenus/Teleport.cpp"
+],
+"Locks on to enemies and other players": [
+"game/features/self/Aimbot.cpp"
+],
+"Log Labels": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"LogColor.hpp": [
+"core/logger/LogSink.cpp"
+],
+"LogHelper.hpp": [
+"core/logger/LogHelper.cpp"
+],
+"LogSink.hpp": [
+"core/logger/LogHelper.cpp",
+"core/logger/LogSink.cpp"
+],
+"Lombank West": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"LoopedCommand.hpp": [
+"core/commands/Commands.cpp",
+"core/commands/HotkeySystem.cpp",
+"core/commands/LoopedCommand.cpp"
+],
+"Loots": [
+"game/frontend/submenus/Recovery/Heist/CayoPericoHeist.cpp",
+"game/frontend/submenus/Recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Low Grip Tires": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Low2_Super_Mod_Garage_Sounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Lower Stance": [
+"game/frontend/submenus/Vehicle.cpp"
+],
+"Lower Vehicle Stance": [
+"game/features/vehicle/LowerVehicleStance.cpp"
+],
+"Lowers your current vehicle's stance. Only some vehicles are supported": [
+"game/features/vehicle/LowerVehicleStance.cpp"
+],
+"Lua Scripting": [
+"core/scripting/LuaManager.cpp"
+],
+"Lua Scripts": [
+"core/scripting/LuaManager.cpp",
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"LuaCommands.hpp": [
+"core/scripting/LuaCommands.cpp"
+],
+"LuaConfig.hpp": [
+"core/scripting/LuaConfig.cpp",
+"core/scripting/LuaScript.hpp"
+],
+"LuaLibrary.hpp": [
+"core/scripting/LuaLibrary.cpp",
+"core/scripting/LuaManager.hpp"
+],
+"LuaManager.hpp": [
+"core/scripting/LuaLibrary.cpp",
+"core/scripting/LuaManager.cpp",
+"core/scripting/LuaResource.cpp"
+],
+"LuaManager::SetRunningCoroutineImpl: {} attempted to enter a coroutine when a coroutine from {} is already running": [
+"core/scripting/LuaManager.cpp"
+],
+"LuaRequire.hpp": [
+"core/scripting/LuaRequire.cpp"
+],
+"LuaResource.hpp": [
+"core/scripting/LuaManager.hpp",
+"core/scripting/LuaResource.cpp",
+"core/scripting/LuaScript.hpp"
+],
+"LuaScript.hpp": [
+"core/scripting/LatentFunction.hpp",
+"core/scripting/LuaCommands.cpp",
+"core/scripting/LuaManager.hpp"
+],
+"LuaScript::ResumeCoroutine: {} attempted to resume a Lua coroutine outside the main thread. This is not allowed": [
+"core/scripting/LuaScript.cpp"
+],
+"LuaScript::ResumeCoroutine: {} yielded {} values when code expected {} values to be yielded": [
+"core/scripting/LuaScript.cpp"
+],
+"LuaScripts.hpp": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"LuaUserInterface.hpp": [
+"core/scripting/LuaCommands.cpp",
+"core/scripting/LuaScript.hpp",
+"core/scripting/LuaUserInterface.cpp"
+],
+"MK II Rifle Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"MK II SMG Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"MK II Shotgun Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"MPBitset": [
+"game/gta/Vehicle.cpp"
+],
+"MPSV.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"MPScriptData.hpp": [
+"types/script/ScriptEvent.hpp"
+],
+"Machine Pistol Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Madrazo Files": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Madrazo Hit has already been completed.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Madrazo Hits": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Main": [
+"game/frontend/submenus/Recovery.cpp",
+"game/frontend/submenus/Self.cpp",
+"game/frontend/submenus/Teleport.cpp"
+],
+"Makes the vehicle boost when you hold the horn": [
+"game/features/vehicle/HornBoost.cpp"
+],
+"Manchez": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp",
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Manchez (Prep)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Manchez prep": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Manipulate Rig Slot Machines": [
+"game/features/recovery/Casino.cpp"
+],
+"Manual mapping detected, switch to normal injection if you're having issues": [
+"main.cpp"
+],
+"Marksman": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Mask": [
+"game/backend/Outfit.hpp"
+],
+"Matchmaking (Client)": [
+"game/frontend/submenus/Network.cpp"
+],
+"Matchmaking (Server)": [
+"game/frontend/submenus/Network.cpp"
+],
+"Matchmaking Region": [
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Matchmaking region to spoof to": [
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Matchmaking will put you into sessions with other YimMenu users.": [
+"game/features/network/CheaterPool.cpp"
+],
+"MatchmakingAdvertise": [
+"core/hooking/Hooking.cpp"
+],
+"MatchmakingAttributes.hpp": [
+"types/network/rlSessionConfig.hpp"
+],
+"MatchmakingUnadvertise": [
+"core/hooking/Hooking.cpp"
+],
+"MatchmakingUpdate": [
+"core/hooking/Hooking.cpp"
+],
+"Matrix server that can be found at https://matrix.to/#/#yimmenu:matrix.org for faster communication with developers ": [
+"game/frontend/Onboarding.cpp"
+],
+"Matte": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Max Vehicle": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Maze Bank Tower": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Maze Bank West": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Mechanic": [
+"game/features/vehicle/CallMechanic.cpp"
+],
+"Melee Damage": [
+"game/features/self/MeleeDamage.cpp"
+],
+"Melee Damage Scale": [
+"game/features/self/MeleeDamage.cpp"
+],
+"Meltdown": [
+"types/script/globals/GPBD_FM.hpp"
+],
+"Menu.hpp": [
+"game/frontend/ChatDisplay.cpp",
+"game/frontend/GUI.cpp",
+"game/frontend/Menu.cpp"
+],
+"Metals": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Mi O Melee": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Micro SMG Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Millisecond": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"MinHook.hpp": [
+"core/hooking/Hooking.hpp"
+],
+"Minute": [
+"game/features/world/TimeControl.cpp",
+"game/frontend/submenus/Recovery/StatEditor.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Misc": [
+"game/frontend/submenus/Debug/Misc.cpp",
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Recovery/Heist/ApartmentHeist.cpp"
+],
+"Mission": [
+"game/backend/SavedPlayerData.cpp"
+],
+"Mission Name: %s": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Mission Type: %s": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"MissionFailedSounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"MissionRequestPatch1": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"MissionRequestPatch2": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"MissionRequestPatch3": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"MissionRequestPatch4": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"Mobile Radio": [
+"game/features/self/MobileRadio.cpp"
+],
+"Mod": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Mod Options": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Mod Slots": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Model 0x{:X} failed to load after 30 ticks, bailing out": [
+"game/gta/Object.cpp",
+"game/gta/Ped.cpp",
+"game/gta/Vehicle.cpp"
+],
+"Model of the vehicle": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Modern": [
+"core/frontend/manager/UIManager.cpp"
+],
+"Modern (Modular)": [
+"core/frontend/manager/UIManager.cpp"
+],
+"Modern (Vertical)": [
+"core/frontend/manager/UIManager.cpp"
+],
+"Modified this node": [
+"game/gta/Player.cpp"
+],
+"Modifies weapon ability": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Modify Boost Behavior": [
+"game/features/vehicle/RocketBoost.cpp"
+],
+"Modify Colors:": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Modify rocket boost behavior for vehicles that support it": [
+"game/features/vehicle/RocketBoost.cpp"
+],
+"Modifying Weapon Explosion Radius": [
+"game/features/self/ExplosionRadius.cpp"
+],
+"Modifying Weapon Explosion RadiusScale": [
+"game/features/self/ExplosionRadius.cpp"
+],
+"Module.hpp": [
+"core/memory/Module.cpp",
+"core/memory/ModuleMgr.hpp",
+"core/memory/PatternScanner.cpp"
+],
+"ModuleMgr.hpp": [
+"core/memory/ModuleMgr.cpp",
+"core/memory/PatternScanner.cpp"
+],
+"Molotov": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Money: %d": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Month": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"More Info": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"MouseCursorScale": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Move Rate Override": [
+"game/features/self/SuperRun.cpp"
+],
+"Movement": [
+"game/frontend/submenus/Self.cpp"
+],
+"Multipler for base run/sprint speed": [
+"game/features/self/SuperRun.cpp"
+],
+"Multipler with which the run/sprint/swim speed is increased with until maximum speed is reached": [
+"game/features/self/SuperRun.cpp"
+],
+"Multiplex Session": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Multiplex Session Count": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Multiplies RP by the given value": [
+"game/features/recovery/RpMultiplier.cpp"
+],
+"Music Locker": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"NTSTATUS code ": [
+"core/logger/StackTrace.cpp"
+],
+"Name": [
+"game/frontend/submenus/Debug/Globals.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp",
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Native Count: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Native handler not registered": [
+"game/gta/invoker/Invoker.cpp"
+],
+"NativeHooks.hpp": [
+"game/backend/NativeHooks.cpp"
+],
+"NativeHooks::AddHookImpl: {:X} already registered for script {:X}": [
+"game/backend/NativeHooks.cpp"
+],
+"Natives not cached yet": [
+"game/frontend/submenus/Recovery/StatEditor.cpp",
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Natives not cached yet.": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Natives.hpp": [
+"game/gta/Entity.cpp",
+"game/gta/Object.cpp",
+"game/gta/Ped.cpp"
+],
+"NavItem_": [
+"core/frontend/manager/styles/Modular/Modular.cpp"
+],
+"Nearby peds will ignore you and become oblivious to your actions.": [
+"game/features/world/Pedsignore.cpp"
+],
+"Neon": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Neon Light Options": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Network": [
+"game/frontend/submenus/Network.cpp"
+],
+"Network Bail": [
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"Network.hpp": [
+"game/frontend/submenus/Network.cpp",
+"game/gta/Network.cpp"
+],
+"NetworkPlayerMgrInit": [
+"core/hooking/Hooking.cpp"
+],
+"NetworkPlayerMgrShutdown": [
+"core/hooking/Hooking.cpp"
+],
+"Neutral": [
+"game/features/world/Weather.cpp"
+],
+"Never Wanted": [
+"game/features/self/Wanted.cpp"
+],
+"Never gain a wanted level": [
+"game/features/self/Wanted.cpp"
+],
+"New": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"New Vehicle": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"New location": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"New swapchain hooked.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Nightclub": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"No": [
+"game/frontend/submenus/Network/SavedPlayers.cpp",
+"game/frontend/submenus/Teleport.cpp",
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"No Change Appearance Cooldown": [
+"game/features/recovery/NoChangeAppearanceCooldown.cpp"
+],
+"No Clip": [
+"game/features/self/Noclip.cpp"
+],
+"No Idle Kick": [
+"game/features/self/NoIdleKick.cpp"
+],
+"No Ragdoll": [
+"game/features/self/NoRagdoll.cpp"
+],
+"No free stack of this size.": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"No hotkey assigned": [
+"game/frontend/items/DrawHotkey.cpp"
+],
+"No model name provided.": [
+"game/features/world/Spawn.cpp"
+],
+"No players yet!": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"No saved players": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"No toggle knob type to draw.": [
+"core/frontend/widgets/toggle/imgui_toggle_renderer.cpp"
+],
+"No vehicle model name provided.": [
+"game/features/self/CustomWeapon.cpp"
+],
+"No vehicles to fix.": [
+"game/features/vehicle/FixAllVehicles.cpp"
+],
+"Noclip Speed": [
+"game/features/self/Noclip.cpp"
+],
+"NodeCommonDataOperations.hpp": [
+"types/network/sync/CProjectBaseSyncDataNode.hpp"
+],
+"NodeHooks.hpp": [
+"game/backend/NodeHooks.cpp"
+],
+"Nodes.hpp": [
+"game/gta/Nodes.cpp"
+],
+"None": [
+"game/backend/SavedPlayerData.cpp",
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Normal": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Normalized name to: %s": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Not safe to call the mechanic at the moment.": [
+"game/features/vehicle/CallMechanic.cpp"
+],
+"Not safe to open the wardrobe at the moment.": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"NotEnoughTeamsPatch": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"Notifications": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Notifications.hpp": [
+"core/frontend/Notifications.cpp"
+],
+"Notifies you when a player joins above the map": [
+"game/hooks/Info/AssignPhysicalIndex.cpp"
+],
+"Notifies you when a tracked player becomes joinable": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notifies you when a tracked player becomes unjoinable": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notifies you when a tracked player goes offline": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notifies you when a tracked player goes online": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notifies you when a tracked player joins or leaves a job lobby": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notifies you when a tracked player joins or leaves a mission": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notifies you when a tracked player's session type changes": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notifies you when the state of a player you track changes": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify On Job Lobby Change": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify On Mission Change": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify On Session Type Change": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify When Joinable": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify When Offline": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify When Online": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify When Unjoinable": [
+"game/backend/SavedPlayers.cpp"
+],
+"Notify on Player Join": [
+"game/hooks/Info/AssignPhysicalIndex.cpp"
+],
+"Null Function Kick": [
+"game/features/players/kick/NullFunctionKick.cpp"
+],
+"Object Distance": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Object ESP": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Object Hash Color": [
+"game/frontend/ESP.cpp"
+],
+"Object Model": [
+"game/features/world/Spawn.cpp"
+],
+"Object Net Info": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Object Script Info": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Object.hpp": [
+"game/gta/Object.cpp"
+],
+"Object_Dropped_Remote": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Off The Radar": [
+"game/features/self/OffTheRadar.cpp"
+],
+"Office Garage 1": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Office Garage 2": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Office Garage 3": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"OnAdvertiseImpl(): MatchmakingAdvertise failed for the additional advertisement {} with code {}": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"OnAdvertiseImpl(): MatchmakingAdvertise failed for the initial advertisement with code {}": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"OnAdvertiseImpl(): MatchmakingAdvertise returned false for additional advertisement {}": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"OnAdvertiseImpl(): MatchmakingAdvertise returned false for the initial advertisement": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"OnBTTEnd": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"OnFreemodeDeliveryEnd": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Onboarding.hpp": [
+"game/frontend/Menu.cpp",
+"game/frontend/Onboarding.cpp"
+],
+"Only available as host and the target is unblockable": [
+"game/features/players/kick/HostKick.cpp"
+],
+"Open GitHub": [
+"game/frontend/Onboarding.cpp"
+],
+"Open Gun Locker": [
+"game/features/self/OpenGunLocker.cpp"
+],
+"Open Lua Scripts Folder": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Open Matrix server": [
+"game/frontend/Onboarding.cpp"
+],
+"Open Street Dealer Menu": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Open Wardrobe": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"OpenGunLocker.hpp": [
+"game/features/self/OpenGunLocker.cpp"
+],
+"Oppressor Mk II Cannon": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Optional": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Orbital Cannon": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Other": [
+"game/frontend/submenus/Player/Kick.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Oufit": [
+"game/backend/Outfit.cpp"
+],
+"Outfit": [
+"game/backend/Outfit.cpp",
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Outfit Editor": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Outfit Name": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Outfit.hpp": [
+"game/backend/Outfit.cpp"
+],
+"OutfitEditor.hpp": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Outlaw": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Overcast": [
+"game/features/world/Weather.cpp"
+],
+"Overlay": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Overlay Enabled": [
+"game/frontend/Overlay.cpp"
+],
+"Overlay Show FPS": [
+"game/frontend/Overlay.cpp"
+],
+"Overlay.hpp": [
+"game/frontend/GUI.cpp",
+"game/frontend/Overlay.cpp"
+],
+"Override RP Multiplier": [
+"game/features/recovery/RpMultiplier.cpp"
+],
+"PV_Slot": [
+"types/script/globals/MPSV.hpp"
+],
+"Packed": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Packed Range": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Packet Loss: %.2f": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Packet.hpp": [
+"game/gta/Packet.cpp"
+],
+"Paige Harris": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Paint Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Paint Gun Color": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Paleto Bay Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Panther Statue": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Patrick McReary": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Pattern.hpp": [
+"core/memory/Pattern.cpp",
+"core/memory/PatternScanner.hpp"
+],
+"PatternCache.hpp": [
+"core/backend/PatternCache.cpp"
+],
+"PatternHash.hpp": [
+"core/memory/Pattern.hpp"
+],
+"PatternScanner.hpp": [
+"core/memory/PatternScanner.cpp"
+],
+"Pause": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Pause After Starting": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Pause Game": [
+"game/features/network/PauseGame.cpp"
+],
+"Paused. Select this script to resume it.": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Pearlescent": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Ped Distance": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Ped ESP": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Ped Hash Color": [
+"game/frontend/ESP.cpp"
+],
+"Ped Hashes": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Ped Model": [
+"game/features/world/Spawn.cpp"
+],
+"Ped Net Info": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Ped Script Info": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Ped Skeleton": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Ped Skeleton Color": [
+"game/frontend/ESP.cpp"
+],
+"Ped missing or deleted": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Ped models different.": [
+"game/backend/Outfit.cpp"
+],
+"Ped.hpp": [
+"game/gta/Ped.cpp",
+"game/gta/Player.hpp",
+"game/gta/Pools.hpp"
+],
+"PedRiotMode": [
+"game/features/world/RiotMode.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Peds Ignore": [
+"game/features/world/Pedsignore.cpp"
+],
+"PenthouseDecorCashOnly": [
+"game/features/recovery/FreeShopping.cpp"
+],
+"Permadeath": [
+"game/features/players/toxic/KillLoopExploit.cpp"
+],
+"Permadeath All": [
+"game/frontend/submenus/Network.cpp"
+],
+"Persist Car": [
+"game/backend/SavedVehicles.cpp"
+],
+"Personal Vehicle": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"PersonalVehicles.hpp": [
+"game/backend/PersonalVehicles.cpp"
+],
+"Petrol Pump": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Phase 1 caught swapchain {}, switching to per-instance hook.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Phone_SoundSet_Default": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Phone_SoundSet_Franklin": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Phone_SoundSet_Glasses_Cam": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Phone_SoundSet_Michael": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Phone_SoundSet_Prologue": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Phone_SoundSet_Trevor": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Photograph Animal": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Photographs the selected animal.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Pillbox Hill Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Pink Diamond": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Pipe Bomb": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Plane": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Plane Rocket": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Plate Number": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Plate Style": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"PlatformAccountId.hpp": [
+"types/network/netPlayer.hpp"
+],
+"Play All Missions Solo": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"Play with YimMenu users": [
+"game/frontend/Onboarding.cpp"
+],
+"Play with everyone (Broken!)": [
+"game/frontend/Onboarding.cpp"
+],
+"Player 1": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player 1 cut": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player 2": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player 2 cut": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player 3": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player 3 cut": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player 4": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player 4 cut": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Player Count": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Player Database Auto Update": [
+"game/backend/SavedPlayers.cpp"
+],
+"Player Distance": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Player Distance Color": [
+"game/frontend/ESP.cpp"
+],
+"Player ESP": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Player List": [
+"game/frontend/submenus/Players.cpp"
+],
+"Player Name": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Player Name Color": [
+"game/frontend/ESP.cpp"
+],
+"Player Skeleton": [
+"game/frontend/submenus/Settings.cpp"
+],
+"Player Skeleton Color": [
+"game/frontend/ESP.cpp"
+],
+"Player Teleport Coords": [
+"game/features/players/teleport/TeleportToCoord.cpp"
+],
+"Player Tracker": [
+"game/backend/SavedPlayers.cpp"
+],
+"Player entity cannot be deleted.": [
+"game/features/self/CustomWeapon.cpp"
+],
+"Player {} changed their player index from {} to {}": [
+"game/hooks/Info/AssignPhysicalIndex.cpp"
+],
+"Player.hpp": [
+"game/gta/Packet.hpp",
+"game/gta/Player.cpp"
+],
+"Player/Info.hpp": [
+"game/frontend/submenus/Players.cpp"
+],
+"Player/Kick.hpp": [
+"game/frontend/submenus/Players.cpp"
+],
+"Player/Toxic.hpp": [
+"game/frontend/submenus/Players.cpp"
+],
+"Player/Troll.hpp": [
+"game/frontend/submenus/Players.cpp"
+],
+"Player::TeleportTo: spawned vehicle is not networked. Please stop spectating to fix this issue": [
+"game/gta/Player.cpp"
+],
+"PlayerCommand.hpp": [
+"game/commands/PlayerCommand.cpp"
+],
+"PlayerCountWatchdogPatch1": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"PlayerCountWatchdogPatch2": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"PlayerData.hpp": [
+"game/backend/Players.hpp"
+],
+"Players": [
+"game/frontend/submenus/Network/SavedPlayers.cpp",
+"game/frontend/submenus/Players.cpp"
+],
+"Players.hpp": [
+"game/backend/Players.cpp",
+"game/frontend/submenus/Players.cpp"
+],
+"Please enable the blip from the Interaction Menu.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Please enter a valid name": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Please enter a vehicle.": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Please get in a vehicle.": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"Please join GTA Online.": [
+"game/features/self/OpenGunLocker.cpp",
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"PointerCalculator.hpp": [
+"core/memory/Module.hpp",
+"core/memory/PatternScanner.hpp"
+],
+"Points of Interest": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Polish": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Pools.hpp": [
+"game/gta/Pools.cpp"
+],
+"Populate Name": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"PopupBorderSize": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"PopupRounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Portuguese (Brazil)": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Potential Take": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Power Drills": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Power Drills (Prep)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Power drills prep": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Power drills purchased": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"PrepareMetricForSending": [
+"core/hooking/Hooking.cpp"
+],
+"Press ENTER to write.": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Press any button...": [
+"game/frontend/items/DrawHotkey.cpp"
+],
+"Press any registered key to remove": [
+"game/frontend/items/BoolCommandItem.cpp"
+],
+"Press ~INPUT_CONTEXT~ to contact Jamal and begin stealing bolt cutters for The Cargo Ship Robbery": [
+"types/script/globals/GSBD.hpp"
+],
+"Prevent you from getting Critical Hits": [
+"game/features/self/DisableCriticalHits.cpp"
+],
+"PreventMigration(): entity is not networked!": [
+"game/gta/Entity.cpp"
+],
+"Prevents you from being kicked while idling.": [
+"game/features/self/NoIdleKick.cpp"
+],
+"Prevents you from falling out of vehicles.": [
+"game/features/vehicle/Seatbelt.cpp"
+],
+"Prevents you from ragdolling when standing on top of vehicles.": [
+"game/features/self/StandOnVehicles.cpp"
+],
+"Prevents your ped from ragdolling": [
+"game/features/self/NoRagdoll.cpp"
+],
+"Price": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Primary": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Primary Target": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp",
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Primary Target Value": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Primary target": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp",
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Private Yacht": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"ProcessPhoneHackingPatch": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"Product": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 10": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 3": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 4": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 5": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 6": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 7": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 8": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Product 9": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Program Counter: 0x%X": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Programmable AR": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Propane": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Proximity Mine": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Public": [
+"game/backend/SavedPlayerData.cpp",
+"game/features/network/JoinSession.cpp"
+],
+"Pumpkin": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Quantity": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"QueueDependency: Blocked the sig scanner dependency from being queued": [
+"game/hooks/Anticheat/QueueDependency.cpp"
+],
+"QuickRestartPatch1": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"QuickRestartPatch2": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"RAX: ": [
+"core/logger/StackTrace.cpp"
+],
+"RBP: ": [
+"core/logger/StackTrace.cpp"
+],
+"RBX: ": [
+"core/logger/StackTrace.cpp"
+],
+"RC Bandito Time Trial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"RC Tank Rocket": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"RCBanditoTimeTrialData.hpp": [
+"types/script/locals/Locals.cpp"
+],
+"RCX: ": [
+"core/logger/StackTrace.cpp"
+],
+"RDI: ": [
+"core/logger/StackTrace.cpp"
+],
+"RDX: ": [
+"core/logger/StackTrace.cpp"
+],
+"RID:": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"RP Mulitplier (< 0 = 0 -> No RP)": [
+"game/features/recovery/RpMultiplier.cpp"
+],
+"RP Multiplier Input": [
+"game/features/recovery/RpMultiplier.cpp"
+],
+"RSI: ": [
+"core/logger/StackTrace.cpp"
+],
+"RSP: ": [
+"core/logger/StackTrace.cpp"
+],
+"RTTI.hpp": [
+"types/rage/sysMemAllocator.hpp"
+],
+"Race": [
+"game/backend/SavedPlayerData.cpp"
+],
+"Railgun": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Rain": [
+"game/features/world/Weather.cpp"
+],
+"Rain Halloween": [
+"game/features/world/Weather.cpp"
+],
+"Rainbow Color": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Rainbow Color Speed": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Rainbow Color Style": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Rancho Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Random Events": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Random Events are not initialized.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"RandomEvents.hpp": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Randomize Outfit": [
+"game/frontend/submenus/Self/OutfitEditor.cpp",
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Rank: %d (%d RP)": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Rapid Fire": [
+"game/features/self/RapidFire.cpp"
+],
+"Ray Gun": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"RayCast.hpp": [
+"game/gta/RayCast.cpp"
+],
+"ReceiveNetMessage": [
+"core/hooking/Hooking.cpp"
+],
+"Recovery": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"Recovery.hpp": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"Recovery/DailyActivities.hpp": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"Recovery/HeistModifier.hpp": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"Recovery/StatEditor.hpp": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"Recovery/Transactions.hpp": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"Refills your ammo to max.": [
+"game/features/self/GiveMaxAmmo.cpp"
+],
+"Refresh": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Refresh Current Vehicle": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Refresh List": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Refresh Stats": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Refresh list": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Refresh##packed": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Region Type": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Regular": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Relative path traversal is not allowed, refrain from using \\\"..\\\" in file paths.": [
+"core/filemgr/Folder.cpp"
+],
+"Release Dead Target": [
+"game/hooks/Misc/AssistedAimShouldReleaseEntity.cpp"
+],
+"Releases the lock-on to the target after they are dead": [
+"game/hooks/Misc/AssistedAimShouldReleaseEntity.cpp"
+],
+"Reload": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Remote_Ring": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Remove": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Remove All": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Remove Custom": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Remove Driver": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Remove Gunman": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Remove Hacker": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Remove LSC Restrictions": [
+"game/features/system/LSCCustomsBypass.cpp"
+],
+"Remove Offset": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"Remove Weapon": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Removes Los Santos Customs vehicle modification restrictions": [
+"game/features/system/LSCCustomsBypass.cpp"
+],
+"Removes the cooldown for changing appearance": [
+"game/features/recovery/NoChangeAppearanceCooldown.cpp"
+],
+"Renderer initialized.": [
+"core/renderer/Renderer.cpp"
+],
+"Renderer.hpp": [
+"core/renderer/Renderer.cpp"
+],
+"Repair Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Repair Vehicle": [
+"game/features/vehicle/Fix.cpp"
+],
+"Request Personal Vehicle": [
+"game/features/vehicle/RequestPersonalVehicle.cpp"
+],
+"Requests your current Personal Vehicle.": [
+"game/features/vehicle/RequestPersonalVehicle.cpp"
+],
+"Requires freemode script host.": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Reset All Activities": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Reset all activities, switch session to apply the changes.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Restores your health and armour.": [
+"game/features/self/Heal.cpp"
+],
+"Resume": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Retinue MK II": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Returns your current Personal Vehicle to storage.": [
+"game/features/vehicle/DespawnPersonalVehicle.cpp"
+],
+"Revolver Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Richards Majestic, Apt 2": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Richards Majestic, Apt 4": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Richards Majestic, Apt 51": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Rickie Lukens": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Rifle Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Right": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Riot Mode": [
+"game/features/world/RiotMode.cpp"
+],
+"Rocket": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Rockstar Id": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Rogue Cannon": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Root": [
+"game/frontend/submenus/Self/OutfitEditor.cpp",
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Rounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Ruby Necklace": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Run faster than normal": [
+"game/features/self/SuperRun.cpp"
+],
+"Run/Sprint/Swim Multiplier": [
+"game/features/self/SuperRun.cpp"
+],
+"RunGunLockerMenu": [
+"game/features/self/OpenGunLocker.cpp"
+],
+"RunScriptThreads": [
+"core/hooking/Hooking.cpp"
+],
+"RunStreetDealerMenu": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Running in Wine!": [
+"main.cpp"
+],
+"Russian": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"SMG Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"SRV heap exhausted.": [
+"core/renderer/Renderer.cpp"
+],
+"SXT_{}_{}": [
+"game/features/players/troll/SendSext.cpp"
+],
+"Saboteur": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Salvage Yard": [
+"game/features/recovery/ClaimSafeEarnings.cpp"
+],
+"Salvage Yard (La Puerta)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Salvage Yard (Murietta Heights)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Salvage Yard (Paleto Bay)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Salvage Yard (Sandy Shores)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Salvage Yard (Strawberry)": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Sandy Shores Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Save": [
+"game/frontend/submenus/Debug/Globals.cpp",
+"game/frontend/submenus/Debug/Locals.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Save Current Location": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Save Outfit": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"Save Personal Vehicle": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"SavePersonalVehicle.hpp": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"Saved": [
+"game/frontend/submenus/Debug/Globals.cpp",
+"game/frontend/submenus/Debug/Locals.cpp",
+"game/frontend/submenus/Teleport.cpp"
+],
+"Saved Players": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Saved Vehicles": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Saved...": [
+"game/frontend/items/Vector3CommandItem.cpp"
+],
+"SavedLocations.hpp": [
+"game/backend/SavedLocations.cpp"
+],
+"SavedPlayerData.hpp": [
+"game/backend/SavedPlayerData.cpp"
+],
+"SavedPlayers.hpp": [
+"game/backend/SavedPlayers.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"SavedVariables.hpp": [
+"game/backend/SavedVariables.cpp"
+],
+"SavedVehicles.hpp": [
+"game/backend/SavedVehicles.cpp",
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"Saves the current vehicle you are in as your personal vehicle.": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"Saving ": [
+"game/backend/Tunables.cpp"
+],
+"Scope Out": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Scope out Kortz Center": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Scope points of interest": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Scope secondary targets": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Script": [
+"game/frontend/submenus/Debug/Locals.cpp"
+],
+"Script Drone": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Script Host Kick": [
+"game/features/players/kick/ScriptHostKick.cpp"
+],
+"Script Missile": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Script Missile (Large)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Script Name": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Script does not exist.": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Script is already running.": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Script thread not active for ": [
+"game/gta/Entity.cpp"
+],
+"Script {} has been unloaded due to a malfunction. Check the console for more details": [
+"core/scripting/LuaManager.cpp"
+],
+"ScriptData.hpp": [
+"game/gta/ScriptData.cpp"
+],
+"ScriptEvent.hpp": [
+"types/script/ScriptEvent.cpp"
+],
+"ScriptFunction.hpp": [
+"game/gta/ScriptFunction.cpp"
+],
+"ScriptGlobal.hpp": [
+"game/gta/ScriptGlobal.cpp"
+],
+"ScriptLocal.hpp": [
+"game/gta/ScriptLocal.cpp"
+],
+"ScriptMgr initialized": [
+"main.cpp"
+],
+"ScriptMgr.hpp": [
+"core/backend/FiberPool.cpp",
+"core/backend/ScriptMgr.cpp"
+],
+"ScriptPatches.hpp": [
+"game/backend/ScriptPatches.cpp"
+],
+"ScriptPointer.hpp": [
+"game/gta/ScriptPointer.cpp"
+],
+"ScriptPointers.hpp": [
+"game/backend/ScriptPointers.cpp"
+],
+"ScriptVM": [
+"core/hooking/Hooking.cpp"
+],
+"Scripts": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Scripts.hpp": [
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/gta/Scripts.cpp"
+],
+"ScrollbarRounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Search": [
+"game/frontend/items/Vector3CommandItem.cpp",
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Search:": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Seatbelt": [
+"game/features/vehicle/Seatbelt.cpp"
+],
+"Second": [
+"game/features/world/TimeControl.cpp",
+"game/frontend/submenus/Recovery/StatEditor.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Secondary": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Secondary Item": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Secondary Take Value": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Secondary Targets": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Select": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Select Event": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Select Heist": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"Select Location (0-{})": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Select a file first": [
+"game/backend/SavedVehicles.cpp"
+],
+"Select an explosion type": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"SelectableTextAlign": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Selected Animal": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected Buried Stash": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected Hidden Cache": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected LS Tag": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected Product": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected Skydive": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected Street Dealer": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected Time Trial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Selected Treasure Chest": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Self": [
+"game/frontend/submenus/Self.cpp"
+],
+"Self.hpp": [
+"game/backend/Self.cpp",
+"game/frontend/submenus/Self.cpp"
+],
+"Self/OutfitEditor.hpp": [
+"game/frontend/submenus/Self.cpp"
+],
+"Self/Weapons.hpp": [
+"game/frontend/submenus/Self.cpp"
+],
+"Send All to Interior": [
+"game/frontend/submenus/Network.cpp"
+],
+"Send All to Property": [
+"game/frontend/submenus/Network.cpp"
+],
+"Send Gooch": [
+"game/features/players/troll/SendGooch.cpp"
+],
+"Send Phantom Car": [
+"game/features/players/troll/SendPhantomCar.cpp"
+],
+"Send Sext": [
+"game/features/players/troll/SendSext.cpp"
+],
+"Send Sexts": [
+"game/frontend/submenus/Network.cpp"
+],
+"Send to Interior": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Send to Interior Index": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Send to Property": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Send to Property Index": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"SendToClouds": [
+"game/gta/Network.cpp"
+],
+"Sends a random sext to the specified player": [
+"game/features/players/troll/SendSext.cpp"
+],
+"Sends the Gooch to the specified player.": [
+"game/features/players/troll/SendGooch.cpp"
+],
+"Sends the Phantom Car to the specified player.": [
+"game/features/players/troll/SendPhantomCar.cpp"
+],
+"Sends the player to the selected interior": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"Sends the player to the selected property": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Sentinel Classic": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Session": [
+"game/frontend/submenus/Network.cpp"
+],
+"Session Type": [
+"game/frontend/submenus/Network.cpp"
+],
+"Session Type: %s": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Set": [
+"game/frontend/submenus/World.cpp"
+],
+"Set Actual Take": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Set All Activities Completed": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Set Availability": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Set Bounties": [
+"game/frontend/submenus/Network.cpp"
+],
+"Set Bounty": [
+"game/features/players/troll/SetBounty.cpp"
+],
+"Set Cooldown": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Set Cuts": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Set Potential Take": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Set Primary Target Value": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Set Secondary Take Value": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Set Time": [
+"game/features/world/TimeControl.cpp"
+],
+"Set Wanted": [
+"game/features/self/Wanted.cpp"
+],
+"Set Weather": [
+"game/features/world/Weather.cpp"
+],
+"Set hour (0-23)": [
+"game/features/world/TimeControl.cpp"
+],
+"Set minute (0-59)": [
+"game/features/world/TimeControl.cpp"
+],
+"Set second (0-59)": [
+"game/features/world/TimeControl.cpp"
+],
+"Set##actualtake": [
+"game/frontend/submenus/Recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Set##potentialtake": [
+"game/frontend/submenus/Recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Set##primarytargetvalue": [
+"game/frontend/submenus/Recovery/Heist/CayoPericoHeist.cpp"
+],
+"Set##secondarytakevalue": [
+"game/frontend/submenus/Recovery/Heist/CayoPericoHeist.cpp"
+],
+"Sets heist cut": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Sets the bounty as anonymous": [
+"game/features/players/troll/SetBounty.cpp"
+],
+"Sets the current online time": [
+"game/features/world/TimeControl.cpp"
+],
+"Sets the damage scale for explosions": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Sets the damage scale for melee": [
+"game/features/self/MeleeDamage.cpp"
+],
+"Sets the damage scale for weapons (including melee)": [
+"game/features/self/WeaponDamage.cpp"
+],
+"Sets the specifed weather. Note that this effect is local and cannot be seen by other players": [
+"game/features/world/Weather.cpp"
+],
+"Sets the specified bounty to the player": [
+"game/features/players/troll/SetBounty.cpp"
+],
+"Sets up Kortz Center heist": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Sets up cayo perico heist": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Sets up current apartment heist": [
+"game/features/recovery/Heist/ApartmentHeist.cpp"
+],
+"Sets up diamond casino heist": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Sets up doomsday heist": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"Sets your wanted level to the desired level": [
+"game/features/self/Wanted.cpp"
+],
+"Settings": [
+"game/frontend/submenus/Settings.cpp",
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Settings.hpp": [
+"core/settings/IStateSerializer.cpp",
+"core/settings/Settings.cpp",
+"game/frontend/submenus/Settings.cpp"
+],
+"Setup": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Ship Destroy": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Shipwreck": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Shipwreck has already been collected.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Shoe": [
+"game/backend/Outfit.hpp"
+],
+"Shoot Animals Photography": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Shooting Range": [
+"game/backend/SavedPlayerData.cpp"
+],
+"ShopControllerWeatherPatch": [
+"game/features/world/Weather.cpp"
+],
+"ShopPatch": [
+"game/features/system/DespawnBypass.cpp"
+],
+"Shotgun Loadout": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Should the ESP draw dead peds?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw dead players?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw distance?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw network info?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw ped models?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw peds?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw player distance?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw player names?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw player skeletons?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw players?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw script info?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw special objects?": [
+"game/frontend/ESP.cpp"
+],
+"Should the ESP draw the skeleton?": [
+"game/frontend/ESP.cpp"
+],
+"ShouldCleanupWardrobePatch": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"ShouldFailMissionPatch1": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"ShouldFailMissionPatch2": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"ShouldFailMissionPatch3": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"ShouldFailMissionPatches": [
+"game/features/recovery/PlayAllMissionsSolo.cpp"
+],
+"ShouldUseNodeCache": [
+"core/hooking/Hooking.cpp"
+],
+"Show Object Distance": [
+"game/frontend/ESP.cpp"
+],
+"Show Object Network Info": [
+"game/frontend/ESP.cpp"
+],
+"Show Object Script Info": [
+"game/frontend/ESP.cpp"
+],
+"Show Ped Distance": [
+"game/frontend/ESP.cpp"
+],
+"Show Ped Model": [
+"game/frontend/ESP.cpp"
+],
+"Show Ped Network Info": [
+"game/frontend/ESP.cpp"
+],
+"Show Ped Script Info": [
+"game/frontend/ESP.cpp"
+],
+"Show Ped Skeleton": [
+"game/frontend/ESP.cpp"
+],
+"Show Player Distance": [
+"game/frontend/ESP.cpp"
+],
+"Show Player Name": [
+"game/frontend/ESP.cpp"
+],
+"Show Player Skeleton": [
+"game/frontend/ESP.cpp"
+],
+"Show an info overlay at the top left corner of the screen": [
+"game/frontend/Overlay.cpp"
+],
+"Show frame rate in the info overlay": [
+"game/frontend/Overlay.cpp"
+],
+"Shows a speedometer whenever you are in a vehicle": [
+"game/features/vehicle/Speedometer.cpp"
+],
+"Silence Phone Calls": [
+"game/features/network/SilencePhonecalls.cpp"
+],
+"SilencePhoneCalls::OnTick(): Skipped phone call from character {}": [
+"game/features/network/SilencePhonecalls.cpp"
+],
+"Silent & Sneaky": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Sinsimito Tequila": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Size##{}{}": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"Size.x specified was negative.": [
+"core/frontend/widgets/toggle/imgui_toggle_renderer.cpp"
+],
+"Size.y specified was negative.": [
+"core/frontend/widgets/toggle/imgui_toggle_renderer.cpp"
+],
+"Skip Conversation": [
+"game/features/self/SkipConversation.cpp"
+],
+"Skip Cutscene": [
+"game/features/self/SkipCutscene.cpp"
+],
+"Skip Data Crack": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Skip Drilling": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Skip Fingerprint Hack": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Skip Hacking": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Skip Signal Nodes": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Skip Swiping": [
+"game/features/recovery/Heist/ApartmentHeist.cpp"
+],
+"SkipChipTransaction": [
+"game/features/recovery/FreeShopping.cpp"
+],
+"SkipGunLockerMenuChecksPatch": [
+"game/features/self/OpenGunLocker.cpp"
+],
+"Skips any currently playing cutscene": [
+"game/features/self/SkipCutscene.cpp"
+],
+"Skips card swiping process": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Skips current conversation in the phone.": [
+"game/features/self/SkipConversation.cpp"
+],
+"Skips data crack minigame": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Skips drilling process": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Skips fingerprint hacking minigame in computer room": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Skips hacking process": [
+"game/features/recovery/Heist/ApartmentHeist.cpp",
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Skips signal nodes hacking at vault keypad": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Skydive": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 10": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 3": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 4": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 5": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 6": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 7": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 8": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Skydive 9": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Slipstream": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"Slot": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Slot Machines": [
+"game/frontend/submenus/Recovery.cpp"
+],
+"Smog": [
+"game/features/world/Weather.cpp"
+],
+"Smoke Grenade": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Smoke Grenade Launcher": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Smoke on the Water": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Snapshot (Aim at head)": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"Snow": [
+"game/features/world/Weather.cpp"
+],
+"Snow Halloween": [
+"game/features/world/Weather.cpp"
+],
+"Snow Light": [
+"game/features/world/Weather.cpp"
+],
+"Snowball": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Socialclub patterns failed to load": [
+"main.cpp"
+],
+"Socialclub.dll not loaded, cannot fetch player info": [
+"game/backend/SavedPlayers.cpp"
+],
+"Solo": [
+"game/features/network/JoinSession.cpp"
+],
+"Solo Mantrap": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Solo Public": [
+"game/features/network/JoinSession.cpp"
+],
+"South America": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Spam Killfeed": [
+"game/features/network/SpamKillfeed.cpp"
+],
+"Spams the killfeed of all players with fake kill entries. Use with caution": [
+"game/features/network/SpamKillfeed.cpp"
+],
+"Spanish (Mexico)": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spanish (Spain)": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spasm": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Spawn": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn Animal": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Spawn As Bodyguard": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Spawn As Cop": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Spawn As Prostitute": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Spawn Clone": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn Dead": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Spawn In My Vehicle": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Spawn Inside": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp",
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn Maxed": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn Object": [
+"game/features/world/Spawn.cpp"
+],
+"Spawn Ped": [
+"game/features/world/Spawn.cpp",
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"Spawn Personal Vehicle": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn a clone of the persone vehicle.": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn inside the personal vehicle.": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn inside the vehicle.": [
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp",
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawn the vehicle maxed.": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"SpawnPed.hpp": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"SpawnVehicle.hpp": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Spawned {}": [
+"game/backend/SavedVehicles.cpp"
+],
+"Spawns a ped at your current location.": [
+"game/features/world/Spawn.cpp"
+],
+"Spawns an object at your current location.": [
+"game/features/world/Spawn.cpp"
+],
+"Spawns the selected animal.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Special Ability": [
+"game/frontend/submenus/Self.cpp"
+],
+"Special Ability in MP": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"Spectate": [
+"game/features/players/info/Spectate.cpp"
+],
+"Spectates the selected player": [
+"game/features/players/info/Spectate.cpp"
+],
+"Speed of rainbow color for paint gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Speedometer": [
+"game/features/vehicle/Speedometer.cpp"
+],
+"Spoof Data Hash": [
+"game/features/network/SpoofDataHash.cpp"
+],
+"Spoof Language": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spoof Matchmaking Region": [
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Spoof Player Count": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spoof Region": [
+"game/frontend/submenus/Network.cpp"
+],
+"Spoof Region Type": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spoofing": [
+"game/frontend/submenus/Network.cpp"
+],
+"Spoofs the region type of the session": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spoofs the session language": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spoofs the session player count": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"Spray LS Tag": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Sprays the selected LS Tag.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Stack Pointer: 0x%X": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Stack Size": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Stack Size: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"StackTrace.hpp": [
+"core/logger/ExceptionHandler.cpp",
+"core/logger/StackTrace.cpp"
+],
+"Stacks Study V": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Staff Key Card": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Staff key card": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Stand On Vehicles": [
+"game/features/self/StandOnVehicles.cpp"
+],
+"Standalone bypass is outdated, game may crash": [
+"game/backend/AnticheatBypass.cpp"
+],
+"Standard Bomb": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Standard Bomb (Wide)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Standard Time Trial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"StandardTimeTrialData.hpp": [
+"types/script/locals/Locals.cpp"
+],
+"Start": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Start Script": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Start Script With Event": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Start Session Script": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Started script with ID {}.": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Stash House": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Stash House has already been raided.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Stat Editor": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Stat Value": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Stat not found": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"StatEditor.hpp": [
+"game/frontend/submenus/Recovery/StatEditor.cpp",
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"State": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"State: %s": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Stats not loaded yet.": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp"
+],
+"Stats.hpp": [
+"game/gta/Stats.cpp"
+],
+"Steal Vehicle Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Steam ID:": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Sticky Bomb": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Stock": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Street Dealer": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Street Dealer 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Street Dealer 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Street Dealer 3": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Street Dealers": [
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"String Count: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"StringCommand.hpp": [
+"core/commands/StringCommand.cpp"
+],
+"Stryder": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Stun Grenade": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Style": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Style ": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Style of rainbow color for paint gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"StyleTabs": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Submarine (Big)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Submenu.hpp": [
+"core/frontend/manager/Submenu.cpp",
+"core/frontend/manager/UIManager.hpp"
+],
+"Sugoi": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Suicide": [
+"game/features/self/Suicide.cpp"
+],
+"Sultan Classic": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Super Jump": [
+"game/features/self/SuperJump.cpp"
+],
+"Super Run": [
+"game/features/self/SuperRun.cpp"
+],
+"Survival": [
+"game/backend/SavedPlayerData.cpp"
+],
+"SwapChain pointer is not yet valid.": [
+"core/renderer/D3D12Hook.cpp"
+],
+"Switch session to apply the changes.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"TabBorderSize": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"TabRounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Tactical Equipment": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Tactical equipment": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Take Control": [
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Take Primary Target": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Take Secondary Target": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Takes primary target": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Takes primary target painting (stand near it)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Takes secondary loot (stand near it)": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Taliana Martinez": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"TamperActions": [
+"game/hooks/Anticheat/GameSkeletonUpdate.cpp"
+],
+"Tank Shell": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Tanker": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Target Drivers": [
+"game/features/self/Aimbot.cpp"
+],
+"Targets the head when locking on to enemies and other players": [
+"game/features/self/Aimbot.cpp"
+],
+"Team": [
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"Teckels": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Teleport": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Player/Info.cpp",
+"game/frontend/submenus/Teleport.cpp"
+],
+"Teleport Backward": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleport Distance": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleport Down": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleport Everyone": [
+"game/frontend/submenus/Network.cpp"
+],
+"Teleport Forward": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleport Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Teleport Left": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleport Player To Coord": [
+"game/features/players/teleport/TeleportToCoord.cpp"
+],
+"Teleport Right": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleport To": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Teleport Up": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleport to Buried Stash": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Dealer": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Event": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Teleport to Exotic Exports Vehicle": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to G's Cache": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Golden Clover": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Hidden Cache": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to IPL": [
+"game/features/world/IPLManager.cpp"
+],
+"Teleport to LS Tag": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Madrazo Hit": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Madrazo Hit Target": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Objective": [
+"game/features/teleport/TpToObjective.cpp"
+],
+"Teleport to Player": [
+"game/features/players/teleport/TeleportToPlayer.cpp"
+],
+"Teleport to Product": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Shipwreck": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Skydive": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Stash House": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Time Trial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Treasure Chest": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleport to Waypoint": [
+"game/features/teleport/TpToWaypoint.cpp"
+],
+"Teleport to the selected IPL": [
+"game/features/world/IPLManager.cpp"
+],
+"Teleport.hpp": [
+"game/frontend/submenus/Teleport.cpp"
+],
+"Teleportation distance of directional teleports": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleports all game objects to you": [
+"game/features/world/Bring.cpp"
+],
+"Teleports all game peds to you": [
+"game/features/world/Bring.cpp"
+],
+"Teleports all game vehicles to you": [
+"game/features/world/Bring.cpp"
+],
+"Teleports the player to the specified coordinates": [
+"game/features/players/teleport/TeleportToCoord.cpp"
+],
+"Teleports to G's Cache.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to Madrazo Hit Target.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to Madrazo Hit.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to Shipwreck.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to Stash House.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the Golden Clover.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the next Exotic Exports vehicle.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected Buried Stash.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected Hidden Cache.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected LS Tag.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected Skydive.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected Street Dealer.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected Time Trial.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected Treasure Chest.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports to the selected product.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Teleports you backward": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleports you down": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleports you forward": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleports you to the Objective": [
+"game/features/teleport/TpToObjective.cpp"
+],
+"Teleports you to the left": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleports you to the right": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Teleports you to the selected player": [
+"game/features/players/teleport/TeleportToPlayer.cpp"
+],
+"Teleports you to the waypoint": [
+"game/features/teleport/TpToWaypoint.cpp"
+],
+"Teleports you up": [
+"game/features/teleport/DirectionalTp.cpp"
+],
+"Tennis": [
+"game/backend/SavedPlayerData.cpp"
+],
+"The Big Con": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"The Bogdan Problem": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"The Data Breaches": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"The Doomsday Senario": [
+"game/features/recovery/Heist/DoomsdayHeist.cpp"
+],
+"The Downfall Rome": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"The Girl With Pearl Necklace": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"The IPL to load": [
+"game/features/world/IPLManager.cpp"
+],
+"The Outcome Endeavour": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"The Royale, Apt 19": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"The bounty amount to set": [
+"game/features/players/troll/SetBounty.cpp"
+],
+"The coordinates to teleport the player to": [
+"game/features/players/teleport/TeleportToCoord.cpp"
+],
+"The entered date or time is invalid, please recheck the input data.": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"The interior index to send the player(s) to": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"The language to spoof the session to": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"The model name of the object you wish to spawn.": [
+"game/features/world/Spawn.cpp"
+],
+"The model name of the ped you wish to spawn.": [
+"game/features/world/Spawn.cpp"
+],
+"The number of sessions to advertise for matchmaking": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"The player count to spoof the session to": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"The property index to send the player(s) to": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"The region to spoof the session to": [
+"game/backend/CustomMatchmaking.cpp"
+],
+"The session type to join": [
+"game/features/network/JoinSession.cpp"
+],
+"The special ability to enable for the MP character": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"The transaction isn't valid. Ensure that all fields are filled out correctly": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"The type of custom weapon to use": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Themes.hpp": [
+"core/frontend/manager/styles/Themes.cpp"
+],
+"This Buried Stash has already been collected.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"This Hidden Cache has already been collected.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"This LS Tag has already been sprayed.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"This Time Trial has already been beaten.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"This Treasure Chest has already been collected.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"This animal has already been photographed.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"This item has been blocked for your safety": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"This product has already been collected.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"This stat should not be edited by the client. Right-click to force the write anyway": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"This vehicle cannot be saved as a personal vehicle.": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"This vehicle is already a personal vehicle.": [
+"game/features/vehicle/SavePersonalVehicle.cpp"
+],
+"Thread": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Thread ID: %d": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Threads": [
+"game/frontend/submenus/Debug/Scripts.cpp"
+],
+"Thunder": [
+"game/features/world/Weather.cpp"
+],
+"Time": [
+"game/frontend/submenus/World.cpp"
+],
+"Time Trial": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Time Trials": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Timer.hpp": [
+"types/script/Timer.cpp"
+],
+"Tinsel Towers, Apt 29": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Tinsel Towers, Apt 42": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Tinsel Towers, Apt 45": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Tire Smoke": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"To Beat About Bush": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Tools": [
+"game/frontend/submenus/Self.cpp",
+"game/frontend/submenus/Self/Weapons.cpp",
+"game/frontend/submenus/Vehicle.cpp"
+],
+"Tops": [
+"game/backend/Outfit.hpp"
+],
+"Torpedo": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Torso": [
+"game/backend/Outfit.hpp"
+],
+"TouchExtraPadding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Toxic": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Player/Toxic.cpp"
+],
+"Toxic.hpp": [
+"game/frontend/submenus/Player/Kick.cpp",
+"game/frontend/submenus/Player/Toxic.cpp"
+],
+"Track Player": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Tracking": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Tracking Notifications": [
+"game/backend/SavedPlayers.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Train": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Transaction complete": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Transaction failed": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Transactions": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Transactions are not supported with FSL local saves enabled": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Treasure Chest": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Treasure Chest 1": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Treasure Chest 2": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"Treasure Chests": [
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/Recovery/DailyActivities.cpp"
+],
+"Trevor Rage": [
+"game/features/self/MpSpecialAbility.cpp"
+],
+"Tried to save a vehicle which does not exist": [
+"game/backend/SavedVehicles.cpp"
+],
+"Trigger": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Trigger Range: %.2f": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Trigger Range: N/A": [
+"game/frontend/submenus/Network/RandomEvents.cpp"
+],
+"Triggerer": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"Troll": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Player/Troll.cpp"
+],
+"Troll.hpp": [
+"game/frontend/submenus/Player/Troll.cpp"
+],
+"Truck": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"True": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"True Love": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Trust": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Tunables.hpp": [
+"game/backend/Tunables.cpp"
+],
+"Turbo": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Twindifference": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Type": [
+"game/frontend/submenus/Recovery/Transactions.cpp"
+],
+"UI Style": [
+"core/frontend/manager/UIManager.cpp"
+],
+"UIItem.hpp": [
+"core/frontend/manager/Category.hpp"
+],
+"UIManager.hpp": [
+"core/frontend/manager/UIManager.cpp"
+],
+"UNKNOWN_EXCEPTION: CODE: ": [
+"core/logger/StackTrace.cpp"
+],
+"US East": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"US West": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Unable to open the scripts folder": [
+"game/frontend/submenus/Settings/LuaScripts.cpp"
+],
+"Unable to spawn {}": [
+"game/backend/SavedVehicles.cpp"
+],
+"Undershirt": [
+"game/backend/Outfit.hpp"
+],
+"Underwater Mine": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Underwater Torpedo": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Unit 1 Olympic Fwy": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Unit 124 Popular St": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Unit 14 Popular St": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Unit 2 Popular St": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Unit 76 Greenwich Parkway": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Unknown": [
+"game/backend/CustomMatchmaking.cpp",
+"game/backend/SavedPlayerData.cpp",
+"game/features/network/SpoofMatchmakingRegion.cpp"
+],
+"Unknown Explosion 763D3B3B": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Unknown Explosion BAEC056F": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Unknown Explosion F728C4A9": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Unknown color picker!": [
+"game/frontend/items/ColorCommandItem.cpp"
+],
+"Unknown list!": [
+"game/frontend/items/ListCommandItem.cpp"
+],
+"Unknown string command!": [
+"game/frontend/items/StringCommandItem.cpp"
+],
+"Unknown!": [
+"game/frontend/items/BoolCommandItem.cpp",
+"game/frontend/items/CommandItem.cpp",
+"game/frontend/items/FloatCommandItem.cpp"
+],
+"Unlimited Oxygen": [
+"game/features/self/UnlimitedOxygen.cpp"
+],
+"Unload IPL": [
+"game/features/world/IPLManager.cpp"
+],
+"Unloading": [
+"main.cpp"
+],
+"Unlock GTA+": [
+"game/features/recovery/UnlockGTAPlus.cpp"
+],
+"Unmarked Weapons": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Unmarked weapons": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Unsupported symbol type": [
+"core/memory/Module.hpp"
+],
+"Until Death": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Update Now": [
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Update Saved Players Now": [
+"game/backend/SavedPlayers.cpp"
+],
+"Updates actual take": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Updates potential take": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Updates primary target value": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Updates secondary take value": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Use this to clear the chat": [
+"game/features/system/Chat.cpp"
+],
+"Use this to open the chat": [
+"game/features/system/Chat.cpp"
+],
+"Username": [
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"Using cached pattern [{}] : [{:X}] [Hash(): {:X}]": [
+"core/memory/PatternScanner.cpp"
+],
+"Util": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"VMTHook.hpp": [
+"core/hooking/Hooking.cpp"
+],
+"Vagrant": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Valkyrie Cannon": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Value": [
+"game/frontend/submenus/Debug/DrawVariable.cpp",
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Value##packed": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Value##packed_range": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Vanilla": [
+"game/backend/AnticheatBypass.cpp"
+],
+"Vector3Command.hpp": [
+"core/commands/Vector3Command.cpp"
+],
+"Vehicle": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp",
+"game/frontend/submenus/Player/Troll.cpp",
+"game/frontend/submenus/Vehicle.cpp"
+],
+"Vehicle Bullet": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Vehicle Editor": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Vehicle God Mode": [
+"game/features/vehicle/Godmode.cpp"
+],
+"Vehicle Gun": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Vehicle Mine": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Vehicle Mine (EMP)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Vehicle Mine (Kinetic)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Vehicle Mine (Slick)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Vehicle Mine (Spike)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Vehicle Mine (Tar)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Vehicle Model": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Vehicle Warehouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Vehicle.hpp": [
+"game/frontend/submenus/Vehicle.cpp",
+"game/gta/Ped.hpp",
+"game/gta/Pools.hpp"
+],
+"Vehicle/SavedVehicles.hpp": [
+"game/frontend/submenus/Vehicle.cpp"
+],
+"Vehicle/VehicleEditor.hpp": [
+"game/frontend/submenus/Vehicle.cpp"
+],
+"VehicleEditor.hpp": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"VehicleModel.hpp": [
+"game/gta/VehicleModel.cpp"
+],
+"VehiclePOSIXPatch": [
+"game/features/vehicle/DLCVehicles.cpp"
+],
+"VehicleRewardData.hpp": [
+"types/script/locals/Locals.cpp"
+],
+"Vehicles": [
+"game/frontend/submenus/Recovery/Heist/KortzCenterHeist.cpp"
+],
+"Vespucci Beach Clubhouse": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"View SC Profile": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"WINMM.dll": [
+"game/backend/AnticheatBypass.cpp"
+],
+"Wanted": [
+"game/frontend/submenus/Self.cpp"
+],
+"Wanted Slider": [
+"game/features/self/Wanted.cpp"
+],
+"Wanted level to set/freeze": [
+"game/features/self/Wanted.cpp"
+],
+"Wardrobe": [
+"game/features/self/OpenWardrobe.cpp"
+],
+"WastedSounds": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"Watches": [
+"game/backend/Outfit.hpp"
+],
+"Water Bomb": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"Water Bomb (Secondary)": [
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"We've already shadowed the bytecode of another program!": [
+"game/backend/ScriptPatches.cpp"
+],
+"Weapon": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp",
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Weapon Damage": [
+"game/features/self/WeaponDamage.cpp"
+],
+"Weapon Damage Scale": [
+"game/features/self/WeaponDamage.cpp"
+],
+"Weapon Explosion Radius": [
+"game/features/self/ExplosionRadius.cpp"
+],
+"Weapon Explosion RadiusScale": [
+"game/features/self/ExplosionRadius.cpp"
+],
+"Weapon Type": [
+"game/features/self/CustomWeapon.hpp"
+],
+"Weapon category": [
+"game/features/recovery/Heist/CayoPericoHeist.cpp"
+],
+"Weapons": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Weapons.hpp": [
+"game/frontend/submenus/Self/Weapons.cpp"
+],
+"Weather": [
+"game/features/world/Weather.cpp",
+"game/frontend/submenus/World.cpp"
+],
+"Weather to set or force. Note that this is local and cannot be seen by other players": [
+"game/features/world/Weather.cpp"
+],
+"Weazel Plaza, Apt 101": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Weazel Plaza, Apt 26": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Weazel Plaza, Apt 70": [
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"Weed Shop": [
+"game/features/players/teleport/SendToInterior.cpp"
+],
+"WeeklyChallenge.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"Welcome to YimMenuV2! Build date: {} at {}": [
+"main.cpp"
+],
+"What Melons?": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"Wheel Color": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Wheel Type": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"When you are wanted, no police will be spawned.": [
+"game/features/world/CopsDispatch.cpp"
+],
+"Window Tint": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"WindowBorderSize": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"WindowPadding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"WindowRounding": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"WindowTitleAlign": [
+"game/frontend/submenus/Settings/GUISettings.cpp"
+],
+"Winter, Nowhere in Particular": [
+"game/features/recovery/Heist/KortzCenterHeist.cpp"
+],
+"WndProc": [
+"core/hooking/Hooking.cpp"
+],
+"World": [
+"game/frontend/submenus/World.cpp"
+],
+"World.hpp": [
+"game/frontend/submenus/World.cpp"
+],
+"World/SpawnPed.hpp": [
+"game/frontend/submenus/World.cpp"
+],
+"Worn": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"Write": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Write##packed": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Write##packed_range": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"WriteNetArrayData": [
+"core/hooking/Hooking.cpp"
+],
+"WriteNodeData": [
+"core/hooking/Hooking.cpp"
+],
+"WriteSyncTree": [
+"core/hooking/Hooking.cpp"
+],
+"Xbox User ID:": [
+"game/frontend/submenus/Player/Info.cpp"
+],
+"Xmas": [
+"game/features/world/Weather.cpp"
+],
+"Year": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"Yes": [
+"game/frontend/submenus/Network/SavedPlayers.cpp",
+"game/frontend/submenus/Teleport.cpp",
+"game/frontend/submenus/Vehicle/SavedVehicles.cpp"
+],
+"YimMenu requires FSL to be loaded. Please get it from UnknownCheats.me": [
+"game/backend/AnticheatBypass.cpp"
+],
+"YimMenuV2": [
+"core/frontend/manager/styles/Classic/Classic.cpp",
+"game/frontend/Menu.cpp",
+"main.cpp"
+],
+"Yohan Blair": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"You can use the repository to report bugs, suggest features, and contribute by making pull requests. We also have a ": [
+"game/frontend/Onboarding.cpp"
+],
+"You have already delivered all the vehicles.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"You have been deducted $~1~ for being idle for too long, and you now have a bounty placed on you.": [
+"types/script/globals/GPBD_FM.hpp"
+],
+"You have just delivered a vehicle, wait a moment.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"You must own a Bail Office.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"You must own a Smoke on the Water property.": [
+"game/features/recovery/DailyActivities.cpp"
+],
+"You will never run out of ammo": [
+"game/features/self/InfiniteAmmo.cpp"
+],
+"You won't die because of border restrictions.": [
+"game/features/world/InfiniteBoundary.cpp"
+],
+"Zach Nelson": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"Zhaba": [
+"game/features/recovery/Heist/DiamondCasinoHeist.cpp"
+],
+"\\\\\\\\?\\\\UNC\\\\": [
+"core/scripting/LuaRequire.cpp"
+],
+"\\n--------End of exception--------\\n": [
+"core/logger/StackTrace.cpp"
+],
+"\\n\\tno Lua file for module '%s' in package.path": [
+"core/scripting/LuaRequire.cpp"
+],
+"activeDropOff is not the same as sctiptDropOff": [
+"types/script/globals/GSBD_BlockB.hpp"
+],
+"and other users. Matrix is a free and open source alternative to Discord, and creating an account is safe and easy": [
+"game/frontend/Onboarding.cpp"
+],
+"another script already has this name": [
+"core/scripting/LuaManager.hpp"
+],
+"atArray.hpp": [
+"types/rage/gameSkeleton.hpp"
+],
+"blocked invalid interior crash from ": [
+"game/hooks/Network/HandleNetGameEvent.cpp"
+],
+"cannot get metatable for the userdata at this index": [
+"core/scripting/LuaUtils.hpp"
+],
+"cannot get userdata at this index": [
+"core/scripting/LuaUtils.hpp"
+],
+"cannot open module '%s'": [
+"core/scripting/LuaRequire.cpp"
+],
+"cannot read module '%s'": [
+"core/scripting/LuaRequire.cpp"
+],
+"cannot resolve the opened module path": [
+"core/scripting/LuaRequire.cpp"
+],
+"core/backend/FiberPool.hpp": [
+"core/commands/BoolCommand.cpp",
+"core/commands/ColorCommand.cpp",
+"core/commands/FloatCommand.cpp"
+],
+"core/backend/ScriptMgr.hpp": [
+"core/commands/Commands.cpp",
+"core/commands/HotkeySystem.cpp",
+"core/scripting/LuaManager.cpp"
+],
+"core/commands/Command.hpp": [
+"core/scripting/LuaCommands.hpp",
+"core/scripting/LuaUserInterface.cpp",
+"game/backend/SavedPlayers.cpp"
+],
+"core/commands/Commands.hpp": [
+"core/scripting/LuaCommands.cpp",
+"game/frontend/Onboarding.cpp",
+"game/frontend/items/BoolCommandItem.cpp"
+],
+"core/commands/IntCommand.hpp": [
+"core/scripting/LuaCommands.hpp",
+"game/backend/CustomMatchmaking.cpp",
+"game/features/players/troll/SetBounty.cpp"
+],
+"core/filemgr/CacheFile.hpp": [
+"game/backend/ScriptPointers.hpp",
+"game/backend/Tunables.hpp"
+],
+"core/filemgr/File.hpp": [
+"core/scripting/LuaConfig.hpp",
+"core/settings/Settings.hpp"
+],
+"core/filemgr/FileMgr.hpp": [
+"core/backend/PatternCache.cpp",
+"core/scripting/LuaConfig.cpp",
+"core/scripting/LuaManager.cpp"
+],
+"core/hooking/CallHook.hpp": [
+"game/features/self/FormatMoney.cpp",
+"main.cpp"
+],
+"core/hooking/DetourHook.hpp": [
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/CheaterPool.cpp",
+"game/features/network/SpoofDataHash.cpp"
+],
+"core/hooking/Hooking.hpp": [
+"main.cpp"
+],
+"core/hooking/VMTHook.hpp": [
+"core/renderer/D3D12Hook.hpp",
+"game/backend/NativeHooks.hpp"
+],
+"core/logger/LogHelper.hpp": [
+"common.hpp",
+"core/frontend/Notifications.cpp",
+"game/frontend/ChatDisplay.cpp"
+],
+"core/memory/ModuleMgr.hpp": [
+"core/util/Wine.hpp",
+"game/backend/AnticheatBypass.cpp",
+"game/backend/ScriptPointers.cpp"
+],
+"core/memory/Pattern.hpp": [
+"game/gta/ScriptData.hpp",
+"game/gta/Scripts.cpp"
+],
+"core/memory/PatternHash.hpp": [
+"core/backend/PatternCache.hpp"
+],
+"core/renderer/D3D12Hook.hpp": [
+"core/commands/HotkeySystem.cpp",
+"main.cpp"
+],
+"core/renderer/Renderer.hpp": [
+"core/commands/HotkeySystem.cpp",
+"game/frontend/GUI.cpp",
+"game/frontend/Menu.cpp"
+],
+"core/scripting/LuaScript.hpp": [
+"game/frontend/GUI.cpp"
+],
+"core/scripting/LuaUtils.hpp": [
+"game/hooks/Network/HandleScriptedGameEvent.cpp"
+],
+"core/settings/Settings.hpp": [
+"main.cpp"
+],
+"core/util/Joaat.hpp": [
+"core/commands/Command.cpp",
+"core/commands/Command.hpp",
+"core/commands/Commands.hpp"
+],
+"core/util/Math.hpp": [
+"game/features/self/CustomWeapon.hpp",
+"game/features/self/Freecam.cpp",
+"game/features/self/RapidFire.cpp"
+],
+"core/util/RainbowColor.hpp": [
+"game/features/self/CustomWeapon.hpp"
+],
+"core/util/StrToHex.hpp": [
+"core/memory/Pattern.hpp"
+],
+"core/util/Strings.hpp": [
+"game/backend/Outfit.cpp",
+"game/backend/SavedVehicles.cpp",
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"core/util/Wine.hpp": [
+"core/logger/LogSink.cpp",
+"main.cpp"
+],
+"datBase.hpp": [
+"types/rage/fwRefAwareBase.hpp"
+],
+"don't add anything else to Player": [
+"game/gta/Player.hpp"
+],
+"enterOwnerInterior": [
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"expected a function": [
+"core/scripting/LuaUtils.hpp"
+],
+"fm_mission_controller DoTeamSwap": [
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"folder#get_file requires a relative path.": [
+"core/filemgr/Folder.cpp"
+],
+"fwEntity.hpp": [
+"types/entity/CEntity.hpp"
+],
+"fwExtension.hpp": [
+"types/rage/fwExtensionContainer.hpp"
+],
+"fwExtensionContainer.hpp": [
+"types/rage/fwExtensibleBase.hpp"
+],
+"fwRefAwareBase.hpp": [
+"types/rage/fwExtensibleBase.hpp"
+],
+"fwRefAwareBaseImpl.hpp": [
+"types/rage/fwRefAwareBase.hpp"
+],
+"g_AMC_playerBD.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"g_SavedMPGlobals.hpp": [
+"types/script/globals/Globals.cpp"
+],
+"game/backend/NativeHooks.hpp": [
+"game/backend/AnticheatBypass.cpp",
+"game/backend/Tunables.cpp",
+"game/features/network/BypassCasinoRestrictions.cpp"
+],
+"game/backend/NodeHooks.hpp": [
+"game/features/network/HarassPlayers.cpp",
+"game/features/network/SpamKillfeed.cpp",
+"game/gta/Player.cpp"
+],
+"game/backend/Outfit.hpp": [
+"game/frontend/submenus/Self/OutfitEditor.cpp",
+"game/gta/Ped.cpp"
+],
+"game/backend/PlayerData.hpp": [
+"game/backend/SavedPlayers.cpp",
+"game/features/players/kick/FreemodeStateKick.cpp",
+"game/frontend/submenus/Players.cpp"
+],
+"game/backend/Players.hpp": [
+"game/commands/PlayerCommand.cpp",
+"game/features/network/SpamKillfeed.cpp",
+"game/features/players/info/Spectate.cpp"
+],
+"game/backend/Self.hpp": [
+"game/backend/Outfit.cpp",
+"game/backend/PersonalVehicles.cpp",
+"game/backend/SavedVariables.cpp"
+],
+"game/backend/Tunables.hpp": [
+"game/features/recovery/Casino.cpp",
+"game/features/recovery/DailyActivities.cpp",
+"game/features/recovery/FreeChangeAppearance.cpp"
+],
+"game/frontend/GUI.hpp": [
+"core/commands/HotkeySystem.cpp",
+"core/scripting/LuaUserInterface.cpp",
+"game/features/self/Freecam.cpp"
+],
+"game/frontend/Menu.hpp": [
+"core/frontend/manager/UIManager.cpp",
+"core/frontend/manager/styles/Classic/Classic.cpp",
+"core/frontend/manager/styles/Modern/Modern.cpp"
+],
+"game/gta/Entity.hpp": [
+"game/backend/Self.hpp",
+"game/features/self/CustomWeapon.hpp"
+],
+"game/gta/Natives.hpp": [
+"core/commands/HotkeySystem.cpp",
+"game/backend/AnticheatBypass.cpp",
+"game/backend/Outfit.cpp"
+],
+"game/gta/Network.hpp": [
+"game/features/network/JoinSession.cpp",
+"game/frontend/submenus/Network.cpp",
+"game/frontend/submenus/Network/SavedPlayers.cpp"
+],
+"game/gta/Nodes.hpp": [
+"game/backend/NodeHooks.hpp",
+"game/hooks/Spoofing/WriteNodeData.cpp"
+],
+"game/gta/Object.hpp": [
+"game/features/self/CustomWeapon.cpp",
+"game/features/world/Delete.cpp",
+"game/features/world/Spawn.cpp"
+],
+"game/gta/Packet.hpp": [
+"game/features/system/Chat.cpp",
+"game/gta/Entity.cpp",
+"game/gta/Scripts.cpp"
+],
+"game/gta/Ped.hpp": [
+"game/backend/Self.hpp",
+"game/features/recovery/DailyActivities.cpp",
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"game/gta/Player.hpp": [
+"game/backend/NodeHooks.hpp",
+"game/backend/Players.hpp",
+"game/backend/SavedPlayers.hpp"
+],
+"game/gta/Pools.hpp": [
+"game/features/self/DisableCriticalHits.cpp",
+"game/features/self/ExplosionRadius.cpp",
+"game/features/self/ExplosiveAmmo.cpp"
+],
+"game/gta/RayCast.hpp": [
+"game/features/self/CustomWeapon.cpp"
+],
+"game/gta/ScriptData.hpp": [
+"game/backend/ScriptPatches.hpp",
+"game/gta/ScriptPointer.hpp"
+],
+"game/gta/ScriptFunction.hpp": [
+"game/backend/PersonalVehicles.cpp",
+"game/features/recovery/DailyActivities.cpp",
+"game/features/self/OpenGunLocker.cpp"
+],
+"game/gta/ScriptGlobal.hpp": [
+"game/backend/PersonalVehicles.cpp",
+"game/backend/SavedVariables.cpp",
+"game/backend/Tunables.hpp"
+],
+"game/gta/ScriptLocal.hpp": [
+"game/backend/PersonalVehicles.cpp",
+"game/features/recovery/Casino.cpp",
+"game/features/recovery/DailyActivities.cpp"
+],
+"game/gta/ScriptPointer.hpp": [
+"game/backend/ScriptPatches.hpp",
+"game/gta/ScriptFunction.cpp",
+"game/gta/ScriptFunction.hpp"
+],
+"game/gta/Scripts.hpp": [
+"game/backend/Tunables.cpp",
+"game/features/network/ForceScriptHost.cpp",
+"game/features/network/ForceThunder.cpp"
+],
+"game/gta/Stats.hpp": [
+"game/backend/PersonalVehicles.cpp",
+"game/features/recovery/AllowGenderChange.cpp",
+"game/features/recovery/Casino.cpp"
+],
+"game/gta/Vehicle.hpp": [
+"game/backend/PersonalVehicles.hpp",
+"game/backend/SavedVehicles.cpp",
+"game/backend/SavedVehicles.hpp"
+],
+"game/gta/VehicleModel.hpp": [
+"game/backend/SavedVehicles.cpp",
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"game/gta/data/IPL.hpp": [
+"game/features/world/IPLManager.cpp"
+],
+"game/gta/data/ModNames.hpp": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+],
+"game/gta/data/PedModels.hpp": [
+"game/frontend/submenus/World/SpawnPed.cpp"
+],
+"game/gta/data/StackSizes.hpp": [
+"game/backend/Tunables.cpp",
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/gta/Scripts.hpp"
+],
+"game/gta/data/Vehicles.hpp": [
+"game/frontend/submenus/Vehicle/SpawnVehicle.cpp",
+"game/gta/Vehicle.cpp"
+],
+"game/gta/data/Weapons.hpp": [
+"game/features/players/troll/GivePlayerAllWeapon.cpp",
+"game/features/self/GiveAllWeapons.cpp",
+"game/features/self/GiveMaxAmmo.cpp"
+],
+"game/gta/invoker/Invoker.hpp": [
+"game/backend/NativeHooks.cpp",
+"game/frontend/ESP.cpp",
+"game/frontend/Overlay.cpp"
+],
+"game/hooks/Hooks.hpp": [
+"core/hooking/Hooking.cpp",
+"game/backend/CustomMatchmaking.cpp",
+"game/features/network/CheaterPool.cpp"
+],
+"game/pointers/Pointers.hpp": [
+"core/commands/HotkeySystem.cpp",
+"core/frontend/manager/UIManager.cpp",
+"core/frontend/manager/styles/Classic/Classic.cpp"
+],
+"https://github.com/YimMenu/YimMenuV2. Make sure to only download the menu from GitHub to avoid malware. ": [
+"game/frontend/Onboarding.cpp"
+],
+"imgui_internal.h": [
+"core/frontend/widgets/toggle/imgui_toggle.cpp",
+"core/frontend/widgets/toggle/imgui_toggle_math.hpp",
+"core/frontend/widgets/toggle/imgui_toggle_palette.cpp"
+],
+"imgui_offset_rect.hpp": [
+"core/frontend/widgets/toggle/imgui_toggle.hpp"
+],
+"imgui_toggle.hpp": [
+"core/frontend/widgets/toggle/imgui_toggle.cpp",
+"core/frontend/widgets/toggle/imgui_toggle_presets.hpp",
+"core/frontend/widgets/toggle/imgui_toggle_renderer.hpp"
+],
+"imgui_toggle_math.hpp": [
+"core/frontend/widgets/toggle/imgui_toggle.cpp",
+"core/frontend/widgets/toggle/imgui_toggle_palette.cpp",
+"core/frontend/widgets/toggle/imgui_toggle_renderer.cpp"
+],
+"imgui_toggle_palette.hpp": [
+"core/frontend/widgets/toggle/imgui_toggle.cpp",
+"core/frontend/widgets/toggle/imgui_toggle_palette.cpp",
+"core/frontend/widgets/toggle/imgui_toggle_presets.cpp"
+],
+"imgui_toggle_presets.hpp": [
+"core/frontend/widgets/toggle/imgui_toggle_presets.cpp"
+],
+"imgui_toggle_renderer.hpp": [
+"core/frontend/widgets/toggle/imgui_toggle.cpp",
+"core/frontend/widgets/toggle/imgui_toggle_renderer.cpp"
+],
+"interiorIndex": [
+"game/frontend/submenus/Debug/Misc.cpp"
+],
+"invalid module name": [
+"core/scripting/LuaRequire.cpp"
+],
+"joining for up to two days, even after re-enabling BattlEye": [
+"game/frontend/Onboarding.cpp"
+],
+"memory/Module.hpp": [
+"core/hooking/IATHook.hpp"
+],
+"memory/PointerCalculator.hpp": [
+"core/hooking/IATHook.hpp"
+],
+"misc/cpp/imgui_stdlib.h": [
+"game/frontend/items/InputTextWithHint.cpp",
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"module must be a Lua file inside the scripts directory and outside disabled folders": [
+"core/scripting/LuaRequire.cpp"
+],
+"module path traversal is not allowed": [
+"core/scripting/LuaRequire.cpp"
+],
+"module paths must be relative to the scripts directory": [
+"core/scripting/LuaRequire.cpp"
+],
+"module paths through disabled folders are not allowed": [
+"core/scripting/LuaRequire.cpp"
+],
+"netAddress.hpp": [
+"types/network/netEvent.hpp",
+"types/network/rlGamerInfoBase.hpp"
+],
+"netArrayHandlerBase.hpp": [
+"types/network/netArrayHandler.hpp"
+],
+"netGameEvent.hpp": [
+"types/network/netGameEvent.cpp"
+],
+"netObject.hpp": [
+"types/network/netObjectMgrBase.hpp"
+],
+"netPlayer.hpp": [
+"types/network/CNetGamePlayer.hpp"
+],
+"netPlayerMgrBase.hpp": [
+"types/network/CNetworkPlayerMgr.hpp"
+],
+"netSocketAddress.hpp": [
+"types/network/netAddress.hpp",
+"types/network/rlGamerInfoBase.hpp"
+],
+"netSyncDataNode.hpp": [
+"types/network/sync/CProjectBaseSyncDataNode.hpp"
+],
+"netSyncNodeBase.hpp": [
+"types/network/sync/netSyncDataNode.hpp",
+"types/network/sync/netSyncTree.hpp"
+],
+"opened module is outside the scripts directory, in a disabled folder, or is not a Lua file": [
+"core/scripting/LuaRequire.cpp"
+],
+"rage::atArray is not properly sized": [
+"types/rage/atArray.hpp"
+],
+"rage::scrProgram": [
+"game/backend/NativeHooks.cpp"
+],
+"rlGamerHandle.hpp": [
+"types/network/rlGamerHandle.cpp",
+"types/network/rlGamerInfoBase.hpp",
+"types/network/rlSessionByGamerHandleTaskResult.hpp"
+],
+"rlGamerInfoBase.hpp": [
+"types/network/rlGamerInfo.hpp",
+"types/network/rlSessionDetail.hpp",
+"types/network/rlSessionInfo.hpp"
+],
+"rlScTaskStatus.hpp": [
+"types/socialclub/rlGetAvatarsContext.hpp"
+],
+"rlSessionConfig.hpp": [
+"types/network/rlSessionDetail.hpp"
+],
+"rlSessionInfo.hpp": [
+"types/network/rlSessionByGamerHandleTaskResult.hpp",
+"types/network/rlSessionDetail.hpp"
+],
+"sStatData.hpp": [
+"types/stats/CStatsMgr.hpp"
+],
+"scrNativeHandler.hpp": [
+"types/script/scrProgram.hpp"
+],
+"scrThread.hpp": [
+"types/script/GtaThread.hpp",
+"types/script/scrThread.cpp",
+"types/script/scriptHandler.hpp"
+],
+"scrVector.hpp": [
+"types/script/scrNativeHandler.hpp",
+"types/script/types.hpp"
+],
+"script destination must not be a linked directory": [
+"core/scripting/LuaManager.hpp"
+],
+"script is outside the scripts directory or is an include file": [
+"core/scripting/LuaManager.hpp"
+],
+"scriptHandler.hpp": [
+"types/script/CGameScriptHandler.hpp"
+],
+"scriptId.hpp": [
+"types/script/CGameScriptId.hpp",
+"types/script/scriptHandler.hpp"
+],
+"scriptIdBase.hpp": [
+"types/script/scriptId.hpp"
+],
+"spawn access": [
+"types/script/globals/GlobalPlayerBD.hpp"
+],
+"submenus/Debug.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/Network.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/Players.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/Recovery.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/Self.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/Settings.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/Teleport.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/Vehicle.hpp": [
+"game/frontend/Menu.cpp"
+],
+"submenus/World.hpp": [
+"game/frontend/Menu.cpp"
+],
+"sysMemAllocator.hpp": [
+"types/rage/tlsContext.hpp"
+],
+"the metatable for this userdata at this index is incorrect": [
+"core/scripting/LuaUtils.hpp"
+],
+"types/blip/BlipSprite.hpp": [
+"game/features/recovery/DailyActivities.cpp",
+"game/features/teleport/TpToObjective.cpp"
+],
+"types/entity/DecalTypes.hpp": [
+"game/features/self/CustomWeapon.cpp"
+],
+"types/fx/ExplosionType.hpp": [
+"game/features/players/toxic/Explode.cpp",
+"game/features/self/ExplosiveAmmo.cpp",
+"types/network/netGameEvent.cpp"
+],
+"types/netshop/netCatalog.hpp": [
+"game/features/recovery/FreeShopping.cpp"
+],
+"types/network/netEvent.hpp": [
+"game/hooks/Network/ReceiveNetMessage.cpp"
+],
+"types/network/netMessage.hpp": [
+"game/gta/Packet.hpp",
+"game/hooks/Network/ReceiveNetMessage.cpp"
+],
+"types/network/netObject.hpp": [
+"game/gta/Entity.cpp",
+"game/gta/Nodes.hpp"
+],
+"types/ped/CPedFactory.hpp": [
+"game/backend/Self.cpp",
+"game/gta/Entity.cpp"
+],
+"types/ped/PedConfigFlag.hpp": [
+"game/features/vehicle/Seatbelt.cpp"
+],
+"types/rage/ObfVar.hpp": [
+"types/anticheat/CAnticheatContext.hpp",
+"types/game_files/CGameDataHash.hpp"
+],
+"types/rage/RTTI.hpp": [
+"types/network/netArrayIdentifierBase.hpp",
+"types/network/netPlayer.hpp"
+],
+"types/rage/atArray.hpp": [
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/gta/Network.cpp",
+"game/gta/Scripts.cpp"
+],
+"types/rage/datBitBuffer.hpp": [
+"game/gta/Packet.hpp",
+"game/hooks/Network/HandleNetGameEvent.cpp",
+"game/hooks/Network/ReceiveNetMessage.cpp"
+],
+"types/rage/fwBasePool.hpp": [
+"game/gta/Pools.hpp"
+],
+"types/rage/gameSkeleton.hpp": [
+"game/hooks/Anticheat/GameSkeletonUpdate.cpp"
+],
+"types/rage/pgBase.hpp": [
+"types/script/scrProgram.hpp"
+],
+"types/rage/tlsContext.hpp": [
+"game/gta/Entity.cpp",
+"game/gta/ScriptFunction.cpp",
+"game/gta/Scripts.cpp"
+],
+"types/script/GtaThread.hpp": [
+"game/frontend/submenus/Debug/Scripts.cpp",
+"game/frontend/submenus/Network/RandomEvents.cpp",
+"game/gta/Scripts.cpp"
+],
+"types/script/ScriptEvent.hpp": [
+"game/features/players/kick/NullFunctionKick.cpp",
+"game/features/players/teleport/SendToInterior.cpp",
+"game/features/players/teleport/SendToProperty.cpp"
+],
+"types/script/Timer.hpp": [
+"game/features/self/CustomWeapon.cpp",
+"game/features/vehicle/CallMechanic.cpp",
+"types/script/globals/FreemodeDelivery.hpp"
+],
+"types/script/scrProgram.hpp": [
+"game/backend/NativeHooks.cpp",
+"game/backend/ScriptPatches.cpp",
+"game/backend/Tunables.cpp"
+],
+"types/script/scrThread.hpp": [
+"core/scripting/LuaManager.cpp",
+"game/backend/SavedVariables.cpp",
+"game/features/self/OpenGunLocker.cpp"
+],
+"types/script/scrVector.hpp": [
+"game/frontend/submenus/Debug/DrawVariable.cpp"
+],
+"types/stats/CStatsMgr.hpp": [
+"game/frontend/submenus/Recovery/StatEditor.cpp"
+],
+"uniqueId": [
+"types/script/globals/GPBD_FM_3.hpp"
+],
+"userdata is too small for the object": [
+"core/scripting/LuaUtils.hpp"
+],
+"validHashes = {": [
+"game/features/network/SpoofDataHash.cpp"
+],
+"{} Hotkey": [
+"game/frontend/items/BoolCommandItem.cpp",
+"game/frontend/items/CommandItem.cpp"
+],
+"{} TEX [0,{}]##2": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"{} TEX [0,{}]##4": [
+"game/frontend/submenus/Self/OutfitEditor.cpp"
+],
+"{} has hosted a job lobby": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} has joined a job lobby": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is no longer in a job lobby": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is no longer in a joinable session": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is no longer in a {}": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is no longer online": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is now in a joinable session": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is now in a {}": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is now in a {} session": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} is now online": [
+"game/backend/SavedPlayers.cpp"
+],
+"{} vehicles fixed.": [
+"game/features/vehicle/FixAllVehicles.cpp"
+],
+"{}###extra{}": [
+"game/frontend/submenus/Vehicle/VehicleEditor.cpp"
+]
+}

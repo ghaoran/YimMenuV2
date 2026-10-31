@@ -7,7 +7,7 @@ namespace YimMenu
 	void DrawSavedVariableEdit(const SavedVariableBase& var, void* value)
 	{
 		if (!value)
-			return ImGui::TextDisabled("Invalid");
+			return ImGui::TextDisabled( LBL("Invalid"));
 
 		switch (var.type)
 		{
@@ -31,7 +31,7 @@ namespace YimMenu
 		}
 		case VariableType::BOOL:
 		{
-			ImGui::Checkbox("Value", static_cast<bool*>(value));
+			ImGui::Checkbox( LBL("Value"), static_cast<bool*>(value));
 			break;
 		}
 		case VariableType::FLOAT:
@@ -65,7 +65,7 @@ namespace YimMenu
 	{
 		if (!value)
 		{
-			ImGui::Selectable("Invalid", false, ImGuiSelectableFlags_Disabled);
+			ImGui::Selectable( LBL("Invalid"), false, ImGuiSelectableFlags_Disabled);
 			return;
 		}
 
@@ -144,23 +144,23 @@ namespace YimMenu
 			}
 		}
 
-		if (ImGui::Button("Add Offset"))
+		if (ImGui::Button( LBL("Add Offset")))
 			var.appendages.push_back({VariableAppendage::Type::OFFSET, 0LL, 0ULL});
 		ImGui::SameLine();
-		if (ImGui::Button("Add Read Player Id"))
+		if (ImGui::Button( LBL("Add Read Player Id")))
 			var.appendages.push_back({VariableAppendage::Type::PLAYER_ID, 0LL, 0ULL});
 
 		if (var.appendages.size() > 0)
 		{
 			ImGui::SameLine();
-			if (ImGui::Button("Remove Offset"))
+			if (ImGui::Button( LBL("Remove Offset")))
 			{
 				var.appendages.pop_back();
 			}
 		}
 
 		ImGui::SameLine();
-		if (ImGui::Button("Clear"))
+		if (ImGui::Button( LBL("Clear")))
 		{
 			var.base = 0;
 			var.appendages.clear();

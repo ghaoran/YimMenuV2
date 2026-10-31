@@ -59,7 +59,7 @@ namespace YimMenu::Submenus
 		ImGui::SetNextItemWidth(150);
 		ImGui::InputText("##jumpoffset", offsetInput, IM_ARRAYSIZE(offsetInput));
 		ImGui::SameLine();
-		if (ImGui::Button("Jump to Offset"))
+		if (ImGui::Button( LBL("Jump to Offset")))
 		{
 			char* end = nullptr;
 			std::uint32_t offset = strtoul(offsetInput, &end, 0);
@@ -141,7 +141,7 @@ namespace YimMenu::Submenus
 			{
 				curThread = nullptr;
 				curProgram = nullptr;
-				return ImGui::TextDisabled("None");
+				return ImGui::TextDisabled( LBL("None"));
 			}
 
 			if (ImGui::BeginCombo("Thread", curThread ? curThread->m_ScriptName : "(Select)"))
@@ -186,13 +186,13 @@ namespace YimMenu::Submenus
 			}
 			else
 			{
-				if (ImGui::Button("Kill"))
+				if (ImGui::Button( LBL("Kill")))
 				{
 					curThread->Kill();
 					curThread->m_Context.m_State = rage::scrThread::State::KILLED;
 				}
 				ImGui::SameLine();
-				if (ImGui::Button("Log Labels"))
+				if (ImGui::Button( LBL("Log Labels")))
 				{
 					FiberPool::Push([] {
 						for (int i = 0; i < curProgram->m_StringsCount; i++)
@@ -208,7 +208,7 @@ namespace YimMenu::Submenus
 					});
 				}
 
-				if (ImGui::TreeNode("Info"))
+				if (ImGui::TreeNode( LBL("Info")))
 				{
 					if (auto netComponent = reinterpret_cast<GtaThread*>(curThread)->m_NetComponent)
 					{
@@ -218,7 +218,7 @@ namespace YimMenu::Submenus
 						}
 						ImGui::SameLine();
 						ImGui::BeginDisabled(netComponent->IsLocalPlayerHost());
-						if (ImGui::SmallButton("Take Control"))
+						if (ImGui::SmallButton( LBL("Take Control")))
 						{
 							FiberPool::Push([] {
 								Scripts::ForceScriptHost(curThread);
@@ -243,7 +243,7 @@ namespace YimMenu::Submenus
 					ImGui::EndGroup();
 					ImGui::TreePop();
 				}
-				if (ImGui::TreeNode("Bytecode"))
+				if (ImGui::TreeNode( LBL("Bytecode")))
 				{
 					RenderBytecode(curProgram);
 					ImGui::TreePop();
@@ -333,9 +333,9 @@ namespace YimMenu::Submenus
 				launcherIndex = Scripts::GetLauncherIndexFromScript(Joaat(scriptSearch));
 			}
 
-			ImGui::Checkbox("Pause After Starting", &pauseAfterStarting);
+			ImGui::Checkbox( LBL("Pause After Starting"), &pauseAfterStarting);
 
-			if (ImGui::Button("Start Script"))
+			if (ImGui::Button( LBL("Start Script")))
 			{
 				FiberPool::Push([] {
 					auto hash = Joaat(scriptSearch);
@@ -388,14 +388,14 @@ namespace YimMenu::Submenus
 			if (launcherIndex && *Pointers.IsSessionStarted)
 			{
 				ImGui::SameLine();
-				if (ImGui::Button("Start Session Script"))
+				if (ImGui::Button( LBL("Start Session Script")))
 				{
 					FiberPool::Push([] {
 						Scripts::StartLauncherScript(Joaat(scriptSearch));
 					});
 				}
 				ImGui::SameLine();
-				if (ImGui::Button("Start Script With Event"))
+				if (ImGui::Button( LBL("Start Script With Event")))
 				{
 					FiberPool::Push([] {
 						Scripts::ForceScriptOnPlayer(Joaat(scriptSearch), -1);

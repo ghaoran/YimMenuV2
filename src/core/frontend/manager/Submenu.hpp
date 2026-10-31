@@ -6,8 +6,9 @@ namespace YimMenu
 	class Submenu
 	{
 	public:
-		constexpr Submenu(std::string name, std::string icon = "") :
+		Submenu(std::string name, std::string icon = "") :
 		    m_Name(name),
+		    m_LocalizedName(Localization::TrStr(name)),
 		    m_Icon(icon)
 		{
 		}
@@ -29,6 +30,7 @@ namespace YimMenu
 	public:
 		std::vector<std::shared_ptr<Category>> m_Categories;
 		std::string m_Name;
+		std::string m_LocalizedName; // display name; m_Name stays as a stable id
 		std::string m_Icon; // currently unused
 	};
 }

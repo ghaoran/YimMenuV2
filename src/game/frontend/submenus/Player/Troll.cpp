@@ -15,8 +15,8 @@ namespace YimMenu::Submenus
 		general->AddItem(std::make_shared<PlayerCommandItem>("sendgooch"_J));
 		general->AddItem(std::make_shared<PlayerCommandItem>("giveweapons"_J));
 
-		bounty->AddItem(std::make_shared<IntCommandItem>("bountyamount"_J, "Amount"));
-		bounty->AddItem(std::make_shared<BoolCommandItem>("anonymousbounty"_J, "Anonymous"));
+		bounty->AddItem(std::make_shared<IntCommandItem>("bountyamount"_J, LBL("Amount")));
+		bounty->AddItem(std::make_shared<BoolCommandItem>("anonymousbounty"_J, LBL("Anonymous")));
 		bounty->AddItem(std::make_shared<PlayerCommandItem>("setbounty"_J));
 
 		vehicle->AddItem(std::make_shared<PlayerCommandItem>("deleteveh"_J));

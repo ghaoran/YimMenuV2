@@ -22,9 +22,9 @@ namespace YimMenu
 		if (link->m_Chain.empty())
 		{
 			if (active)
-				ImGui::Text("Press any button...");
+				ImGui::Text( LBL("Press any button..."));
 			else
-				ImGui::Text("No hotkey assigned");
+				ImGui::Text( LBL("No hotkey assigned"));
 		}
 		else
 		{
@@ -52,7 +52,7 @@ namespace YimMenu
 			ImGui::PopItemWidth();
 
 			ImGui::SameLine();
-			if (ImGui::Button("Clear"))
+			if (ImGui::Button( LBL("Clear")))
 			{
 				link->m_Chain.clear();
 				g_HotkeySystem.MarkStateDirty();

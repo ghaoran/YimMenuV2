@@ -51,14 +51,14 @@ namespace YimMenu::Submenus
 				}
 				else
 				{
-					ImGui::Text("Ped missing or deleted");
+					ImGui::Text( LBL("Ped missing or deleted"));
 				}
 
 				auto rid1 = Players::GetSelected().GetRID();
 
 				std::string ridStr = std::to_string(rid1);
 
-				ImGui::Text("RID:");
+				ImGui::Text( LBL("RID:"));
 				ImGui::SameLine();
 				if (ImGui::SmallButton(std::to_string(rid1).c_str()))
 				{
@@ -69,7 +69,7 @@ namespace YimMenu::Submenus
 				switch (platformAccountId.m_Platform)
 				{
 				case PlatformAccountId::PLATFORM_XBOX:
-					ImGui::Text("Xbox User ID:");
+					ImGui::Text( LBL("Xbox User ID:"));
 					ImGui::SameLine();
 					if (ImGui::SmallButton(std::to_string(platformAccountId.m_XboxUserId).c_str()))
 					{
@@ -77,7 +77,7 @@ namespace YimMenu::Submenus
 					}
 					break;
 				case PlatformAccountId::PLATFORM_STEAM:
-					ImGui::Text("Steam ID:");
+					ImGui::Text( LBL("Steam ID:"));
 					ImGui::SameLine();
 					if (ImGui::SmallButton(std::to_string(platformAccountId.m_SteamId).c_str()))
 					{
@@ -85,7 +85,7 @@ namespace YimMenu::Submenus
 					}
 					break;
 				case PlatformAccountId::PLATFORM_EPIC:
-					ImGui::Text("Epic Account ID:");
+					ImGui::Text( LBL("Epic Account ID:"));
 					ImGui::SameLine();
 					if (ImGui::SmallButton(platformAccountId.m_EpicAccountId))
 					{
@@ -101,31 +101,31 @@ namespace YimMenu::Submenus
 
 				auto addr2 = BuildIPStr(ip.m_IpAddress.m_Field1, ip.m_IpAddress.m_Field2, ip.m_IpAddress.m_Field3, ip.m_IpAddress.m_Field4);
 
-				ImGui::Text("IP Address:");
+				ImGui::Text( LBL("IP Address:"));
 				ImGui::SameLine();
 				if (ImGui::SmallButton(addr2.c_str()))
 				{
 					ImGui::SetClipboardText(addr2.c_str());
 				}
 
-				if (ImGui::Button("Add to Saved"))
+				if (ImGui::Button( LBL("Add to Saved")))
 					SavedPlayers::GetPlayerData(Players::GetSelected());
 				ImGui::SameLine();
-				if (ImGui::Button("View SC Profile"))
+				if (ImGui::Button( LBL("View SC Profile")))
 					FiberPool::Push([] {
 						uint64_t handle[13];
 						NETWORK::NETWORK_HANDLE_FROM_PLAYER(Players::GetSelected().GetId(), handle, std::size(handle));
 						NETWORK::NETWORK_SHOW_PROFILE_UI(handle);
 					});
 				ImGui::SameLine();
-				if (ImGui::Button("Add Friend"))
+				if (ImGui::Button( LBL("Add Friend")))
 					FiberPool::Push([] {
 						uint64_t handle[13];
 						NETWORK::NETWORK_HANDLE_FROM_PLAYER(Players::GetSelected().GetId(), handle, std::size(handle));
 						NETWORK::NETWORK_ADD_FRIEND(handle, "");
 					});
 
-				if (ImGui::Button("More Info"))
+				if (ImGui::Button( LBL("More Info")))
 					ImGui::OpenPopup("More Info");
 
 				ImGui::SetNextWindowPos(ImVec2(ImGui::GetIO().DisplaySize.x * 0.5f, ImGui::GetIO().DisplaySize.y * 0.5f), ImGuiCond_Always, ImVec2(0.5f, 0.5f));
@@ -136,7 +136,7 @@ namespace YimMenu::Submenus
 
 					ImGui::Spacing();
 
-					if (ImGui::Button("Close") || ((!ImGui::IsWindowHovered() && !ImGui::IsAnyItemHovered()) && ImGui::IsMouseClicked(ImGuiMouseButton_Left)))
+					if (ImGui::Button( LBL("Close")) || ((!ImGui::IsWindowHovered() && !ImGui::IsAnyItemHovered()) && ImGui::IsMouseClicked(ImGuiMouseButton_Left)))
 						ImGui::CloseCurrentPopup();
 
 					ImGui::EndPopup();
@@ -145,7 +145,7 @@ namespace YimMenu::Submenus
 			else
 			{
 				Players::SetSelected(Self::GetPlayer());
-				ImGui::Text("No players yet!");
+				ImGui::Text( LBL("No players yet!"));
 			}
 		}));
 
@@ -153,8 +153,8 @@ namespace YimMenu::Submenus
 
 		
 		auto customPlayerTp = std::make_shared<Group>("", 1);
-		customPlayerTp->AddItem(std::make_shared<Vector3CommandItem>("playertpcoord"_J, ""));
-		customPlayerTp->AddItem(std::make_shared<PlayerCommandItem>("tpplayertocoord"_J, "Teleport"));
+		customPlayerTp->AddItem(std::make_shared<Vector3CommandItem>("playertpcoord"_J, LBL("")));
+		customPlayerTp->AddItem(std::make_shared<PlayerCommandItem>("tpplayertocoord"_J, LBL("Teleport")));
 		auto tpToProperty = std::make_shared<Group>("", 1);
 		tpToProperty->AddItem(std::make_shared<ListCommandItem>("sendtopropertyindex"_J, "##selproperty"));
 		tpToProperty->AddItem(std::make_shared<PlayerCommandItem>("sendtoproperty"_J));
@@ -163,7 +163,7 @@ namespace YimMenu::Submenus
 		tpToInterior->AddItem(std::make_shared<PlayerCommandItem>("sendtointerior"_J));
 		teleportGroup->AddItem(tpToProperty);
 		teleportGroup->AddItem(tpToInterior);
-		teleportGroup->AddItem(std::make_shared<PlayerCommandItem>("tptoplayer"_J, "Teleport To"));
+		teleportGroup->AddItem(std::make_shared<PlayerCommandItem>("tptoplayer"_J, LBL("Teleport To")));
 		teleportGroup->AddItem(std::make_shared<PlayerCommandItem>("bring"_J));
 		teleportGroup->AddItem(customPlayerTp);
 

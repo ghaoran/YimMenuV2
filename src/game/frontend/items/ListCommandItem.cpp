@@ -16,7 +16,7 @@ namespace YimMenu
 	{
 		if (!m_Command)
 		{
-			ImGui::Text("Unknown list!");
+			ImGui::Text( LBL("Unknown list!"));
 			return;
 		}
 
@@ -45,16 +45,16 @@ namespace YimMenu
 			if (!m_SelectedItem.has_value())
 				m_SelectedItem = "";
 
-			auto size = ImGui::CalcTextSize(largest_string);
+			auto size = ImGui::CalcTextSize(Localization::Tr(largest_string));
 			m_ItemWidth = size.x + 40.0f;
 		}
 
 		ImGui::SetNextItemWidth(m_ItemWidth.value());
-		if (ImGui::BeginCombo(m_LabelOverride.value_or(m_Command->GetLabel()).c_str(), m_SelectedItem.value().c_str()))
+		if (ImGui::BeginCombo(m_LabelOverride.value_or(m_Command->GetLabel()).c_str(), Localization::Tr(m_SelectedItem.value()).data()))
 		{
 			for (auto& el : list)
 			{
-				if (ImGui::Selectable(el.second, el.first == current_val))
+				if (ImGui::Selectable((std::string(Localization::Tr(el.second)) + "##opt_" + el.second).c_str(), el.first == current_val))
 				{
 					current_val = el.first;
 					m_Command->SetState(el.first);

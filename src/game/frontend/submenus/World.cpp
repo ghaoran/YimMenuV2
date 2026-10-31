@@ -32,13 +32,13 @@ namespace YimMenu::Submenus
 		auto timeGroup = std::make_shared<Group>("Time");
 
 		auto hms = std::make_shared<Group>("", 1);
-		hms->AddItem(std::make_shared<IntCommandItem>("networktimehour"_J, "Hour"));
-		hms->AddItem(std::make_shared<IntCommandItem>("networktimeminute"_J, "Minute"));
-		hms->AddItem(std::make_shared<IntCommandItem>("networktimesecond"_J, "Second"));
+		hms->AddItem(std::make_shared<IntCommandItem>("networktimehour"_J, LBL("Hour")));
+		hms->AddItem(std::make_shared<IntCommandItem>("networktimeminute"_J, LBL("Minute")));
+		hms->AddItem(std::make_shared<IntCommandItem>("networktimesecond"_J, LBL("Second")));
 		timeGroup->AddItem(std::move(hms));
 
-		timeGroup->AddItem(std::make_shared<CommandItem>("setnetworktime"_J, "Set"));
-		timeGroup->AddItem(std::make_shared<BoolCommandItem>("freezenetworktime"_J, "Freeze"));
+		timeGroup->AddItem(std::make_shared<CommandItem>("setnetworktime"_J, LBL("Set")));
+		timeGroup->AddItem(std::make_shared<BoolCommandItem>("freezenetworktime"_J, LBL("Freeze")));
 
 		auto otherOpts = std::make_shared<Group>("Other", 1);
 		otherOpts->AddItem(std::make_shared<BoolCommandItem>("pedsignore"_J));

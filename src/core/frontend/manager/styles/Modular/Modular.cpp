@@ -79,9 +79,9 @@ namespace YimMenu
 				ImGui::PopFont();
 
 				// Label below button
-				ImVec2 labelSize = ImGui::CalcTextSize(submenu->m_Name.c_str());
+				ImVec2 labelSize = ImGui::CalcTextSize(submenu->m_LocalizedName.c_str());
 				ImVec2 labelPos(center.x - labelSize.x / 2, bubblePos.y + bubbleSize.y + 6);
-				drawList->AddText(labelPos, textColor, submenu->m_Name.c_str());
+				drawList->AddText(labelPos, textColor, submenu->m_LocalizedName.c_str());
 			}
 			ImGui::End();
 		}

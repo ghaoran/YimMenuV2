@@ -113,14 +113,14 @@ namespace YimMenu::Submenus
 	const std::unordered_set<std::uint32_t> BANNED_ITEM_HASHES =
 	    {
 	        "SERVICE_EARN_DEBUG"_J,
-	        "SERVICE_EARN_JBONUS"_J,
-	        "SERVICE_EARN_JBONUS_MODEL"_J,
-	        "SERVICE_EARN_JBONUS_NO_DEATH"_J,
-	        "SERVICE_EARN_JBONUS_NO_FALL"_J,
-	        "SERVICE_EARN_JBONUS_NOT_SEEN"_J,
-	        "SERVICE_EARN_JBONUS_SE"_J,
-	        "SERVICE_EARN_EVOLVE"_J,
-	        "SERVICE_EARN_IMPULSE"_J,
+	        LBL("SERVICE_EARN_JBONUS")_J,
+	        LBL("SERVICE_EARN_JBONUS_MODEL")_J,
+	        LBL("SERVICE_EARN_JBONUS_NO_DEATH")_J,
+	        LBL("SERVICE_EARN_JBONUS_NO_FALL")_J,
+	        LBL("SERVICE_EARN_JBONUS_NOT_SEEN")_J,
+	        LBL("SERVICE_EARN_JBONUS_SE")_J,
+	        LBL("SERVICE_EARN_EVOLVE")_J,
+	        LBL("SERVICE_EARN_IMPULSE")_J,
 	};
 
 	static const char* CategoryNameFromHash(std::uint32_t hash)
@@ -467,7 +467,7 @@ namespace YimMenu::Submenus
 			ImGui::SetNextItemWidth(180.0f);
 			ImGui::InputInt("Stat Value", &item.m_StatValue); // I'm not actually sure what this does ngl
 
-			if (info.m_Basket.m_BasketItems.size() > 1 && ImGui::Button("Delete"))
+			if (info.m_Basket.m_BasketItems.size() > 1 && ImGui::Button( LBL("Delete")))
 				item_to_delete = i;
 			ImGui::PopID();
 
@@ -478,7 +478,7 @@ namespace YimMenu::Submenus
 		if (item_to_delete.has_value())
 			info.m_Basket.m_BasketItems.erase(std::next(info.m_Basket.m_BasketItems.begin(), *item_to_delete));
 
-		if (ImGui::Button("Add Item"))
+		if (ImGui::Button( LBL("Add Item")))
 		{
 			info.m_Basket.m_BasketItems.push_back({});
 		}
@@ -507,15 +507,15 @@ namespace YimMenu::Submenus
 
 		normal->AddItem(std::make_unique<ImGuiItem>([] {
 			if (!NativeInvoker::AreHandlersCached())
-				return ImGui::TextDisabled("Natives not cached yet");
+				return ImGui::TextDisabled( LBL("Natives not cached yet"));
 
 			if (AnticheatBypass::IsFSLProvidingLocalSaves())
-				return ImGui::TextDisabled("Transactions are not supported with FSL local saves enabled");
+				return ImGui::TextDisabled( LBL("Transactions are not supported with FSL local saves enabled"));
 
 			if (!NETSHOPPING::NET_GAMESERVER_CATALOG_IS_VALID())
-				return ImGui::TextDisabled("Catalog not loaded yet");
+				return ImGui::TextDisabled( LBL("Catalog not loaded yet"));
 
-			ImGui::Text("Warning: You are solely responsible for what you do with this tool. If you don't know what you're doing, you'll likely get banned");
+			ImGui::Text( LBL("Warning: You are solely responsible for what you do with this tool. If you don't know what you're doing, you'll likely get banned"));
 
 			static TransactionInfo info{};
 			bool txn_valid{true};
@@ -578,7 +578,7 @@ namespace YimMenu::Submenus
 			ImGui::Separator();
 
 			ImGui::BeginDisabled(!txn_valid);
-			if (ImGui::Button("Trigger"))
+			if (ImGui::Button( LBL("Trigger")))
 				FiberPool::Push([] {
 					ProcessTransaction(info);
 				});

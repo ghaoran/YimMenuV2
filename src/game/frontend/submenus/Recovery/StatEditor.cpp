@@ -361,7 +361,7 @@ namespace YimMenu::Submenus
 		switch (data->GetType())
 		{
 		case sStatData::Type::_BOOL:
-			return ImGui::Checkbox("Value", &value.m_AsBool);
+			return ImGui::Checkbox( LBL("Value"), &value.m_AsBool);
 		case sStatData::Type::FLOAT:
 			return ImGui::InputFloat("Value", &value.m_AsFloat[0]);
 		case sStatData::Type::INT:
@@ -421,7 +421,7 @@ namespace YimMenu::Submenus
 		case sStatData::Type::TEXTLABEL:
 		default:
 			ImGui::BeginDisabled();
-			ImGui::Text("Data type not supported");
+			ImGui::Text( LBL("Data type not supported"));
 			ImGui::EndDisabled();
 			return false; // data type not supported
 		}
@@ -490,7 +490,7 @@ namespace YimMenu::Submenus
 
 		normal->AddItem(std::make_unique<ImGuiItem>([] {
 			if (!NativeInvoker::AreHandlersCached())
-				return ImGui::TextDisabled("Natives not cached yet");
+				return ImGui::TextDisabled( LBL("Natives not cached yet"));
 
 			static StatInfo current_info;
 			static char stat_buf[48]{};
@@ -505,7 +505,7 @@ namespace YimMenu::Submenus
 			}
 
 			if (!current_info.IsValid())
-				return ImGui::TextDisabled("Stat not found");
+				return ImGui::TextDisabled( LBL("Stat not found"));
 			else if (current_info.m_Normalized)
 			{
 				ImGui::Text("Normalized name to: %s", current_info.m_Name.data());
@@ -516,11 +516,11 @@ namespace YimMenu::Submenus
 			if (can_edit)
 				can_edit = !current_info.m_Data->IsControlledByNetshop();			
 
-			if (ImGui::Button("Refresh"))
+			if (ImGui::Button( LBL("Refresh")))
 				ReadStat(current_info.m_NameHash,value, current_info.m_Data);
 			ImGui::SameLine();
 			ImGui::BeginDisabled(!can_edit);
-			if (ImGui::Button("Write"))
+			if (ImGui::Button( LBL("Write")))
 				FiberPool::Push([] {
 					WriteStat(current_info.m_NameHash, value, current_info.m_Data);
 				});
@@ -535,7 +535,7 @@ namespace YimMenu::Submenus
 
 		packed->AddItem(std::make_unique<ImGuiItem>([] {
 			if (!NativeInvoker::AreHandlersCached())
-				return ImGui::TextDisabled("Natives not cached yet");
+				return ImGui::TextDisabled( LBL("Natives not cached yet"));
 
 			// TODO: improve packed stat editor
 			static PackedStatInfo current_info{0, false, true};
@@ -550,7 +550,7 @@ namespace YimMenu::Submenus
 			}
 
 			if (!current_info.IsValid())
-				return ImGui::TextDisabled("Index not valid");
+				return ImGui::TextDisabled( LBL("Index not valid"));
 
 			RenderPackedStatEditor(value, current_info);
 
@@ -565,7 +565,7 @@ namespace YimMenu::Submenus
 
 		packed_range->AddItem(std::make_unique<ImGuiItem>([] {
 			if (!NativeInvoker::AreHandlersCached())
-				return ImGui::TextDisabled("Natives not cached yet");
+				return ImGui::TextDisabled( LBL("Natives not cached yet"));
 
 			static int start{}, end{}, value{};
 
@@ -585,9 +585,9 @@ namespace YimMenu::Submenus
 
 		from_clipboard->AddItem(std::make_unique<ImGuiItem>([] {
 			if (!NativeInvoker::AreHandlersCached())
-				return ImGui::TextDisabled("Natives not cached yet");
+				return ImGui::TextDisabled( LBL("Natives not cached yet"));
 
-			if (ImGui::Button("Load from Clipboard"))
+			if (ImGui::Button( LBL("Load from Clipboard")))
 			{
 				auto clip_text = std::string(ImGui::GetClipboardText());
 				FiberPool::Push([clip_text] {

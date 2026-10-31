@@ -79,7 +79,7 @@ namespace YimMenu::Submenus
 
 			if (players.size() == 0)
 			{
-				ImGui::TextDisabled("No saved players");
+				ImGui::TextDisabled( LBL("No saved players"));
 				ImGui::EndListBox();
 				return;
 			}
@@ -125,7 +125,7 @@ namespace YimMenu::Submenus
 				g_SelectedPlayer = SavedPlayers::GetPlayerData(g_SelectedRid);
 			}
 
-			ImGui::Checkbox("Track Player", &g_SelectedPlayer->m_TrackPlayer);
+			ImGui::Checkbox( LBL("Track Player"), &g_SelectedPlayer->m_TrackPlayer);
 
 			if (g_SelectedPlayer->m_FetchedData)
 			{
@@ -146,22 +146,22 @@ namespace YimMenu::Submenus
 			}
 			else
 			{
-				ImGui::TextDisabled("Data not fetched yet");
+				ImGui::TextDisabled( LBL("Data not fetched yet"));
 			}
 
-			if (ImGui::Button("Join"))
+			if (ImGui::Button( LBL("Join")))
 			{
 				FiberPool::Push([] {
 					Network::JoinRockstarId(g_SelectedRid);
 				});
 			}
 
-			if (ImGui::Button("Save"))
+			if (ImGui::Button( LBL("Save")))
 			{
 				SavedPlayers::Save();
 			}
 			ImGui::SameLine();
-			if (ImGui::Button("Remove"))
+			if (ImGui::Button( LBL("Remove")))
 			{
 				SavedPlayers::RemovePlayerData(g_SelectedRid);
 				g_SelectedPlayer = nullptr;
@@ -185,7 +185,7 @@ namespace YimMenu::Submenus
 		ImGui::SetNextItemWidth(180.0f);
 		ImGui::InputText("Username", name_buf, sizeof(name_buf));
 		ImGui::SameLine();
-		if (ImGui::Button("Add"))
+		if (ImGui::Button( LBL("Add")))
 			FiberPool::Push([] {
 				auto rid = YimMenu::Network::ResolveRockstarId(name_buf);
 				if (rid)
@@ -224,11 +224,11 @@ namespace YimMenu::Submenus
 		notifications->AddItem(std::make_shared<BoolCommandItem>("playerdbnotifyonjoblobby"_J));
 
 		auto update = std::make_shared<Group>("", 1);
-		update->AddItem(std::make_shared<BoolCommandItem>("playerdbautoupdate"_J, "Auto Update"));
-		update->AddItem(std::make_shared<CommandItem>("playerdbupdatenow"_J, "Update Now"));
+		update->AddItem(std::make_shared<BoolCommandItem>("playerdbautoupdate"_J, LBL("Auto Update")));
+		update->AddItem(std::make_shared<CommandItem>("playerdbupdatenow"_J, LBL("Update Now")));
 
 		tracking->AddItem(std::move(update));
-		tracking->AddItem(std::make_shared<BoolCommandItem>("playerdbnotify"_J, "Tracking Notifications"));
+		tracking->AddItem(std::make_shared<BoolCommandItem>("playerdbnotify"_J, LBL("Tracking Notifications")));
 		tracking->AddItem(std::make_shared<ConditionalItem>("playerdbnotify"_J, std::move(notifications)));
 
 		menu->AddItem(players);

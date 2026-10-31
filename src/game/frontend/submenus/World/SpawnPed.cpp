@@ -165,7 +165,7 @@ namespace YimMenu::Submenus
 
 											return ctx->SetReturnValue(model);
 										});
-										for (auto script : {"main"_J, "respawn_controller"_J, "pi_menu"_J})
+										for (auto script : {"main"_J, LBL("respawn_controller")_J, LBL("pi_menu")_J})
 										{
 											NativeHooks::AddHook(script, NativeIndex::GET_ENTITY_MODEL, [](rage::scrNativeCallContext* ctx) {
 												auto model = ENTITY::GET_ENTITY_MODEL(ctx->GetArg<int>(0));
@@ -197,17 +197,17 @@ namespace YimMenu::Submenus
 
 			ImGui::SameLine();
 			ImGui::BeginGroup();
-			ImGui::BulletText("Ctrl+Click to set player model");
-			ImGui::Checkbox("Invincible", &invincible);
-			ImGui::Checkbox("Spawn Dead", &spawnDead);
-			ImGui::Checkbox("Spawn As Bodyguard", &spawnAsBodyguard);
-			ImGui::Checkbox("Spawn As Cop", &spawnAsCop);
-			ImGui::Checkbox("Spawn In My Vehicle", &spawnInMyVehicle);
-			ImGui::Checkbox("Give All Weapons", &giveAllWeapons);
-			ImGui::Checkbox("Spawn As Prostitute", &spawnAsProstitute);
-			ImGui::Checkbox("Randomize Outfit", &randomizeOutfit);
-			ImGui::Checkbox("Blip Ped", &blipPed);
-			if (ImGui::Button("Remove All"))
+			ImGui::BulletText( LBL("Ctrl+Click to set player model"));
+			ImGui::Checkbox( LBL("Invincible"), &invincible);
+			ImGui::Checkbox( LBL("Spawn Dead"), &spawnDead);
+			ImGui::Checkbox( LBL("Spawn As Bodyguard"), &spawnAsBodyguard);
+			ImGui::Checkbox( LBL("Spawn As Cop"), &spawnAsCop);
+			ImGui::Checkbox( LBL("Spawn In My Vehicle"), &spawnInMyVehicle);
+			ImGui::Checkbox( LBL("Give All Weapons"), &giveAllWeapons);
+			ImGui::Checkbox( LBL("Spawn As Prostitute"), &spawnAsProstitute);
+			ImGui::Checkbox( LBL("Randomize Outfit"), &randomizeOutfit);
+			ImGui::Checkbox( LBL("Blip Ped"), &blipPed);
+			if (ImGui::Button( LBL("Remove All")))
 			{
 				FiberPool::Push([] {
 					for (auto& ped : spawnedPeds)

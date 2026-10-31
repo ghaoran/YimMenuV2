@@ -1,5 +1,6 @@
 #pragma once
 #include "core/util/Joaat.hpp"
+#include "core/util/Localization.hpp"
 
 #include <nlohmann/json.hpp>
 
@@ -17,6 +18,8 @@ namespace YimMenu
 		std::string m_Name;
 		std::string m_Label;
 		std::string m_Description;
+		std::string m_LocalizedLabel;
+		std::string m_LocalizedDescription;
 		joaat_t m_Hash;
 
 	public:
@@ -30,22 +33,30 @@ namespace YimMenu
 			return true;
 		}
 
-		virtual void SaveState(nlohmann::json& value) {};
-		virtual void LoadState(nlohmann::json& value) {};
+		virtual void SaveState(nlohmann::json& value) {}
+		virtual void LoadState(nlohmann::json& value) {}
 
 		const std::string& GetName()
 		{
 			return m_Name;
 		}
 
-		const std::string& GetLabel()
+		// Raw English label. Used for configuration keys and logging only.
+		const std::string& GetRawLabel()
 		{
 			return m_Label;
 		}
 
+		// Localized (Simplified Chinese) label, shown in the UI.
+		const std::string& GetLabel()
+		{
+			return m_LocalizedLabel;
+		}
+
+		// Localized (Simplified Chinese) description, shown in tooltips.
 		const std::string& GetDescription()
 		{
-			return m_Description;
+			return m_LocalizedDescription;
 		}
 
 		joaat_t GetHash()

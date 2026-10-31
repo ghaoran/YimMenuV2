@@ -16,7 +16,7 @@ namespace YimMenu
 	{
 		if (!m_Command)
 		{
-			ImGui::Text("Unknown color picker!");
+			ImGui::Text( LBL("Unknown color picker!"));
 			return;
 		}
 

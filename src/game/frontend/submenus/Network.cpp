@@ -23,7 +23,7 @@ namespace YimMenu::Submenus
 		auto enhancements = std::make_shared<Group>("Enhancements");
 
 		auto joinSession = std::make_shared<Group>("", 1);
-		joinSession->AddItem(std::make_shared<ListCommandItem>("joinsessiontype"_J, "Session Type"));
+		joinSession->AddItem(std::make_shared<ListCommandItem>("joinsessiontype"_J, LBL("Session Type")));
 		joinSession->AddItem(std::make_shared<CommandItem>("joinsession"_J, "Join##session"));
 
 		joinGroup->AddItem(joinSession);
@@ -56,34 +56,34 @@ namespace YimMenu::Submenus
 				});
 		}));
 
-		bountyGroup->AddItem(std::make_shared<IntCommandItem>("bountyamount"_J, "Amount"));
-		bountyGroup->AddItem(std::make_shared<BoolCommandItem>("anonymousbounty"_J, "Anonymous"));
-		bountyGroup->AddItem(std::make_shared<CommandItem>("setbountyall"_J, "Set Bounties"));
+		bountyGroup->AddItem(std::make_shared<IntCommandItem>("bountyamount"_J, LBL("Amount")));
+		bountyGroup->AddItem(std::make_shared<BoolCommandItem>("anonymousbounty"_J, LBL("Anonymous")));
+		bountyGroup->AddItem(std::make_shared<CommandItem>("setbountyall"_J, LBL("Set Bounties")));
 
 		auto customPlayerTp = std::make_shared<Group>("", 1);
-		customPlayerTp->AddItem(std::make_shared<Vector3CommandItem>("playertpcoord"_J, ""));
-		customPlayerTp->AddItem(std::make_shared<CommandItem>("tpplayertocoordall"_J, "Teleport Everyone"));
+		customPlayerTp->AddItem(std::make_shared<Vector3CommandItem>("playertpcoord"_J, LBL("")));
+		customPlayerTp->AddItem(std::make_shared<CommandItem>("tpplayertocoordall"_J, LBL("Teleport Everyone")));
 		auto tpToProperty = std::make_shared<Group>("", 1);
 		tpToProperty->AddItem(std::make_shared<ListCommandItem>("sendtopropertyindex"_J, "##selproperty"));
-		tpToProperty->AddItem(std::make_shared<CommandItem>("sendtopropertyall"_J, "Send All to Property"));
+		tpToProperty->AddItem(std::make_shared<CommandItem>("sendtopropertyall"_J, LBL("Send All to Property")));
 		auto tpToInterior = std::make_shared<Group>("", 1);
 		tpToInterior->AddItem(std::make_shared<ListCommandItem>("sendtointeriorindex"_J, "##selinterior"));
-		tpToInterior->AddItem(std::make_shared<CommandItem>("sendtointeriorall"_J, "Send All to Interior"));
+		tpToInterior->AddItem(std::make_shared<CommandItem>("sendtointeriorall"_J, LBL("Send All to Interior")));
 		teleportGroup->AddItem(tpToProperty);
 		teleportGroup->AddItem(tpToInterior);
-		teleportGroup->AddItem(std::make_shared<CommandItem>("bringall"_J, "Bring All"));
+		teleportGroup->AddItem(std::make_shared<CommandItem>("bringall"_J, LBL("Bring All")));
 		teleportGroup->AddItem(customPlayerTp);
 
-		trollGroup->AddItem(std::make_shared<CommandItem>("sendsextall"_J, "Send Sexts"));
+		trollGroup->AddItem(std::make_shared<CommandItem>("sendsextall"_J, LBL("Send Sexts")));
 		trollGroup->AddItem(std::make_shared<BoolCommandItem>("harassplayers"_J));
 		trollGroup->AddItem(std::make_shared<BoolCommandItem>("spamkillfeed"_J));
-		trollGroup->AddItem(std::make_shared<CommandItem>("deletevehall"_J, "Delete Player Vehicles"));
+		trollGroup->AddItem(std::make_shared<CommandItem>("deletevehall"_J, LBL("Delete Player Vehicles")));
 
-		toxicGroup->AddItem(std::make_shared<CommandItem>("killall"_J, "Kill All"));
-		toxicGroup->AddItem(std::make_shared<CommandItem>("killexploitall"_J, "Permadeath All"));
-		toxicGroup->AddItem(std::make_shared<CommandItem>("explodeall"_J, "Explode All"));
-		toxicGroup->AddItem(std::make_shared<CommandItem>("ceokickall"_J, "CEO Kick All"));
-		toxicGroup->AddItem(std::make_shared<CommandItem>("hkickall"_J, "Host Kick All"));
+		toxicGroup->AddItem(std::make_shared<CommandItem>("killall"_J, LBL("Kill All")));
+		toxicGroup->AddItem(std::make_shared<CommandItem>("killexploitall"_J, LBL("Permadeath All")));
+		toxicGroup->AddItem(std::make_shared<CommandItem>("explodeall"_J, LBL("Explode All")));
+		toxicGroup->AddItem(std::make_shared<CommandItem>("ceokickall"_J, LBL("CEO Kick All")));
+		toxicGroup->AddItem(std::make_shared<CommandItem>("hkickall"_J, LBL("Host Kick All")));
 
 		miscGroup->AddItem(std::make_shared<BoolCommandItem>("forcethunder"_J));
 
@@ -108,7 +108,7 @@ namespace YimMenu::Submenus
 		auto matchmakingGroup = std::make_shared<Group>("Matchmaking (Client)");
 		matchmakingGroup->AddItem(std::make_shared<BoolCommandItem>("cheaterpool"_J));
 		auto spoofMMRegion = std::make_shared<Group>("", 1);
-		spoofMMRegion->AddItem(std::make_shared<BoolCommandItem>("spoofmmregion"_J, "Spoof Region"));
+		spoofMMRegion->AddItem(std::make_shared<BoolCommandItem>("spoofmmregion"_J, LBL("Spoof Region")));
 		spoofMMRegion->AddItem(std::make_shared<ConditionalItem>("spoofmmregion"_J, std::make_shared<ListCommandItem>("mmregion"_J, "##mmregion")));
 		matchmakingGroup->AddItem(std::make_shared<ConditionalItem>("cheaterpool"_J, spoofMMRegion, true));
 		matchmakingGroup->AddItem(std::make_shared<BoolCommandItem>("spoofdatahash"_J));

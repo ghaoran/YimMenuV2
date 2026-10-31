@@ -67,7 +67,7 @@ namespace YimMenu::Submenus
 			ImGui::SetNextItemWidth(300.f);
 			if (ImGui::BeginCombo("Class", selectedClass == -1 ? "All" : g_VehicleClassNames[selectedClass]))
 			{
-				if (ImGui::Selectable("All", selectedClass == -1))
+				if (ImGui::Selectable( LBL("All"), selectedClass == -1))
 				{
 					selectedClass = -1;
 				}
@@ -89,7 +89,7 @@ namespace YimMenu::Submenus
 			{
 				if (vehicleNames.empty())
 				{
-					ImGui::Text("Natives not cached yet.");
+					ImGui::Text( LBL("Natives not cached yet."));
 				}
 				else
 				{
@@ -147,7 +147,7 @@ namespace YimMenu::Submenus
 
 		spawn->AddItem(std::make_unique<ImGuiItem>([] {
 			if (!*Pointers.IsSessionStarted)
-				return ImGui::TextDisabled("Join GTA Online.");
+				return ImGui::TextDisabled( LBL("Join GTA Online."));
 
 			PersonalVehicles::Update();
 
@@ -158,7 +158,7 @@ namespace YimMenu::Submenus
 			ImGui::SetNextItemWidth(300.f);
 			if (ImGui::BeginCombo("Garage", selectedGarageStr.empty() ? "All" : selectedGarageStr.c_str()))
 			{
-				if (ImGui::Selectable("All", selectedGarageStr.empty()))
+				if (ImGui::Selectable( LBL("All"), selectedGarageStr.empty()))
 				{
 					selectedGarageStr.clear();
 				}
@@ -179,7 +179,7 @@ namespace YimMenu::Submenus
 			{
 				if (PersonalVehicles::GetPersonalVehicles().empty())
 				{
-					ImGui::Text("Stats not loaded yet.");
+					ImGui::Text( LBL("Stats not loaded yet."));
 				}
 				else
 				{

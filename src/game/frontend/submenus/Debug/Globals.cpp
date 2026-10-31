@@ -79,13 +79,13 @@ namespace YimMenu::Submenus
 			ImGui::SetNextItemWidth(200.f);
 			ImGui::InputTextWithHint("##global_name", "Name", globalName, sizeof(globalName));
 			ImGui::SameLine();
-			if (ImGui::Button("Save"))
+			if (ImGui::Button( LBL("Save")))
 			{
 				curGlobal.name = globalName;
 				SaveGlobal(curGlobal);
 			}
 			ImGui::SameLine();
-			if (ImGui::Button("Delete"))
+			if (ImGui::Button( LBL("Delete")))
 			{
 				curGlobal.name = globalName;
 				DeleteGlobal(curGlobal);
